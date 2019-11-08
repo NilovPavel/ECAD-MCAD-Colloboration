@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{04C37611-52F9-4A28-B7A5-787F241D083A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ReportsESKD</RootNamespace>
+    <AssemblyName>ReportsESKD</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyDetailsCombiner.cs" />
+    <Compile Include="DocumentationComplectsCombiner.cs" />
+    <Compile Include="MaterialCombiner.cs" />
+    <Compile Include="OtherCombiner.cs" />
+    <Compile Include="SpecificationRazdelCombiner.cs" />
+    <Compile Include="RecordESKDMaterialsEqualityComparer.cs" />
+    <Compile Include="RecordESKDOthersEqualityComparer.cs" />
+    <Compile Include="RecordESKDStandartsEqualityComparer.cs" />
+    <Compile Include="StandartsCombiner.cs" />
+    <Compile Include="UnitRecordRazdelSpCollection.cs" />
+    <Compile Include="AssemblyDetailsComparer.cs" />
+    <Compile Include="CableRazdelESKD.cs" />
+    <Compile Include="DocumentationComparer.cs" />
+    <Compile Include="EriEqualityComparer.cs" />
+    <Compile Include="ISort.cs" />
+    <Compile Include="IGroup.cs" />
+    <Compile Include="INotesRazdelESKD.cs" />
+    <Compile Include="ICheck.cs" />
+    <Compile Include="IIteratorAction.cs" />
+    <Compile Include="DefaultNotesReader.cs" />
+    <Compile Include="IteratorSearchElement.cs" />
+    <Compile Include="NotesRazdelESKD.cs" />
+    <Compile Include="PassiveEriComparer.cs" />
+    <Compile Include="RecordESKDAssemblyDetailsEqualityComparer.cs" />
+    <Compile Include="RecordESKDDocumentationComplectsEqualityComparer.cs" />
+    <Compile Include="RecordESKDFittedComparer.cs" />
+    <Compile Include="RecordESKDFullEqualityComparer.cs" />
+    <Compile Include="RecordESKDPartNumberComparer.cs" />
+    <Compile Include="RecordESKDPositionEqualityComparer.cs" />
+    <Compile Include="RecordESKDWithoutDesignatorIndexEqualityComparer.cs" />
+    <Compile Include="Spisok.cs" />
+    <Compile Include="Specification.cs" />
+    <Compile Include="Perechen.cs" />
+    <Compile Include="SpecificationConfiguration.cs" />
+    <Compile Include="PerechenConfiguration.cs" />
+    <Compile Include="SpecificationRazdel.cs" />
+    <Compile Include="PerechenRazdel.cs" />
+    <Compile Include="SpecificationRazdelPerechen.cs" />
+    <Compile Include="NotGroup.cs" />
+    <Compile Include="SpecificationConfigurationGroup.cs" />
+    <Compile Include="PerechenConfigurationGroup.cs" />
+    <Compile Include="StandartElementComparer.cs" />
+    <Compile Include="StandartElementEqualityComparer.cs" />
+    <Compile Include="StandartGroup.cs" />
+    <Compile Include="OtherElementsGroup.cs" />
+    <Compile Include="NotSort.cs" />
+    <Compile Include="DocumentationSort.cs" />
+    <Compile Include="AssemblyDetailsSort.cs" />
+    <Compile Include="StandartGroupComparer.cs" />
+    <Compile Include="StandartSort.cs" />
+    <Compile Include="MaterialSort.cs" />
+    <Compile Include="MashineSort.cs" />
+    <Compile Include="UpDownSort.cs" />
+    <Compile Include="AbstractReport.cs" />
+    <Compile Include="SpecificationReport.cs" />
+    <Compile Include="PerechenReport.cs" />
+    <Compile Include="VedomostReport.cs" />
+    <Compile Include="RecordESKD.cs" />
+    <Compile Include="VariantESKD.cs" />
+    <Compile Include="Vedomost.cs" />
+    <Compile Include="SpecificationConfigurationSort.cs" />
+    <Compile Include="OtherElementSort.cs" />
+    <Compile Include="UnitRecordCollection.cs" />
+    <Compile Include="OtherElementPassiveERISort.cs" />
+    <Compile Include="OtherElementComputerSort.cs" />
+    <Compile Include="Eri.cs" />
+    <Compile Include="StandartElement.cs" />
+    <Compile Include="StandartNames.cs" />
+    <Compile Include="Documents.cs" />
+    <Compile Include="Complects.cs" />
+    <Compile Include="MaterialData.cs" />
+    <Compile Include="SectionPair.cs" />
+    <Compile Include="AssemblyDetails.cs" />
+    <Compile Include="StandartParts.cs" />
+    <Compile Include="DocumentData.cs" />
+    <Compile Include="NotesDocumentsESKD.cs" />
+    <Compile Include="NotesComplectsESKD.cs" />
+    <Compile Include="NotesMaterialsESKD.cs" />
+    <Compile Include="ProxyCheck.cs" />
+    <Compile Include="SQLCheck.cs" />
+    <Compile Include="IteratorSpisok.cs" />
+    <Compile Include="SpecificationRazdelStandartGroup.cs" />
+    <Compile Include="Designator.cs" />
+    <Compile Include="IteratorCollection.cs" />
+    <Compile Include="IteratorVariablePositions.cs" />
+    <Compile Include="IteratorPosition.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WireRazdelESKD.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\CadBoardData\CadBoardData.csproj">
+      <Project>{a61842e8-dc11-4a85-9184-ef40ad760388}</Project>
+      <Name>CadBoardData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DesignatorDictionary\DesignatorDictionary.csproj">
+      <Project>{8974ec36-079c-46a8-b455-81ab8e68cad6}</Project>
+      <Name>DesignatorDictionary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 и x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlexBoardSolidworks", "FlexBoardSolidworks\FlexBoardSolidworks.csproj", "{76A09475-F9FB-4172-9E61-2E503D19CD60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadBoardData", "..\..\CadBoardData\CadBoardData.csproj", "{A61842E8-DC11-4A85-9184-EF40AD760388}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchESKD", "SearchESKD\SearchESKD.csproj", "{25913A10-B6D0-4CE7-B1B5-15E9FB867B2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolidworksBoardData", "..\SolidworksBoardData\SolidworksBoardData.csproj", "{3CFEC6F8-6E8D-4C55-B1F8-585D0E0DF7BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolidworksProperties", "..\SolidworksProperties\SolidworksProperties.csproj", "{3E5F4D85-FF69-4F4B-9F03-7280C8884492}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolidworksNotes", "..\SolidworksNotes\SolidworksNotes.csproj", "{8DEFCEA1-2D20-4CA8-85CD-82C404C31CEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolidworksServices", "..\SolidworksServices\SolidworksServices.csproj", "{78EBE3A9-172B-4829-BA31-2589BD757BFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76A09475-F9FB-4172-9E61-2E503D19CD60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76A09475-F9FB-4172-9E61-2E503D19CD60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76A09475-F9FB-4172-9E61-2E503D19CD60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76A09475-F9FB-4172-9E61-2E503D19CD60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A61842E8-DC11-4A85-9184-EF40AD760388}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A61842E8-DC11-4A85-9184-EF40AD760388}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A61842E8-DC11-4A85-9184-EF40AD760388}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A61842E8-DC11-4A85-9184-EF40AD760388}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25913A10-B6D0-4CE7-B1B5-15E9FB867B2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25913A10-B6D0-4CE7-B1B5-15E9FB867B2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25913A10-B6D0-4CE7-B1B5-15E9FB867B2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25913A10-B6D0-4CE7-B1B5-15E9FB867B2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CFEC6F8-6E8D-4C55-B1F8-585D0E0DF7BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CFEC6F8-6E8D-4C55-B1F8-585D0E0DF7BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CFEC6F8-6E8D-4C55-B1F8-585D0E0DF7BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CFEC6F8-6E8D-4C55-B1F8-585D0E0DF7BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E5F4D85-FF69-4F4B-9F03-7280C8884492}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E5F4D85-FF69-4F4B-9F03-7280C8884492}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E5F4D85-FF69-4F4B-9F03-7280C8884492}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E5F4D85-FF69-4F4B-9F03-7280C8884492}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DEFCEA1-2D20-4CA8-85CD-82C404C31CEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DEFCEA1-2D20-4CA8-85CD-82C404C31CEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DEFCEA1-2D20-4CA8-85CD-82C404C31CEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DEFCEA1-2D20-4CA8-85CD-82C404C31CEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78EBE3A9-172B-4829-BA31-2589BD757BFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78EBE3A9-172B-4829-BA31-2589BD757BFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78EBE3A9-172B-4829-BA31-2589BD757BFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78EBE3A9-172B-4829-BA31-2589BD757BFE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

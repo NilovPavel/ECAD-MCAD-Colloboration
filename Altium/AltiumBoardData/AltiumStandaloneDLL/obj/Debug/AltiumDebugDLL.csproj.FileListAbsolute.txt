@@ -1,0 +1,6 @@
+D:\Sources\CAD\Altium\AltiumBoardData\AltiumStandaloneDLL\bin\Debug\AltiumDebugDLL.dll
+D:\Sources\CAD\Altium\AltiumBoardData\AltiumStandaloneDLL\bin\Debug\AltiumDebugDLL.pdb
+D:\Sources\CAD\Altium\AltiumBoardData\AltiumStandaloneDLL\bin\Debug\Altium.SDK.dll
+D:\Sources\CAD\Altium\AltiumBoardData\AltiumStandaloneDLL\bin\Debug\Altium.SDK.Interfaces.dll
+D:\Sources\CAD\Altium\AltiumBoardData\AltiumStandaloneDLL\obj\Debug\AltiumDebugDLL.dll
+D:\Sources\CAD\Altium\AltiumBoardData\AltiumStandaloneDLL\obj\Debug\AltiumDebugDLL.pdb

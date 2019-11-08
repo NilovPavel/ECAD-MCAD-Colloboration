@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3CFEC6F8-6E8D-4C55-B1F8-585D0E0DF7BD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SolidworksBoardData</RootNamespace>
+    <AssemblyName>SolidworksBoardData</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="SolidWorks.Interop.sldworks">
+      <HintPath>C:\Program Files\SOLIDWORKS Corp\SOLIDWORKS (2)\api\redist\SolidWorks.Interop.sldworks.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="SolidWorks.Interop.swconst">
+      <HintPath>C:\Program Files\SOLIDWORKS Corp\SOLIDWORKS (2)\api\redist\SolidWorks.Interop.swconst.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="SolidWorks.Interop.SWRoutingLib">
+      <HintPath>C:\Program Files\SOLIDWORKS Corp\SOLIDWORKS (2)\api\redist\SolidWorks.Interop.SWRoutingLib.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SolidworksAsseblyXML.cs" />
+    <Compile Include="SolidworksVariantCAD\SolidworksComponent\DefaultSolidworksDataESKD.cs" />
+    <Compile Include="SolidworksVariantCAD\SolidworksComponent\Harness\SolidworksCable.cs" />
+    <Compile Include="SolidworksVariantCAD\SolidworksComponent\Harness\SolidworksHarness.cs" />
+    <Compile Include="SolidworksVariantCAD\SolidworksComponent\Harness\SolidworksWire.cs" />
+    <Compile Include="SolidworksVariantCAD\SolidworksComponent\SolidworksComponentCAD.cs" />
+    <Compile Include="SolidworksVariantCAD\SpecificationVariantSolidworks.cs" />
+    <Compile Include="SolidworksVariantCAD\VariantSolidworksCAD.cs" />
+    <Compile Include="SolidworksVariantCAD\SolidworksComponent\SolidworksDataESKD.cs" />
+    <Compile Include="SolidworksVariantCAD\SpecificationVariantSolidworksCAD.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\CadBoardData\CadBoardData.csproj">
+      <Project>{a61842e8-dc11-4a85-9184-ef40ad760388}</Project>
+      <Name>CadBoardData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SolidworksServices\SolidworksServices.csproj">
+      <Project>{78EBE3A9-172B-4829-BA31-2589BD757BFE}</Project>
+      <Name>SolidworksServices</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SolidworksNotes\SolidworksNotes.csproj">
+      <Project>{8DEFCEA1-2D20-4CA8-85CD-82C404C31CEF}</Project>
+      <Name>SolidworksNotes</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SolidworksProperties\SolidworksProperties.csproj">
+      <Project>{3e5f4d85-ff69-4f4b-9f03-7280c8884492}</Project>
+      <Name>SolidworksProperties</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

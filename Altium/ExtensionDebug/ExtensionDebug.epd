@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Main>
+  <ExtensionServerOptions>
+    <Login />
+    <Password />
+    <ServiceURL />
+    <PublishToGlobalExtensionServer>false</PublishToGlobalExtensionServer>
+    <VaultGUID />
+  </ExtensionServerOptions>
+  <ExtensionOptions>
+    <ExtensionHRID>Extension1</ExtensionHRID>
+    <ExtensionKind>ADServer</ExtensionKind>
+    <ExtensionSourceLocation>D:\Sources\C#\ICadBoardData\Extension1</ExtensionSourceLocation>
+    <ExtensionSourceRelativePath />
+    <ExtensionLanguage>C#</ExtensionLanguage>
+    <ExtensionIDEVersion>Visual Studio 2015</ExtensionIDEVersion>
+    <ExtemsionSDKVersion>4.0.1  (AD 18.0+)</ExtemsionSDKVersion>
+    <ExtensionCategoryGUID>793A1F67-0B22-4E01-A5DE-3176A1E8C60D</ExtensionCategoryGUID>
+    <ExtensionCategoryName>Extensions</ExtensionCategoryName>
+    <ExtensionLicensingMode>0</ExtensionLicensingMode>
+    <ExtensionPlatform>x64</ExtensionPlatform>
+    <ExtensionIsPublished>false</ExtensionIsPublished>
+    <AltiumUpdate>false</AltiumUpdate>
+  </ExtensionOptions>
+  <ExtensionVersionOptions>
+    <ExtensionTitle>Extension1</ExtensionTitle>
+    <ExtensionReadMe></ExtensionReadMe>
+    <ExtensionKeywords></ExtensionKeywords>
+    <ExtensionHelp></ExtensionHelp>
+    <ExtensionRequirements />
+    <ExtensionSmallIcon></ExtensionSmallIcon>
+    <ExtensionLargeIcon></ExtensionLargeIcon>
+    <ExtensionShortDescription></ExtensionShortDescription>
+    <ExtensionLongDescription></ExtensionLongDescription>
+    <ExtensionVersion>1.0.0.1</ExtensionVersion>
+    <ExtensionLifeCycleGUID></ExtensionLifeCycleGUID>
+    <ExtensionTopLevelFolder>C:\ProgramData\Altium\Altium Designer {EC805022-7D92-4062-851C-7635E87D06A9}\Extensions\Extension1</ExtensionTopLevelFolder>
+    <ExtensionSDKTicket>C:\ProgramData\Altium\Altium Designer {EC805022-7D92-4062-851C-7635E87D06A9}\Extensions\Altium Developer\SDK4.0\SDK.Ticket</ExtensionSDKTicket>
+    <ReleaseNote></ReleaseNote>
+    <ExtensionPublisherName>Altium Group</ExtensionPublisherName>
+  </ExtensionVersionOptions>
+</Main>

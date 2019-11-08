@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ReportsOutput.ExcelConstants.IteratorStringCount" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAQAAAIAAAABAAAAAAAABBAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>ExcelConstants\IteratorStringCount.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Razbivka" Collapsed="true">
+    <Position X="21" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAQAAAAAAAAAAAAACAAAAAAAACAAAAAA=</HashCode>
+      <FileName>ExcelConstants\Razbivka.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddressParameterCell" Collapsed="true">
+    <Position X="19.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAABAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>ExcelConstants\RowColumnValueCell.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ResourceTemplate" Collapsed="true">
+    <Position X="22.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAQAAAAAAAAAAAAAABAIAAAAAEAAEACAAAA=</HashCode>
+      <FileName>Templates\ResourceTemplate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LRISheetSpecificationA" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAggAAAAQAABAwAAAAIAAAAAAAAARAAAAAAAAAAAAA=</HashCode>
+      <FileName>SpecificationA\Sheets\LRISheetSpecificationA.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TemplateSpecificationAExcel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AoAAIAAAAAAAIAAAAAAAAAAAAAAAAAARAAAAAAAAQAA=</HashCode>
+      <FileName>SpecificationA\TemplateSpecificationAExcel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ConsoleIteratorAction" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConsoleIteratorAction.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ExcelIteratorAction" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAgAQAAAAAAAAAAAAACAABAAAAAAEAACACAAAA=</HashCode>
+      <FileName>ExcelIteratorAction.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ReportsOutput.ConfigurationWriterSpecificationA" Collapsed="true">
+    <Position X="10.75" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAYAAAAAAAAAAAABAIAAAAAAAACAAAAQBCABAA=</HashCode>
+      <FileName>SpecificationA\Writers\ConfigurationWriterSpecificationA.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ReportsOutput.ElementWriterSpecificationA" Collapsed="true">
+    <Position X="24" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACADAQAAAAAAAEDQAAKAIAKwAwAAAAEBAAYJAAAAA=</HashCode>
+      <FileName>SpecificationA\Writers\ElementWriters\ElementWriterSpecificationA.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ReportsOutput.PodrazdelSpWriterSpecificationA" Collapsed="true">
+    <Position X="10.75" Y="6" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAYAAAAAgAAAAAgAAAAAACAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>SpecificationA\Writers\PodrazdelSPWriters\PodrazdelSpWriterSpecificationA.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ReportsOutput.RazdelSpWriterSpecificationA" Collapsed="true">
+    <Position X="13.75" Y="11" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAYAAABBgAAAAAgAAIAAACACAACACAAABCAAAA=</HashCode>
+      <FileName>SpecificationA\Writers\RazdelSpWriterSpecificationA.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ReportsOutput.SpecificationA" Collapsed="true">
+    <Position X="19.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEQAAQAAAAABAAAAAAABAAAAAKAEAAAAAAAACAAAE=</HashCode>
+      <FileName>SpecificationA\SpecificationA.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReportsOutput.SpecificationADocumentXLS" Collapsed="true">
+    <Position X="10.75" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SpecificationA\SpecificationADocumentXLS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReportsOutput.SpecificationWriterSpecificationA" Collapsed="true">
+    <Position X="13.75" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>SpecificationA\Writers\SpecificationWriterSpecificationA.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ReportsOutput.AbstractDocumentXLS" Collapsed="true">
+    <Position X="10.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAEEAAAAAQAAAAAgAAAAAAACEAAABAAAAAAECADAAAA=</HashCode>
+      <FileName>XLS\AbstractDocumentXLS.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ReportsOutput.ExcelDocumentCellStyle" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAKAAAAAEACAAAgBiAIAACA=</HashCode>
+      <FileName>XLS\ExcelDocumentCellStyle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ReportsOutput.ExcelDocumentFont" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAIAAAAAAACAAAIAAAAAAAAgAAAAAAAAACACAAAE=</HashCode>
+      <FileName>XLS\ExcelDocumentFont.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ReportsOutput.TestReport" Collapsed="true">
+    <Position X="24.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAEAAAAAQAAAAAAAAAAAAAAAIEAAAAAAIACAAAA=</HashCode>
+      <FileName>TestReport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReportsOutput.Data" Collapsed="true">
+    <Position X="22.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAABEAAAAQAAABAABAAAAAABAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReportsOutput.IExcelReports.FirstSheetSpecificationA" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAggAAAAQAABAwAAAAIAAAAAAAAARAAAAAAAAAAAAA=</HashCode>
+      <FileName>SpecificationA\Sheets\FirstSheetSpecificationA.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ReportsOutput.IExcelReports.SecondSheetSpecificationA" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAggAAAAQAABAwAAAAIAAAAAAAAARAAAAAAAAAAAAA=</HashCode>
+      <FileName>SpecificationA\Sheets\SecondSheetSpecificationA.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ExecutableReportESKD.TestAllToOneReport" Collapsed="true">
+    <Position X="22.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAEIAAAAQAAAAAAAAAAAAAAAIEAAAAAAAACAAAA=</HashCode>
+      <FileName>TestAllToOneReport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReportsOutput.AssemblyDetailsElementWriterSpecificationA" Collapsed="true">
+    <Position X="32.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SpecificationA\Writers\ElementWriters\AssemblyDetailsElementWriterSpecificationA.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReportsOutput.DocumentsComplectsElementWriterSpecificationA" Collapsed="true">
+    <Position X="17" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SpecificationA\Writers\ElementWriters\DocumentsComplectsElementWriterSpecificationA.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReportsOutput.OtherElementWriterSpecificationA" Collapsed="true">
+    <Position X="28.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SpecificationA\Writers\ElementWriters\OtherElementWriterSpecificationA.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReportsOutput.StandartElementWriterSpecificationA" Collapsed="true">
+    <Position X="30.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAABBAAECAAAA=</HashCode>
+      <FileName>SpecificationA\Writers\ElementWriters\StandartElementWriterSpecificationA.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReportsOutput.OtherPodrazdelWriter" Collapsed="true">
+    <Position X="8.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SpecificationA\Writers\PodrazdelSPWriters\OtherPodrazdelWriter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReportsOutput.StandartPodrazdelWriter" Collapsed="true">
+    <Position X="14" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SpecificationA\Writers\PodrazdelSPWriters\StandartPodrazdelWriter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="ReportsOutput.IDocument" Collapsed="true">
+    <Position X="19.25" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAIAAEAAABAAAAAAAAAAEAAABQAABAAEAAAAAAA=</HashCode>
+      <FileName>Interfaces\IDocument.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ReportsOutput.IDocumentCellStyle" Collapsed="true">
+    <Position X="21" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAABgAIAACA=</HashCode>
+      <FileName>Interfaces\IDocumentCellStyle.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ReportsOutput.IDocumentFont" Collapsed="true">
+    <Position X="22.75" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAACAAAIAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Interfaces\IDocumentFont.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ReportsOutput.IDocumentSheet" Collapsed="true">
+    <Position X="24.5" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAgAAEgAAAAAAAAAAAABACAEAAAAAgAAAQA=</HashCode>
+      <FileName>Interfaces\IDocumentSheet.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ReportsOutput.ITemplateDocument" Collapsed="true">
+    <Position X="19.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAggAAAQAAAAAgAADAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\ITemplateDocument.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IElementWriter" Collapsed="true">
+    <Position X="37" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Interfaces\IElementWriter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ReportsOutput.IConfigurationWriter" Collapsed="true">
+    <Position X="35.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Interfaces\IConfigurationWriter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ReportsOutput.IPodRazdelSpWriter" Collapsed="true">
+    <Position X="38.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Interfaces\IPodRazdelSpWriter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ReportsOutput.IRazdelSpWriter" Collapsed="true">
+    <Position X="35.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Interfaces\IRazdelSpWriter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ReportsOutput.ISheetPropertiesWriter" Collapsed="true">
+    <Position X="37" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\ISheetPropertiesWriter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ReportsOutput.ISpecificationWriter" Collapsed="true">
+    <Position X="38.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Interfaces\ISpecificationWriter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="ReportsOutput.ExcelConstants.Alfavit" Collapsed="true">
+    <Position X="19.25" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvv//YQE=</HashCode>
+      <FileName>ExcelConstants\Alfavit.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
