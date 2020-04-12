@@ -9,9 +9,9 @@ public interface IDataESKD
 {
    string GetFormat();
    
-   string GetObozn();
-   
    string GetName();
+   
+   string GetObozn();
    
    string GetPartNumber();
    

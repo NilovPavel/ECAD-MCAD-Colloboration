@@ -1,0 +1,5 @@
+syntax: glob
+.*
+AltiumStandaloneDLL/bin/*
+AltiumStandaloneDLL/obj/*
+AltiumStandaloneDLL/StyleCop.Cache

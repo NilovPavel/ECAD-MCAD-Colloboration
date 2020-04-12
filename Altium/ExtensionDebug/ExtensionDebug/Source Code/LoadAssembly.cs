@@ -7,9 +7,11 @@ namespace ExecutableInterface
     {
         public ItWork()
         {
-            //Assembly assembly = Assembly.Load(File.ReadAllBytes(@"D:\Sources\C#\ChangeBoardPrimitives\ChangeBoardPrimitives\AltiumStandaloneDLL\bin\Debug\AltiumDebugDLL.dll"));
-            Assembly assembly = Assembly.Load(File.ReadAllBytes(@"D:\Sources\CAD\Altium\AltiumBoardData\AltiumStandaloneDLL\bin\Debug\AltiumDebugDLL.dll"));
+            Assembly assembly = Assembly.Load(File.ReadAllBytes(@"E:\Работа\Sources\CAD\Altium\AltiumBoardData\AltiumStandaloneDLL\bin\Debug\AltiumDebugDLL.dll"));
             dynamic proxyOfChildDomainObject = assembly.CreateInstance("AltiumDebugDLL.InterFaceKind");
+            //Assembly assembly = Assembly.Load(File.ReadAllBytes(@"E:\Работа\Sources\CAD\Altium\Softline\SoftLineXML\bin\Debug\SoftlineBoardData.dll"));
+            //dynamic proxyOfChildDomainObject = assembly.CreateInstance("SoftlineBoardData.InterFaceKind");
+            
             proxyOfChildDomainObject.Run();
             assembly = null;
         }

@@ -1,5 +1,11 @@
-C:\ProgramData\Altium\Altium Designer {EC805022-7D92-4062-851C-7635E87D06A9}\Extensions\ExtensionDebug\ExtensionDebug.dll
-C:\ProgramData\Altium\Altium Designer {EC805022-7D92-4062-851C-7635E87D06A9}\Extensions\ExtensionDebug\ExtensionDebug.pdb
 D:\Sources\CAD\Altium\ExtensionDebug\ExtensionDebug\obj\Debug\ExtensionDebug.csprojResolveAssemblyReference.cache
 D:\Sources\CAD\Altium\ExtensionDebug\ExtensionDebug\obj\Debug\ExtensionDebug.dll
 D:\Sources\CAD\Altium\ExtensionDebug\ExtensionDebug\obj\Debug\ExtensionDebug.pdb
+C:\ProgramData\Altium\Altium Designer {EC805022-7D92-4062-851C-7635E87D06A9}\Extensions\ExtensionDebug\ExtensionDebug.dll
+C:\ProgramData\Altium\Altium Designer {EC805022-7D92-4062-851C-7635E87D06A9}\Extensions\ExtensionDebug\ExtensionDebug.pdb
+E:\Работа\Sources\CAD\Altium\ExtensionDebug\ExtensionDebug\obj\Debug\ExtensionDebug.csproj.CoreCompileInputs.cache
+E:\Работа\Sources\CAD\Altium\ExtensionDebug\ExtensionDebug\obj\Debug\ExtensionDebug.dll
+E:\Работа\Sources\CAD\Altium\ExtensionDebug\ExtensionDebug\obj\Debug\ExtensionDebug.pdb
+C:\ProgramData\Altium\Altium Designer {5F395B5E-DBD9-4DCD-B6C9-FA8249C7BB65}\Extensions\ExtensionDebug\ExtensionDebug.dll
+C:\ProgramData\Altium\Altium Designer {5F395B5E-DBD9-4DCD-B6C9-FA8249C7BB65}\Extensions\ExtensionDebug\ExtensionDebug.pdb
+E:\Работа\Sources\CAD\Altium\ExtensionDebug\ExtensionDebug\obj\Debug\ExtensionDebug.csprojResolveAssemblyReference.cache

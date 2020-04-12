@@ -6,10 +6,11 @@ using System;
 
 namespace BoardSpace
 {
-    class AltiumLayer
+    public class AltiumLayer
     {
         private IPCB_LayerObject layerObject;
         private IPCB_LayerObject_V7 layer_v7;
+        private double thickness;
 
         public bool IsElectrical
         { get; private set; }
@@ -25,6 +26,7 @@ namespace BoardSpace
             this.layer_v7 = (IPCB_LayerObject_V7)this.layerObject;
             this.Type = this.layer_v7.LayerID();
             this.IsElectrical = false;
+            this.thickness = this.GetLayerHeight();
         }
 
         public AltiumLayer(IPCB_LayerObject layerObject)
@@ -44,6 +46,11 @@ namespace BoardSpace
         }
 
         public double GetThickness()
+        {
+            return this.thickness;
+        }
+
+        private double GetLayerHeight()
         {
             int height;
             switch (this.Type)

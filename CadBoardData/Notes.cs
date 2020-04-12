@@ -37,11 +37,6 @@ public class Notes
       }
    }
    
-   public void WriteNotes()
-   {
-      this.iNotesCAD.WriteNotes(this);
-   }
-   
    public Notes()
    {
    }

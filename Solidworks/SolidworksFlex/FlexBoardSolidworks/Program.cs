@@ -51,8 +51,8 @@ namespace FlexBoardSolidworks
 
         static void buildXMLFromSolidworks()
         {
-            string[] lines = System.IO.File.ReadAllLines(@"D:\Test\BoardData\SolidworksAssemblyData\SolidworksProjects.txt", Encoding.Default).Distinct().ToArray();
-            //lines = new string[] { @"D:\ELSY-PDM\Проект\ИЮТВ.468454.002 ЦАФС\Корпус новый\ИЮТВ.301265.022 Крышка-теплообменник\ИЮТВ.301265.022СБ Крышка-теплообменник.SLDASM" };
+            string[] lines;// = System.IO.File.ReadAllLines(@"D:\Test\BoardData\SolidworksAssemblyData\SolidworksProjects.txt", Encoding.Default).Distinct().ToArray();
+            lines = new string[] { @"E:\Работа\Projects\Solidworks\ЛЕРЦ.685543.001 Клемма заземления\ЛЕРЦ.685543.001 Клемма заземления.SLDASM" };
             //lines = new string[] { @"D:\ELSY-PDM\Проект\ИЮТВ.463436.023СРД-Б\ИЮТВ.468364.060БОР-Б\ИЮТВ.468364.060БОР-Б.SLDASM" };
             foreach (string str in lines)
             {

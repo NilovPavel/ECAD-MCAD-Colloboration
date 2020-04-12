@@ -1,6 +1,6 @@
 // File:    Cuprum.cs
-// Author:  nilov_pg
-// Created: 19 октября 2018 г. 9:10:37
+// Author:  Павел
+// Created: 8 апреля 2020 г. 20:12:02
 // Purpose: Definition of Class Cuprum
 
 using System;
@@ -192,66 +192,66 @@ public class Cuprum
       if (region != null)
          region.Clear();
    }
-   public System.Collections.Generic.List<Polygon> polygon;
+   public System.Collections.Generic.List<Poligon2> poligon2;
    
    /// <summary>
-   /// Property for collection of Polygon
+   /// Property for collection of Poligon2
    /// </summary>
    /// <pdGenerated>Default opposite class collection property</pdGenerated>
-   public System.Collections.Generic.List<Polygon> Polygon
+   public System.Collections.Generic.List<Poligon2> Poligon2
    {
       get
       {
-         if (polygon == null)
-            polygon = new System.Collections.Generic.List<Polygon>();
-         return polygon;
+         if (poligon2 == null)
+            poligon2 = new System.Collections.Generic.List<Poligon2>();
+         return poligon2;
       }
       set
       {
-         RemoveAllPolygon();
+         RemoveAllPoligon2();
          if (value != null)
          {
-            foreach (Polygon oPolygon in value)
-               AddPolygon(oPolygon);
+            foreach (Poligon2 oPoligon2 in value)
+               AddPoligon2(oPoligon2);
          }
       }
    }
    
    /// <summary>
-   /// Add a new Polygon in the collection
+   /// Add a new Poligon2 in the collection
    /// </summary>
    /// <pdGenerated>Default Add</pdGenerated>
-   public void AddPolygon(Polygon newPolygon)
+   public void AddPoligon2(Poligon2 newPoligon2)
    {
-      if (newPolygon == null)
+      if (newPoligon2 == null)
          return;
-      if (this.polygon == null)
-         this.polygon = new System.Collections.Generic.List<Polygon>();
-      if (!this.polygon.Contains(newPolygon))
-         this.polygon.Add(newPolygon);
+      if (this.poligon2 == null)
+         this.poligon2 = new System.Collections.Generic.List<Poligon2>();
+      if (!this.poligon2.Contains(newPoligon2))
+         this.poligon2.Add(newPoligon2);
    }
    
    /// <summary>
-   /// Remove an existing Polygon from the collection
+   /// Remove an existing Poligon2 from the collection
    /// </summary>
    /// <pdGenerated>Default Remove</pdGenerated>
-   public void RemovePolygon(Polygon oldPolygon)
+   public void RemovePoligon2(Poligon2 oldPoligon2)
    {
-      if (oldPolygon == null)
+      if (oldPoligon2 == null)
          return;
-      if (this.polygon != null)
-         if (this.polygon.Contains(oldPolygon))
-            this.polygon.Remove(oldPolygon);
+      if (this.poligon2 != null)
+         if (this.poligon2.Contains(oldPoligon2))
+            this.poligon2.Remove(oldPoligon2);
    }
    
    /// <summary>
-   /// Remove all instances of Polygon from the collection
+   /// Remove all instances of Poligon2 from the collection
    /// </summary>
    /// <pdGenerated>Default removeAll</pdGenerated>
-   public void RemoveAllPolygon()
+   public void RemoveAllPoligon2()
    {
-      if (polygon != null)
-         polygon.Clear();
+      if (poligon2 != null)
+         poligon2.Clear();
    }
    public System.Collections.Generic.List<Fill> fill;
    

@@ -7,26 +7,23 @@ using System;
 
 public class DataESKD
 {
-   private string формат;
-   private string обозначение;
    private string наименование;
+   private string обозначение;
    private string разделСп;
    private string partNumber;
-   private string примечание;
-   private int позиция;
-   private EskdSpecificationType specificationFlag;
+   private Propertie[] properties;
    
    private IDataESKD iDataESKD;
    
-   public string Формат
+   public string Наименование
    {
       get
       {
-         return формат;
+         return наименование;
       }
       set
       {
-         this.формат = value;
+         this.наименование = value;
       }
    }
    
@@ -39,18 +36,6 @@ public class DataESKD
       set
       {
          this.обозначение = value;
-      }
-   }
-   
-   public string Наименование
-   {
-      get
-      {
-         return наименование;
-      }
-      set
-      {
-         this.наименование = value;
       }
    }
    
@@ -78,39 +63,15 @@ public class DataESKD
       }
    }
    
-   public string Примечание
+   public Propertie[] Properties
    {
       get
       {
-         return примечание;
+         return properties;
       }
       set
       {
-         this.примечание = value;
-      }
-   }
-   
-   public int Позиция
-   {
-      get
-      {
-         return позиция;
-      }
-      set
-      {
-         this.позиция = value;
-      }
-   }
-   
-   public EskdSpecificationType SpecificationFlag
-   {
-      get
-      {
-         return specificationFlag;
-      }
-      set
-      {
-         this.specificationFlag = value;
+         this.properties = value;
       }
    }
    
@@ -120,15 +81,11 @@ public class DataESKD
    
    public DataESKD(IDataESKD iDataESKD)
    {
-      this.iDataESKD = iDataESKD;
-      if (this.iDataESKD == null)
-         return;
-      this.формат = this.iDataESKD.GetFormat();
-      this.обозначение = this.iDataESKD.GetObozn();
-      this.наименование = this.iDataESKD.GetName();
-      this.разделСп = this.iDataESKD.GetRazdelSP();
-      this.примечание = this.iDataESKD.GetPrimechanie();
-      this.partNumber = this.iDataESKD.GetPartNumber();
+            this.iDataESKD = iDataESKD;
+            this.наименование = this.iDataESKD.GetName();
+            this.обозначение = this.iDataESKD.GetObozn();
+            this.разделСп = this.iDataESKD.GetRazdelSP();
+            this.partNumber = this.iDataESKD.GetPartNumber();
    }
 
 }

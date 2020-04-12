@@ -16,5 +16,7 @@ public interface IBoardCAD
    IVia[] GetVias();
    
    IHolePad[] GetHolePads();
+   
+   ILayer[] GetLayers();
 
 }

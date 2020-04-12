@@ -9,7 +9,7 @@ using System.Windows.Forms;
 
 namespace AltiumLayerSpace
 {
-    class AltiumLayerStackManager
+    public class AltiumLayerStackManager
     {
         private IPCB_MasterLayerStack masterLayerStack;
         private List<AltiumLayer> layers;

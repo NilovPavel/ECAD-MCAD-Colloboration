@@ -18,7 +18,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>C:\ProgramData\Altium\Altium Designer {EC805022-7D92-4062-851C-7635E87D06A9}\Extensions\ExtensionDebug\</OutputPath>
+    <OutputPath>C:\ProgramData\Altium\Altium Designer {5F395B5E-DBD9-4DCD-B6C9-FA8249C7BB65}\Extensions\ExtensionDebug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>

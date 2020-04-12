@@ -17,10 +17,10 @@ public class VariantCAD
    public VariantCAD(IVariantCAD iVariantCAD)
    {
       this.iVariantCAD = iVariantCAD;
-         IVariant[] ivariants = this.iVariantCAD.GetIVariants();
-         this.variant = new Variant[ivariants.Length];
-         for (int i = 0; i < this.variant.Length; i++)
-            this.variant[i] = new Variant(ivariants[i]);
+      this.iVariantCAD = iVariantCAD;
+      this.variant = new Variant[this.iVariantCAD.GetIVariants().Length];
+      for (int i = 0; i < this.variant.Length; i++)
+         this.variant[i] = new Variant(this.iVariantCAD.GetIVariants()[i]);
    }
 
 }

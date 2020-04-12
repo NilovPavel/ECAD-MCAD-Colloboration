@@ -5,6 +5,9 @@
 
 using System;
 
+
+
+
 public interface INet
 {
    double GetDiameter();

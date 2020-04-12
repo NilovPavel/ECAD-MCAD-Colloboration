@@ -13,6 +13,7 @@ namespace IAssembly
         private IProject project;
         private IProjectPropertiesCAD altiumProjectProperties;
         private IBoardCAD iBoard;
+        private EskdSpecificationType eskdSpecificationType;
 
         public AltiumBoardESKD(IProject project, IBoardCAD iBoard)
         {
@@ -66,7 +67,6 @@ namespace IAssembly
 
         void IDataESKD.SetSpecificationType(EskdSpecificationType eskdSpecificationType)
         {
-            return;
         }
     }
 }

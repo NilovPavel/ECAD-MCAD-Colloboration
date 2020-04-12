@@ -84,14 +84,14 @@ public class ComponentCAD
    
    public ComponentCAD(IComponentCAD iComponentCAD)
    {
-      this.iComponentCAD = iComponentCAD;
-      this.designator = this.iComponentCAD.GetDesignator();
-      this.logicalDesignator = this.iComponentCAD.GetLogicalDesignator();
-      this.uniqueID = this.iComponentCAD.GetUniqueID();
-      this.fitted = this.iComponentCAD.GetFitted();
-      this.configuration = this.iComponentCAD.GetConfiguration();
-      this.coordinats = this.iComponentCAD.GetICoordinats() != null ?  new Coordinats(this.iComponentCAD.GetICoordinats()) : default(Coordinats);
-      this.dataESKD = new DataESKD(this.iComponentCAD.GetIComponentData());
+           this.iComponentCAD = iComponentCAD;
+           this.designator = this.iComponentCAD.GetDesignator();
+           this.logicalDesignator = this.iComponentCAD.GetLogicalDesignator();
+           this.uniqueID = this.iComponentCAD.GetUniqueID();
+           this.fitted = this.iComponentCAD.GetFitted();
+           this.configuration = this.iComponentCAD.GetConfiguration();
+           this.coordinats = new Coordinats(this.iComponentCAD.GetICoordinats());
+           this.dataESKD = new DataESKD(this.iComponentCAD.GetIComponentData());
    }
 
 }

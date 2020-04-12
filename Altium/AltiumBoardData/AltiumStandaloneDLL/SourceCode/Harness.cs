@@ -145,7 +145,7 @@ public class Harness
        foreach (ICable iCable in this.iHarnessCAD.GetICables())
          this.AddCable(new Cable(iCable));
        foreach (IWire iWire in this.iHarnessCAD.GetIWires())
-         this.AddWire(new Wire(iWire));
+         this.AddWire(new Wire(iWire));/**/
    }
 
 }

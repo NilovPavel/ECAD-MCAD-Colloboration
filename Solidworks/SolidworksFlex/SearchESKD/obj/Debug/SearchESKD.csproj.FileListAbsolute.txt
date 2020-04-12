@@ -19,3 +19,5 @@ D:\Sources\CAD\Solidworks\SolidworksFlex\SearchESKD\bin\Debug\CadBoardData.pdb
 D:\Sources\CAD\Solidworks\SolidworksFlex\SearchESKD\obj\Debug\SearchESKD.csprojResolveAssemblyReference.cache
 D:\Sources\CAD\Solidworks\SolidworksFlex\SearchESKD\obj\Debug\SearchESKD.dll
 D:\Sources\CAD\Solidworks\SolidworksFlex\SearchESKD\obj\Debug\SearchESKD.pdb
+E:\Работа\Sources\CAD\Solidworks\SolidworksFlex\SearchESKD\obj\Debug\SearchESKD.csprojResolveAssemblyReference.cache
+E:\Работа\Sources\CAD\Solidworks\SolidworksFlex\SearchESKD\obj\Debug\SearchESKD.csproj.CoreCompileInputs.cache

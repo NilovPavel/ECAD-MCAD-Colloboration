@@ -1,6 +1,6 @@
 // File:    ICuprum.cs
-// Author:  nilov_pg
-// Created: 18 декабря 2018 г. 12:52:17
+// Author:  Павел
+// Created: 8 апреля 2020 г. 20:12:02
 // Purpose: Definition of Interface ICuprum
 
 using System;

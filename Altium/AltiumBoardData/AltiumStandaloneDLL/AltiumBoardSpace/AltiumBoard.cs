@@ -10,7 +10,7 @@ using System;
 
 namespace BoardSpace
 {
-    class AltiumBoard : IBoardCAD
+    public class AltiumBoard : IBoardCAD
     {
         private IPCB_Board board;
         private IClient client;
@@ -26,6 +26,9 @@ namespace BoardSpace
 
         public Point PointMax
         { get; private set; }
+
+        public IPCB_Board Board
+        { get { return this.board; } }
 
         private void Initialization()
         {
@@ -160,6 +163,24 @@ namespace BoardSpace
             iPads.RemoveAll(x => x.GetIContour() == null);
             this.board.BoardIterator_Destroy(ref iterator);
             return iPads.ToArray();
+        }
+
+        ILayer[] IBoardCAD.GetLayers()
+        {
+            List<ILayer> iPcbLayers = new List<ILayer>();
+
+            IPCB_LayerObjectIterator layerObjectIterator = this.board.LayerIterator();
+
+            for (bool isContinue = layerObjectIterator.First(); isContinue; isContinue = layerObjectIterator.Next())
+            {
+                V7_LayerBase layerBase = layerObjectIterator.Layer();
+                if (layerBase.Family == 0)
+                    iPcbLayers.Add(new AltiumLayerBase(this, layerBase));
+            }
+
+            //MessageBox.Show(layerNames);
+
+            return iPcbLayers.ToArray();
         }
     }
 }
