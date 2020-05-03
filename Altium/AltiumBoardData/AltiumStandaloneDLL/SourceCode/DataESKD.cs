@@ -12,6 +12,9 @@ public class DataESKD
    private string разделСп;
    private string partNumber;
    private Propertie[] properties;
+   private EskdSpecificationType specificationFlag;
+   private string формат;
+   private int позиция;
    
    private IDataESKD iDataESKD;
    
@@ -72,6 +75,42 @@ public class DataESKD
       set
       {
          this.properties = value;
+      }
+   }
+   
+   public EskdSpecificationType SpecificationFlag
+   {
+      get
+      {
+         return specificationFlag;
+      }
+      set
+      {
+         this.specificationFlag = value;
+      }
+   }
+   
+   public string Формат
+   {
+      get
+      {
+         return формат;
+      }
+      set
+      {
+         this.формат = value;
+      }
+   }
+   
+   public int Позиция
+   {
+      get
+      {
+         return позиция;
+      }
+      set
+      {
+         this.позиция = value;
       }
    }
    

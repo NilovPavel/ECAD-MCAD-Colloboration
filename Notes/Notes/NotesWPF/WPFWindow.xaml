@@ -53,8 +53,7 @@
 			Margin="0,35,0,0"
 			SelectionMode="Row"
 			ShowBorder="False"
-			AllowDrop="True"
-			ItemsSource="{Binding}">
+			ItemsSource="{Binding}" AllowDrop="True">
             <dxg:GridControl.View>
                 <dxg:TableView
 					AutoWidth="True"

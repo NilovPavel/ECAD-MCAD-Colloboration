@@ -1,17 +1,15 @@
 // File:    Harness.cs
-// Author:  nilov_pg
-// Created: 26 августа 2019 г. 15:49:20
+// Author:  Павел
+// Created: 31 марта 2020 г. 10:48:34
 // Purpose: Definition of Class Harness
 
 using System;
 
-
-
-
 public class Harness
 {
    private IHarnessCAD iHarnessCAD;
-   private System.Collections.Generic.List<Wire> wire;
+   
+   public System.Collections.Generic.List<Wire> wire;
    
    /// <summary>
    /// Property for collection of Wire
@@ -72,7 +70,7 @@ public class Harness
       if (wire != null)
          wire.Clear();
    }
-   private System.Collections.Generic.List<Cable> cable;
+   public System.Collections.Generic.List<Cable> cable;
    
    /// <summary>
    /// Property for collection of Cable
@@ -145,7 +143,7 @@ public class Harness
        foreach (ICable iCable in this.iHarnessCAD.GetICables())
          this.AddCable(new Cable(iCable));
        foreach (IWire iWire in this.iHarnessCAD.GetIWires())
-         this.AddWire(new Wire(iWire));/**/
+         this.AddWire(new Wire(iWire));
    }
 
 }

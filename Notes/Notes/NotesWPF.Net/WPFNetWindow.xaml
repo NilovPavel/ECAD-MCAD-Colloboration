@@ -1,0 +1,68 @@
+﻿<Window x:Class="NotesWPF.Net.WPFNetWindow"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:local="clr-namespace:NotesWPF.Net"
+             Width="800" Height="300">
+    <Grid>
+        <Button
+            Content="Добавить запись"
+			HorizontalAlignment="Left"
+			Margin="0,5,0,0"
+			VerticalAlignment="Top"
+			Width="120"
+			Height="25" Click="AddRow"/>
+        <Button
+			Content="Удалить запись"
+			HorizontalAlignment="Center"
+			Margin="485,5,206,0"
+			VerticalAlignment="Top"
+			Width="101"
+			Height="25" Click="RemoveRow"/>
+        <Button
+			Content="Записать заметки"
+			HorizontalAlignment="Right"
+			Margin="0,5,0,0"
+			VerticalAlignment="Top"
+			Width="118"
+			Height="25" Click="WriteNotes"/>
+        <Button
+			Content="Up"
+			HorizontalAlignment="Left"
+			Margin="150,5,0,0"
+			VerticalAlignment="Top"
+			Width="37" Click="UpRow"/>
+        <Button
+			Content="Down"
+			HorizontalAlignment="Left"
+			Margin="190,5,0,0"
+			VerticalAlignment="Top" Click="DownRow"/>
+        <DataGrid Name="table" Margin="0,35,0,0" AutoGenerateColumns="False" ItemsSource="{Binding}" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" ColumnWidth="*" AutomationProperties.IsColumnHeader="True" IsSynchronizedWithCurrentItem="True" >
+            <DataGrid.Columns>
+                <DataGridComboBoxColumn
+                                    SelectedValuePath="Формат"
+                                    Header="Формат"
+                                    Width="*"/>
+                <!--<DataGridComboBoxColumn Header="Формат">
+                    <DataGridComboBoxColumn.EditingElementStyle>
+                        <Style TargetType="ComboBox">
+                            <Setter Property="ItemsSource" Value="{Binding Path=Формат}"/>
+                        </Style>
+                    </DataGridComboBoxColumn.EditingElementStyle>
+                </DataGridComboBoxColumn>
+                <DataGridTemplateColumn Header="Формат" Width="*">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <ComboBox ItemsSource="{Binding Формат, BindsDirectlyToSource=True}"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>-->
+                <DataGridTextColumn Binding="{Binding Path=Обозначение}" Header="Обозначение"/>
+                <DataGridComboBoxColumn ClipboardContentBinding="{x:Null}" Header="Наименование" SelectedValueBinding="{x:Null}" SelectedItemBinding="{x:Null}" TextBinding="{x:Null}"/>
+                <DataGridTextColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" Header="КодДокумента"/>
+                <DataGridTextColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" Header="Едизм"/>
+                <DataGridTextColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" Header="Примечание"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>

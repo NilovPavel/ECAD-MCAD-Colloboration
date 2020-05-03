@@ -7,11 +7,21 @@ using System;
 
 public class Tracks
 {
-   private int shapeEnds;
-   private double width;
-   
    private ITracks iTracks;
    
+   public double width;
+   
    public Contour contour;
+   
+   public Tracks()
+   {
+   }
+   
+   public Tracks(ITracks iTracks)
+   {
+      this.iTracks = iTracks;
+      this.width = this.iTracks.GetWidth();
+      this.contour = new Contour(this.iTracks.GetIContour());
+   }
 
 }

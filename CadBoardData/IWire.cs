@@ -1,6 +1,6 @@
 // File:    IWire.cs
-// Author:  nilov_pg
-// Created: 26 августа 2019 г. 15:51:34
+// Author:  Павел
+// Created: 31 марта 2020 г. 10:48:34
 // Purpose: Definition of Interface IWire
 
 using System;

@@ -1,7 +1,0 @@
-D:\Sources\C#\SearchESKD\bin\Release\SearchESKD.dll
-D:\Sources\C#\SearchESKD\bin\Release\SearchESKD.pdb
-D:\Sources\C#\SearchESKD\bin\Release\CadBoardData.dll
-D:\Sources\C#\SearchESKD\bin\Release\CadBoardData.pdb
-D:\Sources\C#\SearchESKD\obj\Release\SearchESKD.csprojResolveAssemblyReference.cache
-D:\Sources\C#\SearchESKD\obj\Release\SearchESKD.dll
-D:\Sources\C#\SearchESKD\obj\Release\SearchESKD.pdb

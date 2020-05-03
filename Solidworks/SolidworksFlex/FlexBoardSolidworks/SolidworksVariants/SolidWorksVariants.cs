@@ -61,6 +61,8 @@ namespace SolidworksVariants
             foreach (ComponentCAD uniqueESKDComponentCAD in uniqueESKDComponentsCAD)
             {
                 string path = this.isearch.GetPath(uniqueESKDComponentCAD.dataESKD);
+                if (string.IsNullOrEmpty(path))
+                    continue;
                 SolidworksModel solidworksModel = new SolidworksModel(path);
                 this.AddGroupUniqueComponent(solidworksModel, uniqueESKDComponentCAD);
             }

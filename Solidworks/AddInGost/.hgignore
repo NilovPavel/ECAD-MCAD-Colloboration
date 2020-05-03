@@ -1,0 +1,10 @@
+syntax: glob
+.hgignore
+*.suo
+*db.lock
+.vs/*
+*.dll
+*.pdb
+obj/*
+bin/*
+*.zip

@@ -11,6 +11,8 @@ public interface IPaint
    
    IPolygon[] GetPolygons();
    
-   Tracks[] GetTracks();
+   ITracks[] GetTracks();
+   
+   IPad[] GetPads();
 
 }

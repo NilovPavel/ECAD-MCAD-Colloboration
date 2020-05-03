@@ -17,7 +17,7 @@ namespace SolidworksBoardData.SolidworksVariantCAD
         private void Initialization()
         {
             this.uniqueId = this.component.Name2;
-            this.coordiants = default(ICoordinats);
+            this.coordiants = new SolidWorksCoordinats(this.component, null);
             this.isFitted = !this.component.IsSuppressed();
             this.designator = this.component.ComponentReference;
             this.configurationName = this.component.ReferencedConfiguration;

@@ -19,8 +19,6 @@ public class Polygon
    public Polygon(IPolygon iPolygon)
    {
        this.iPolygon = iPolygon;
-        this.contour = new Contour(this.iPolygon.GetIContour());
-        this.hatch = new Hatch(this.iPolygon.GetIHatch());
    }
 
 }

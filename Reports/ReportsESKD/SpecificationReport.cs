@@ -18,7 +18,7 @@ public class SpecificationReport : AbstractReport
    {
       this.variants = new VariantESKD[this.assembly.variantCAD.variant.Length];
       this.variantsEM = new VariantESKD[this.assembly.variantCAD.variant.Length];
-      this.iCheck = new ProxyCheck();
+      //this.iCheck = new ProxyCheck();
       this.iteratorPosition = new IteratorPosition();
    }
 
@@ -89,8 +89,8 @@ public class SpecificationReport : AbstractReport
    {
       List<RecordESKD> components = new List<RecordESKD>();
       variant.ComponentCAD.Where(x => x.dataESKD.SpecificationFlag == EskdSpecificationType.general).ToList().ForEach(x => components.Add(new RecordESKD(x)));
-      for (int componentCount = 0; componentCount < components.Count; componentCount++)
-         components[componentCount] = this.iCheck.GetCheckingRecordESKD(components[componentCount]);
+      /*for (int componentCount = 0; componentCount < components.Count; componentCount++)
+         components[componentCount] = this.iCheck.GetCheckingRecordESKD(components[componentCount]);*/
       RecordESKD[] notesRecordsESKD = this.GetNotesCollection(variant);
       components.AddRange(notesRecordsESKD);
       RecordESKD[] harnessCollection = this.GetHarnessCollection();
@@ -102,8 +102,8 @@ public class SpecificationReport : AbstractReport
    {
       List<RecordESKD> components = new List<RecordESKD>();
       variant.ComponentCAD.Where(x => x.dataESKD.SpecificationFlag == EskdSpecificationType.em).ToList().ForEach(x => components.Add(new RecordESKD(x)));
-      for (int componentCount = 0; componentCount < components.Count; componentCount++)
-         components[componentCount] = this.iCheck.GetCheckingRecordESKD(components[componentCount]);
+      /*for (int componentCount = 0; componentCount < components.Count; componentCount++)
+         components[componentCount] = this.iCheck.GetCheckingRecordESKD(components[componentCount]);*/
       RecordESKD[] notesRecordsESKD = this.GetNotesCollectionEM(variant);
       components.AddRange(notesRecordsESKD);
       return components.ToArray();

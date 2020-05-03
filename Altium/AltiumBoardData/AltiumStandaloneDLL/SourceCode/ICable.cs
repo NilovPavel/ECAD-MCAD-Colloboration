@@ -1,6 +1,6 @@
 // File:    ICable.cs
-// Author:  nilov_pg
-// Created: 26 августа 2019 г. 15:54:04
+// Author:  Павел
+// Created: 31 марта 2020 г. 10:48:34
 // Purpose: Definition of Interface ICable
 
 using System;

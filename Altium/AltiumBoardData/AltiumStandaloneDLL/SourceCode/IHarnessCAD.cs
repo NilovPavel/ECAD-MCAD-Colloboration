@@ -1,6 +1,6 @@
 // File:    IHarnessCAD.cs
-// Author:  nilov_pg
-// Created: 26 августа 2019 г. 15:49:41
+// Author:  Павел
+// Created: 31 марта 2020 г. 10:48:34
 // Purpose: Definition of Interface IHarnessCAD
 
 using System;

@@ -1,0 +1,24 @@
+Windows Registry Editor Version 5.00
+; ECAD-MCAD Collaboration
+[HKEY_LOCAL_MACHINE\SOFTWARE\SolidWorks\AddIns\{f0206a7e-bbec-4841-8f6f-5a1bffc3bfbf}]
+@=dword:00000001
+"Description"="For Roman"
+"Title"="AddInGost"
+
+[HKEY_CURRENT_USER\Software\SolidWorks\AddInsStartup\{f0206a7e-bbec-4841-8f6f-5a1bffc3bfbf}]
+@=dword:00000001
+
+[HKEY_CLASSES_ROOT\CLSID\{f0206a7e-bbec-4841-8f6f-5a1bffc3bfbf}]
+@="AddInGost.GostAddIn"
+
+
+[HKEY_CLASSES_ROOT\CLSID\{f0206a7e-bbec-4841-8f6f-5a1bffc3bfbf}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="AddInGost"
+"Assembly"="AddInGost, Version=1.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+"CodeBase"="file:///D:/ELSY-PDM/EPDM_LIBRARY/EPDM_SolidWorks/EPDM_AddInELSY/AddInGost.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{f0206a7e-bbec-4841-8f6f-5a1bffc3bfbf}\ProgId]
+@="AddInGost.GostAddIn"

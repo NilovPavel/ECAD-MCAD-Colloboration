@@ -48,4 +48,8 @@ public class Notes
       this.razdelNotesCollection = this.iNotesCAD.ReadRazdelNotes(this.razdelName);
    }
 
+    public void WriteNotes()
+    {
+        this.iNotesCAD.WriteNotes(new Notes(this.razdelName, this.iNotesCAD));
+    }
 }

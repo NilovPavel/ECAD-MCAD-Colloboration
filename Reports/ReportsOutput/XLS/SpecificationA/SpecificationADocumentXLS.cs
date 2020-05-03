@@ -7,7 +7,7 @@ using NPOI.HPSF;
 
 namespace ReportsOutput
 {
-    class SpecificationADocumentXLS : AbstractDocumentXLS
+    public class SpecificationADocumentXLS : AbstractDocumentXLS
     {
         private string[] documentProperties;
         public SpecificationADocumentXLS(ProjectProperties projectProperties) : base(projectProperties)

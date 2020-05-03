@@ -5,10 +5,5 @@
 
 using System;
 
-public interface IHarnessCAD
-{
-   IWire[] GetIWires();
-   
-   ICable[] GetICables();
 
-}
+

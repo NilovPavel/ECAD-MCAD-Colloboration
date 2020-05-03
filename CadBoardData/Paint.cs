@@ -7,67 +7,6 @@ using System;
 
 public class Paint
 {
-   private System.Collections.Generic.List<Text> text;
-   
-   /// <summary>
-   /// Property for collection of Text
-   /// </summary>
-   /// <pdGenerated>Default opposite class collection property</pdGenerated>
-   public System.Collections.Generic.List<Text> Text
-   {
-      get
-      {
-         if (text == null)
-            text = new System.Collections.Generic.List<Text>();
-         return text;
-      }
-      set
-      {
-         RemoveAllText();
-         if (value != null)
-         {
-            foreach (Text oText in value)
-               AddText(oText);
-         }
-      }
-   }
-   
-   /// <summary>
-   /// Add a new Text in the collection
-   /// </summary>
-   /// <pdGenerated>Default Add</pdGenerated>
-   public void AddText(Text newText)
-   {
-      if (newText == null)
-         return;
-      if (this.text == null)
-         this.text = new System.Collections.Generic.List<Text>();
-      if (!this.text.Contains(newText))
-         this.text.Add(newText);
-   }
-   
-   /// <summary>
-   /// Remove an existing Text from the collection
-   /// </summary>
-   /// <pdGenerated>Default Remove</pdGenerated>
-   public void RemoveText(Text oldText)
-   {
-      if (oldText == null)
-         return;
-      if (this.text != null)
-         if (this.text.Contains(oldText))
-            this.text.Remove(oldText);
-   }
-   
-   /// <summary>
-   /// Remove all instances of Text from the collection
-   /// </summary>
-   /// <pdGenerated>Default removeAll</pdGenerated>
-   public void RemoveAllText()
-   {
-      if (text != null)
-         text.Clear();
-   }
    private System.Collections.Generic.List<Polygon> polygon;
    
    /// <summary>
@@ -191,6 +130,128 @@ public class Paint
          tracks.Clear();
    }
    private IPaint iPaint;
+   private System.Collections.Generic.List<Pad> pad;
+   
+   /// <summary>
+   /// Property for collection of Pad
+   /// </summary>
+   /// <pdGenerated>Default opposite class collection property</pdGenerated>
+   public System.Collections.Generic.List<Pad> Pad
+   {
+      get
+      {
+         if (pad == null)
+            pad = new System.Collections.Generic.List<Pad>();
+         return pad;
+      }
+      set
+      {
+         RemoveAllPad();
+         if (value != null)
+         {
+            foreach (Pad oPad in value)
+               AddPad(oPad);
+         }
+      }
+   }
+   
+   /// <summary>
+   /// Add a new Pad in the collection
+   /// </summary>
+   /// <pdGenerated>Default Add</pdGenerated>
+   public void AddPad(Pad newPad)
+   {
+      if (newPad == null)
+         return;
+      if (this.pad == null)
+         this.pad = new System.Collections.Generic.List<Pad>();
+      if (!this.pad.Contains(newPad))
+         this.pad.Add(newPad);
+   }
+   
+   /// <summary>
+   /// Remove an existing Pad from the collection
+   /// </summary>
+   /// <pdGenerated>Default Remove</pdGenerated>
+   public void RemovePad(Pad oldPad)
+   {
+      if (oldPad == null)
+         return;
+      if (this.pad != null)
+         if (this.pad.Contains(oldPad))
+            this.pad.Remove(oldPad);
+   }
+   
+   /// <summary>
+   /// Remove all instances of Pad from the collection
+   /// </summary>
+   /// <pdGenerated>Default removeAll</pdGenerated>
+   public void RemoveAllPad()
+   {
+      if (pad != null)
+         pad.Clear();
+   }
+   private System.Collections.Generic.List<Text> text;
+   
+   /// <summary>
+   /// Property for collection of Text
+   /// </summary>
+   /// <pdGenerated>Default opposite class collection property</pdGenerated>
+   public System.Collections.Generic.List<Text> Text
+   {
+      get
+      {
+         if (text == null)
+            text = new System.Collections.Generic.List<Text>();
+         return text;
+      }
+      set
+      {
+         RemoveAllText();
+         if (value != null)
+         {
+            foreach (Text oText in value)
+               AddText(oText);
+         }
+      }
+   }
+   
+   /// <summary>
+   /// Add a new Text in the collection
+   /// </summary>
+   /// <pdGenerated>Default Add</pdGenerated>
+   public void AddText(Text newText)
+   {
+      if (newText == null)
+         return;
+      if (this.text == null)
+         this.text = new System.Collections.Generic.List<Text>();
+      if (!this.text.Contains(newText))
+         this.text.Add(newText);
+   }
+   
+   /// <summary>
+   /// Remove an existing Text from the collection
+   /// </summary>
+   /// <pdGenerated>Default Remove</pdGenerated>
+   public void RemoveText(Text oldText)
+   {
+      if (oldText == null)
+         return;
+      if (this.text != null)
+         if (this.text.Contains(oldText))
+            this.text.Remove(oldText);
+   }
+   
+   /// <summary>
+   /// Remove all instances of Text from the collection
+   /// </summary>
+   /// <pdGenerated>Default removeAll</pdGenerated>
+   public void RemoveAllText()
+   {
+      if (text != null)
+         text.Clear();
+   }
    
    public Paint()
    {
@@ -198,7 +259,15 @@ public class Paint
    
    public Paint(IPaint iPaint)
    {
-        this.iPaint = this.iPaint;
+      this.iPaint = iPaint;
+      foreach (IText one_text in this.iPaint.GetTexts())
+         this.AddText(new Text(one_text));
+      foreach (IPolygon one_polygon in this.iPaint.GetPolygons())
+         this.AddPolygon(new Polygon(one_polygon));
+      foreach (ITracks one_trackNet in this.iPaint.GetTracks())
+         this.AddTracks(new Tracks(one_trackNet));
+      foreach (IPad one_pad in this.iPaint.GetPads())
+         this.AddPad(new Pad(one_pad));
    }
 
 }

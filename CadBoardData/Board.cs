@@ -346,6 +346,8 @@ public class Board
                   this.AddVia(new Via(one_via));
               foreach (IHolePad one_holePad in this.iBoardCAD.GetHolePads())
                   this.AddHolePad(new HolePad(one_holePad));
+              foreach (ILayer one_Layer in this.iBoardCAD.GetLayers())
+                  this.AddLayer(new Layer(one_Layer));
    }
 
 }

@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{759F4188-E704-4358-BE04-0768AA43E954}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AddInGost</RootNamespace>
+    <AssemblyName>AddInGost</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\..\..\EPDM_AddInGOST\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RegisterForComInterop>true</RegisterForComInterop>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="SolidWorks.Interop.sldworks">
+      <HintPath>C:\Program Files\SOLIDWORKS Corp\SOLIDWORKS\api\redist\SolidWorks.Interop.sldworks.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="SolidWorks.Interop.swcommands">
+      <HintPath>C:\Program Files\SOLIDWORKS Corp\SOLIDWORKS\api\redist\SolidWorks.Interop.swcommands.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="SolidWorks.Interop.swconst">
+      <HintPath>C:\Program Files\SOLIDWORKS Corp\SOLIDWORKS\api\redist\SolidWorks.Interop.swconst.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="SolidWorks.Interop.swdimxpert">
+      <HintPath>C:\Program Files\SOLIDWORKS Corp\SOLIDWORKS\api\redist\SolidWorks.Interop.swdimxpert.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="SolidWorks.Interop.swpublished">
+      <HintPath>C:\Program Files\SOLIDWORKS Corp\SOLIDWORKS\api\redist\SolidWorks.Interop.swpublished.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="SolidWorks.Interop.SWRoutingLib">
+      <HintPath>C:\Program Files\SOLIDWORKS Corp\SOLIDWORKS\api\redist\SolidWorks.Interop.SWRoutingLib.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DrawingCommandGroup.cs" />
+    <Compile Include="GostAddIn.cs" />
+    <Compile Include="AbstractCommandGroup.cs" />
+    <Compile Include="GostCommandManager.cs" />
+    <Compile Include="PositionSpecification\AbstractPositions.cs" />
+    <Compile Include="PositionSpecification\AutomaticalPositionSpecification.cs" />
+    <Compile Include="PositionSpecification\ManualPositionSpecification.cs" />
+    <Compile Include="PositionSpecification\OpenFileXMLDialog.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TextDocCommandGroup.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\CadBoardData\CadBoardData.csproj">
+      <Project>{a61842e8-dc11-4a85-9184-ef40ad760388}</Project>
+      <Name>CadBoardData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\Reports\ReportsESKD\ReportsESKD.csproj">
+      <Project>{04c37611-52f9-4a28-b7a5-787f241d083a}</Project>
+      <Name>ReportsESKD</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\Reports\ReportsOutput\ReportsOutput.csproj">
+      <Project>{4b29eb96-ef44-4be4-a825-65ff18e3c19f}</Project>
+      <Name>ReportsOutput</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\SolidworksBoardData\SolidworksBoardData.csproj">
+      <Project>{3cfec6f8-6e8d-4c55-b1f8-585d0e0df7bd}</Project>
+      <Name>SolidworksBoardData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\SolidworksNotes\SolidworksNotes.csproj">
+      <Project>{8defcea1-2d20-4ca8-85cd-82c404c31cef}</Project>
+      <Name>SolidworksNotes</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\SolidworksProperties\SolidworksProperties.csproj">
+      <Project>{3e5f4d85-ff69-4f4b-9f03-7280c8884492}</Project>
+      <Name>SolidworksProperties</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\SolidworksServices\SolidworksServices.csproj">
+      <Project>{78ebe3a9-172b-4829-ba31-2589bd757bfe}</Project>
+      <Name>SolidworksServices</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

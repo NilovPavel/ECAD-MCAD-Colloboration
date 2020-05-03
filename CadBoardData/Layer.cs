@@ -25,7 +25,7 @@ public class Layer
       this.layerName = this.iLayer.GetLayerName();
       this.layerNumber = this.iLayer.GetLayerNumber();
       this.thickness = this.iLayer.GetThickness();
-        this.paint = new Paint(this.iLayer.GetPaint());
+      this.paint = new Paint(this.iLayer.GetPaint());
    }
 
 }

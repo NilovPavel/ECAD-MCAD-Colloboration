@@ -1,6 +1,6 @@
 // File:    Wire.cs
-// Author:  nilov_pg
-// Created: 26 августа 2019 г. 15:51:26
+// Author:  Павел
+// Created: 31 марта 2020 г. 10:48:34
 // Purpose: Definition of Class Wire
 
 using System;
@@ -14,7 +14,6 @@ public class Wire
    private double length;
    private string material;
    private double diameter;
-   
    private IWire iWire;
    
    public string SourceConnectorDesignator
@@ -117,4 +116,3 @@ public class Wire
    {}
 
 }
-

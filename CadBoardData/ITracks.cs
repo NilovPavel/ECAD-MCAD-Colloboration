@@ -7,8 +7,6 @@ using System;
 
 public interface ITracks
 {
-   int GetShapeEnds();
-   
    double GetWidth();
    
    IContour GetIContour();

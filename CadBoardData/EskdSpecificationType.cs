@@ -1,6 +1,6 @@
 // File:    EskdSpecificationType.cs
-// Author:  nilov_pg
-// Created: 27 августа 2019 г. 9:33:53
+// Author:  Павел
+// Created: 9 апреля 2020 г. 15:15:34
 // Purpose: Definition of Enum EskdSpecificationType
 
 using System;

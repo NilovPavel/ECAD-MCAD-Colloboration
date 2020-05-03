@@ -4,7 +4,7 @@ using System.Xml.Serialization;
 
 namespace ReportsOutput
 {
-    internal class AssemblyPositionXML
+    public class AssemblyPositionXML
     {
         private SpecificationReport report;
         private Assembly assembly;

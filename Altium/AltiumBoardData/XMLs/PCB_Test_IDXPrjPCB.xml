@@ -287,6 +287,69 @@
     <HolePad>
       <HolePad>
         <contour>
+          <Line>
+            <Line>
+              <Point1>
+                <X>8.861</X>
+                <Y>47.48</Y>
+              </Point1>
+              <Point2>
+                <X>8.48</X>
+                <Y>48.139</Y>
+              </Point2>
+              <MiddlePoint>
+                <X>8.6705</X>
+                <Y>47.8095</Y>
+              </MiddlePoint>
+            </Line>
+            <Line>
+              <Point1>
+                <X>9.139</X>
+                <Y>48.52</Y>
+              </Point1>
+              <Point2>
+                <X>9.52</X>
+                <Y>47.861</Y>
+              </Point2>
+              <MiddlePoint>
+                <X>9.3295</X>
+                <Y>48.1905</Y>
+              </MiddlePoint>
+            </Line>
+            <Line>
+              <Point1>
+                <X>9.52</X>
+                <Y>47.861</Y>
+              </Point1>
+              <Point2>
+                <X>8.861</X>
+                <Y>47.48</Y>
+              </Point2>
+              <MiddlePoint>
+                <X>9.1905</X>
+                <Y>47.6705</Y>
+              </MiddlePoint>
+            </Line>
+            <Line>
+              <Point1>
+                <X>8.48</X>
+                <Y>48.139</Y>
+              </Point1>
+              <Point2>
+                <X>9.139</X>
+                <Y>48.52</Y>
+              </Point2>
+              <MiddlePoint>
+                <X>8.8095</X>
+                <Y>48.3295</Y>
+              </MiddlePoint>
+            </Line>
+          </Line>
+          <Arc />
+        </contour>
+      </HolePad>
+      <HolePad>
+        <contour>
           <Line />
           <Arc>
             <Arc>
@@ -524,9 +587,323 @@
         <thickness>0</thickness>
         <layerNumber>74</layerNumber>
         <paint>
-          <Text />
           <Polygon />
           <Tracks />
+          <Pad>
+            <Pad>
+              <contour>
+                <Line>
+                  <Line>
+                    <Point1>
+                      <X>9.11602540378444</X>
+                      <Y>49.799038105676658</Y>
+                    </Point1>
+                    <Point2>
+                      <X>7.3839745962155616</X>
+                      <Y>48.799038105676658</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>8.25</X>
+                      <Y>49.299038105676658</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>10.616025403784439</X>
+                      <Y>47.200961894323342</Y>
+                    </Point1>
+                    <Point2>
+                      <X>8.88397459621556</X>
+                      <Y>46.200961894323342</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>9.75</X>
+                      <Y>46.700961894323342</Y>
+                    </MiddlePoint>
+                  </Line>
+                </Line>
+                <Arc>
+                  <Arc>
+                    <StartAngle>-60</StartAngle>
+                    <EndAngle>120</EndAngle>
+                    <SweepAngle>180</SweepAngle>
+                    <Radius>1.5</Radius>
+                    <Point1>
+                      <X>10.616025403784439</X>
+                      <Y>47.200961894323342</Y>
+                    </Point1>
+                    <Point2>
+                      <X>9.11602540378444</X>
+                      <Y>49.799038105676658</Y>
+                    </Point2>
+                    <OriginalPoint>
+                      <X>9.86602540378444</X>
+                      <Y>48.5</Y>
+                    </OriginalPoint>
+                    <MiddlePoint>
+                      <X>11.165063509461097</X>
+                      <Y>49.25</Y>
+                    </MiddlePoint>
+                  </Arc>
+                  <Arc>
+                    <StartAngle>120</StartAngle>
+                    <EndAngle>300</EndAngle>
+                    <SweepAngle>180</SweepAngle>
+                    <Radius>1.5</Radius>
+                    <Point1>
+                      <X>7.3839745962155607</X>
+                      <Y>48.799038105676658</Y>
+                    </Point1>
+                    <Point2>
+                      <X>8.88397459621556</X>
+                      <Y>46.200961894323342</Y>
+                    </Point2>
+                    <OriginalPoint>
+                      <X>8.13397459621556</X>
+                      <Y>47.5</Y>
+                    </OriginalPoint>
+                    <MiddlePoint>
+                      <X>6.8349364905389027</X>
+                      <Y>46.75</Y>
+                    </MiddlePoint>
+                  </Arc>
+                </Arc>
+              </contour>
+            </Pad>
+            <Pad>
+              <contour>
+                <Line />
+                <Arc>
+                  <Arc>
+                    <StartAngle>0</StartAngle>
+                    <EndAngle>360</EndAngle>
+                    <SweepAngle>360</SweepAngle>
+                    <Radius>0.75</Radius>
+                    <Point1>
+                      <X>7.2900000000000063</X>
+                      <Y>15</Y>
+                    </Point1>
+                    <Point2>
+                      <X>7.2900000000000063</X>
+                      <Y>15</Y>
+                    </Point2>
+                    <OriginalPoint>
+                      <X>6.5400000000000063</X>
+                      <Y>15</Y>
+                    </OriginalPoint>
+                    <MiddlePoint>
+                      <X>5.7900000000000063</X>
+                      <Y>15</Y>
+                    </MiddlePoint>
+                  </Arc>
+                </Arc>
+              </contour>
+            </Pad>
+            <Pad>
+              <contour>
+                <Line />
+                <Arc>
+                  <Arc>
+                    <StartAngle>0</StartAngle>
+                    <EndAngle>360</EndAngle>
+                    <SweepAngle>360</SweepAngle>
+                    <Radius>0.75</Radius>
+                    <Point1>
+                      <X>4.75</X>
+                      <Y>15</Y>
+                    </Point1>
+                    <Point2>
+                      <X>4.75</X>
+                      <Y>15</Y>
+                    </Point2>
+                    <OriginalPoint>
+                      <X>4</X>
+                      <Y>15</Y>
+                    </OriginalPoint>
+                    <MiddlePoint>
+                      <X>3.25</X>
+                      <Y>15</Y>
+                    </MiddlePoint>
+                  </Arc>
+                </Arc>
+              </contour>
+            </Pad>
+            <Pad>
+              <contour>
+                <Line />
+                <Arc>
+                  <Arc>
+                    <StartAngle>0</StartAngle>
+                    <EndAngle>360</EndAngle>
+                    <SweepAngle>360</SweepAngle>
+                    <Radius>0.5</Radius>
+                    <Point1>
+                      <X>3.5</X>
+                      <Y>34</Y>
+                    </Point1>
+                    <Point2>
+                      <X>3.5</X>
+                      <Y>34</Y>
+                    </Point2>
+                    <OriginalPoint>
+                      <X>3</X>
+                      <Y>34</Y>
+                    </OriginalPoint>
+                    <MiddlePoint>
+                      <X>2.5</X>
+                      <Y>34</Y>
+                    </MiddlePoint>
+                  </Arc>
+                </Arc>
+              </contour>
+            </Pad>
+            <Pad>
+              <contour>
+                <Line />
+                <Arc>
+                  <Arc>
+                    <StartAngle>0</StartAngle>
+                    <EndAngle>360</EndAngle>
+                    <SweepAngle>360</SweepAngle>
+                    <Radius>0.5</Radius>
+                    <Point1>
+                      <X>3.5</X>
+                      <Y>29</Y>
+                    </Point1>
+                    <Point2>
+                      <X>3.5</X>
+                      <Y>29</Y>
+                    </Point2>
+                    <OriginalPoint>
+                      <X>3</X>
+                      <Y>29</Y>
+                    </OriginalPoint>
+                    <MiddlePoint>
+                      <X>2.5</X>
+                      <Y>29</Y>
+                    </MiddlePoint>
+                  </Arc>
+                </Arc>
+              </contour>
+            </Pad>
+            <Pad>
+              <contour>
+                <Line />
+                <Arc>
+                  <Arc>
+                    <StartAngle>0</StartAngle>
+                    <EndAngle>360</EndAngle>
+                    <SweepAngle>360</SweepAngle>
+                    <Radius>0.5</Radius>
+                    <Point1>
+                      <X>3.5</X>
+                      <Y>40</Y>
+                    </Point1>
+                    <Point2>
+                      <X>3.5</X>
+                      <Y>40</Y>
+                    </Point2>
+                    <OriginalPoint>
+                      <X>3</X>
+                      <Y>40</Y>
+                    </OriginalPoint>
+                    <MiddlePoint>
+                      <X>2.5</X>
+                      <Y>40</Y>
+                    </MiddlePoint>
+                  </Arc>
+                </Arc>
+              </contour>
+            </Pad>
+            <Pad>
+              <contour>
+                <Line />
+                <Arc>
+                  <Arc>
+                    <StartAngle>0</StartAngle>
+                    <EndAngle>360</EndAngle>
+                    <SweepAngle>360</SweepAngle>
+                    <Radius>0.5</Radius>
+                    <Point1>
+                      <X>3.5</X>
+                      <Y>45</Y>
+                    </Point1>
+                    <Point2>
+                      <X>3.5</X>
+                      <Y>45</Y>
+                    </Point2>
+                    <OriginalPoint>
+                      <X>3</X>
+                      <Y>45</Y>
+                    </OriginalPoint>
+                    <MiddlePoint>
+                      <X>2.5</X>
+                      <Y>45</Y>
+                    </MiddlePoint>
+                  </Arc>
+                </Arc>
+              </contour>
+            </Pad>
+            <Pad>
+              <contour>
+                <Line />
+                <Arc>
+                  <Arc>
+                    <StartAngle>0</StartAngle>
+                    <EndAngle>360</EndAngle>
+                    <SweepAngle>360</SweepAngle>
+                    <Radius>0.75</Radius>
+                    <Point1>
+                      <X>4.75</X>
+                      <Y>24.540000000000006</Y>
+                    </Point1>
+                    <Point2>
+                      <X>4.75</X>
+                      <Y>24.540000000000006</Y>
+                    </Point2>
+                    <OriginalPoint>
+                      <X>4</X>
+                      <Y>24.540000000000006</Y>
+                    </OriginalPoint>
+                    <MiddlePoint>
+                      <X>3.25</X>
+                      <Y>24.540000000000006</Y>
+                    </MiddlePoint>
+                  </Arc>
+                </Arc>
+              </contour>
+            </Pad>
+            <Pad>
+              <contour>
+                <Line />
+                <Arc>
+                  <Arc>
+                    <StartAngle>0</StartAngle>
+                    <EndAngle>360</EndAngle>
+                    <SweepAngle>360</SweepAngle>
+                    <Radius>0.75</Radius>
+                    <Point1>
+                      <X>4.75</X>
+                      <Y>22</Y>
+                    </Point1>
+                    <Point2>
+                      <X>4.75</X>
+                      <Y>22</Y>
+                    </Point2>
+                    <OriginalPoint>
+                      <X>4</X>
+                      <Y>22</Y>
+                    </OriginalPoint>
+                    <MiddlePoint>
+                      <X>3.25</X>
+                      <Y>22</Y>
+                    </MiddlePoint>
+                  </Arc>
+                </Arc>
+              </contour>
+            </Pad>
+          </Pad>
+          <Text />
         </paint>
       </Layer>
       <Layer>
@@ -534,9 +911,10 @@
         <thickness>0</thickness>
         <layerNumber>35</layerNumber>
         <paint>
-          <Text />
           <Polygon />
           <Tracks />
+          <Pad />
+          <Text />
         </paint>
       </Layer>
       <Layer>
@@ -544,304 +922,180 @@
         <thickness>0</thickness>
         <layerNumber>33</layerNumber>
         <paint>
-          <Text>
-            <Text>
-              <value>C1</value>
-              <x>21.799999999999997</x>
-              <y>27.400000000000006</y>
-              <angle>0</angle>
-              <size>1.524</size>
-              <fontName>Arial</fontName>
-            </Text>
-            <Text>
-              <value>CAP</value>
-              <x>20.212999999999994</x>
-              <y>16.902</y>
-              <angle>0</angle>
-              <size>1.524</size>
-              <fontName>Arial</fontName>
-            </Text>
-            <Text>
-              <value>C2</value>
-              <x>13.099999999999994</x>
-              <y>28</y>
-              <angle>0</angle>
-              <size>1.524</size>
-              <fontName>Arial</fontName>
-            </Text>
-            <Text>
-              <value>CAP</value>
-              <x>10.307000000000002</x>
-              <y>16.902</y>
-              <angle>0</angle>
-              <size>1.524</size>
-              <fontName>Arial</fontName>
-            </Text>
-            <Text>
-              <value>R1</value>
-              <x>24.918000000000006</x>
-              <y>9.863</y>
-              <angle>0</angle>
-              <size>1.524</size>
-              <fontName>Arial</fontName>
-            </Text>
-            <Text>
-              <value>RES</value>
-              <x>24.92</x>
-              <y>0.61700000000000443</y>
-              <angle>0</angle>
-              <size>1.524</size>
-              <fontName>Arial</fontName>
-            </Text>
-            <Text>
-              <value>R2</value>
-              <x>16.799999999999997</x>
-              <y>13.5</y>
-              <angle>0</angle>
-              <size>1.524</size>
-              <fontName>Arial</fontName>
-            </Text>
-            <Text>
-              <value>RES</value>
-              <x>19.92</x>
-              <y>7.4669999999999987</y>
-              <angle>0</angle>
-              <size>1.524</size>
-              <fontName>Arial</fontName>
-            </Text>
-            <Text>
-              <value>R3</value>
-              <x>14.778000000000006</x>
-              <y>10.018</y>
-              <angle>0</angle>
-              <size>1.524</size>
-              <fontName>Arial</fontName>
-            </Text>
-            <Text>
-              <value>RES</value>
-              <x>14.768</x>
-              <y>4.4579999999999984</y>
-              <angle>0</angle>
-              <size>1.524</size>
-              <fontName>Arial</fontName>
-            </Text>
-            <Text>
-              <value>R4</value>
-              <x>7</x>
-              <y>5.5999999999999943</y>
-              <angle>0</angle>
-              <size>1.524</size>
-              <fontName>Arial</fontName>
-            </Text>
-            <Text>
-              <value>RES</value>
-              <x>11.302000000000007</x>
-              <y>0.7780000000000058</y>
-              <angle>0</angle>
-              <size>1.524</size>
-              <fontName>Arial</fontName>
-            </Text>
-            <Text>
-              <value>VT1</value>
-              <x>24.799999999999997</x>
-              <y>40.8</y>
-              <angle>0</angle>
-              <size>1.524</size>
-              <fontName>Arial</fontName>
-            </Text>
-            <Text>
-              <value>Name</value>
-              <x>13.512</x>
-              <y>23.786</y>
-              <angle>0</angle>
-              <size>1.524</size>
-              <fontName>Arial</fontName>
-            </Text>
-            <Text>
-              <value>VT2</value>
-              <x>13.700000000000003</x>
-              <y>40.400000000000006</y>
-              <angle>0</angle>
-              <size>1.524</size>
-              <fontName>Arial</fontName>
-            </Text>
-            <Text>
-              <value>Name</value>
-              <x>-0.28700000000000614</x>
-              <y>17.986000000000004</y>
-              <angle>0</angle>
-              <size>1.524</size>
-              <fontName>Arial</fontName>
-            </Text>
-            <Text>
-              <value>XP2</value>
-              <x>1</x>
-              <y>17</y>
-              <angle>0</angle>
-              <size>1.524</size>
-              <fontName>Arial</fontName>
-            </Text>
-            <Text>
-              <value>Name</value>
-              <x>1.0160000000000053</x>
-              <y>13.235</y>
-              <angle>0</angle>
-              <size>1.524</size>
-              <fontName>Arial</fontName>
-            </Text>
-            <Text>
-              <value>P1</value>
-              <x>4</x>
-              <y>46</y>
-              <angle>0</angle>
-              <size>1.524</size>
-              <fontName>Arial</fontName>
-            </Text>
-            <Text>
-              <value>Connektor</value>
-              <x>2.6569999999999965</x>
-              <y>42.117000000000004</y>
-              <angle>0</angle>
-              <size>1.524</size>
-              <fontName>Arial</fontName>
-            </Text>
-            <Text>
-              <value>P2</value>
-              <x>4</x>
-              <y>41</y>
-              <angle>0</angle>
-              <size>1.524</size>
-              <fontName>Arial</fontName>
-            </Text>
-            <Text>
-              <value>Connektor</value>
-              <x>-1.3430000000000035</x>
-              <y>41.117000000000004</y>
-              <angle>0</angle>
-              <size>1.524</size>
-              <fontName>Arial</fontName>
-            </Text>
-            <Text>
-              <value>P3</value>
-              <x>4</x>
-              <y>35</y>
-              <angle>0</angle>
-              <size>1.524</size>
-              <fontName>Arial</fontName>
-            </Text>
-            <Text>
-              <value>Connektor</value>
-              <x>-5.3430000000000035</x>
-              <y>39.117000000000004</y>
-              <angle>0</angle>
-              <size>1.524</size>
-              <fontName>Arial</fontName>
-            </Text>
-            <Text>
-              <value>P4</value>
-              <x>4</x>
-              <y>31</y>
-              <angle>0</angle>
-              <size>1.524</size>
-              <fontName>Arial</fontName>
-            </Text>
-            <Text>
-              <value>Connektor</value>
-              <x>-10.343000000000004</x>
-              <y>39.117000000000004</y>
-              <angle>0</angle>
-              <size>1.524</size>
-              <fontName>Arial</fontName>
-            </Text>
-            <Text>
-              <value>XP1</value>
-              <x>3</x>
-              <y>26.540000000000006</y>
-              <angle>0</angle>
-              <size>1.524</size>
-              <fontName>Arial</fontName>
-            </Text>
-            <Text>
-              <value>Name</value>
-              <x>1.0160000000000053</x>
-              <y>20.235</y>
-              <angle>0</angle>
-              <size>1.524</size>
-              <fontName>Arial</fontName>
-            </Text>
-          </Text>
           <Polygon>
-            <Polygon>
+            <Polygon />
+            <Polygon />
+          </Polygon>
+          <Tracks>
+            <Tracks>
+              <width>0.254</width>
               <contour>
                 <Line>
                   <Line>
                     <Point1>
-                      <X>8</X>
-                      <Y>38.7</Y>
+                      <X>8.0330000000000013</X>
+                      <Y>51</Y>
                     </Point1>
                     <Point2>
-                      <X>8</X>
-                      <Y>38.7</Y>
+                      <X>9.765</X>
+                      <Y>52</Y>
                     </Point2>
                     <MiddlePoint>
-                      <X>8</X>
-                      <Y>38.7</Y>
+                      <X>8.8990000000000009</X>
+                      <Y>51.5</Y>
                     </MiddlePoint>
                   </Line>
                   <Line>
                     <Point1>
-                      <X>9</X>
-                      <Y>38.7</Y>
+                      <X>10.790000000000006</X>
+                      <Y>49.899</Y>
                     </Point1>
                     <Point2>
-                      <X>9</X>
-                      <Y>38.7</Y>
+                      <X>11.540000000000006</X>
+                      <Y>48.599999999999994</Y>
                     </Point2>
                     <MiddlePoint>
-                      <X>9</X>
-                      <Y>38.7</Y>
+                      <X>11.165000000000006</X>
+                      <Y>49.2495</Y>
                     </MiddlePoint>
                   </Line>
                   <Line>
                     <Point1>
-                      <X>9</X>
-                      <Y>36</Y>
+                      <X>8.2339999999999947</X>
+                      <Y>45.825</Y>
                     </Point1>
                     <Point2>
-                      <X>9</X>
-                      <Y>36</Y>
+                      <X>11.265</X>
+                      <Y>47.575</Y>
                     </Point2>
                     <MiddlePoint>
-                      <X>9</X>
-                      <Y>36</Y>
+                      <X>9.7494999999999976</X>
+                      <Y>46.7</Y>
                     </MiddlePoint>
                   </Line>
                   <Line>
                     <Point1>
-                      <X>8</X>
-                      <Y>36</Y>
+                      <X>6.7339999999999947</X>
+                      <Y>48.42</Y>
                     </Point1>
                     <Point2>
-                      <X>8</X>
-                      <Y>36</Y>
+                      <X>9.765</X>
+                      <Y>50.174000000000007</Y>
                     </Point2>
                     <MiddlePoint>
-                      <X>8</X>
-                      <Y>36</Y>
+                      <X>8.2494999999999976</X>
+                      <Y>49.297000000000004</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>6.4590000000000032</X>
+                      <Y>47.399</Y>
+                    </Point1>
+                    <Point2>
+                      <X>7.2099999999999937</X>
+                      <Y>46.099999999999994</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>6.8344999999999985</X>
+                      <Y>46.7495</Y>
                     </MiddlePoint>
                   </Line>
                 </Line>
-                <Arc />
+                <Arc>
+                  <Arc>
+                    <StartAngle>120</StartAngle>
+                    <EndAngle>210</EndAngle>
+                    <SweepAngle>90</SweepAngle>
+                    <Radius>0.75</Radius>
+                    <Point1>
+                      <X>6.7339999999999947</X>
+                      <Y>48.42</Y>
+                    </Point1>
+                    <Point2>
+                      <X>6.4590000000000032</X>
+                      <Y>47.394999999999996</Y>
+                    </Point2>
+                    <OriginalPoint>
+                      <X>7.1089999999999947</X>
+                      <Y>47.769999999999996</Y>
+                    </OriginalPoint>
+                    <MiddlePoint>
+                      <X>6.3845556302831934</X>
+                      <Y>47.964114283826888</Y>
+                    </MiddlePoint>
+                  </Arc>
+                  <Arc>
+                    <StartAngle>210</StartAngle>
+                    <EndAngle>300</EndAngle>
+                    <SweepAngle>90</SweepAngle>
+                    <Radius>0.75</Radius>
+                    <Point1>
+                      <X>7.2090000000000032</X>
+                      <Y>46.099999999999994</Y>
+                    </Point1>
+                    <Point2>
+                      <X>8.2339999999999947</X>
+                      <Y>45.825999999999993</Y>
+                    </Point2>
+                    <OriginalPoint>
+                      <X>7.8589999999999947</X>
+                      <Y>46.474999999999994</Y>
+                    </OriginalPoint>
+                    <MiddlePoint>
+                      <X>7.6648857161731039</X>
+                      <Y>45.750555630283195</Y>
+                    </MiddlePoint>
+                  </Arc>
+                  <Arc>
+                    <StartAngle>30</StartAngle>
+                    <EndAngle>120</EndAngle>
+                    <SweepAngle>90</SweepAngle>
+                    <Radius>0.75</Radius>
+                    <Point1>
+                      <X>10.790000000000006</X>
+                      <Y>49.899</Y>
+                    </Point1>
+                    <Point2>
+                      <X>9.765</X>
+                      <Y>50.174000000000007</Y>
+                    </Point2>
+                    <OriginalPoint>
+                      <X>10.14</X>
+                      <Y>49.524</Y>
+                    </OriginalPoint>
+                    <MiddlePoint>
+                      <X>10.33411428382689</X>
+                      <Y>50.2484443697168</Y>
+                    </MiddlePoint>
+                  </Arc>
+                  <Arc>
+                    <StartAngle>300</StartAngle>
+                    <EndAngle>390</EndAngle>
+                    <SweepAngle>-270</SweepAngle>
+                    <Radius>0.75</Radius>
+                    <Point1>
+                      <X>11.265</X>
+                      <Y>47.575999999999993</Y>
+                    </Point1>
+                    <Point2>
+                      <X>11.540000000000006</X>
+                      <Y>48.599999999999994</Y>
+                    </Point2>
+                    <OriginalPoint>
+                      <X>10.89</X>
+                      <Y>48.224999999999994</Y>
+                    </OriginalPoint>
+                    <MiddlePoint>
+                      <X>11.614444369716802</X>
+                      <Y>48.0308857161731</Y>
+                    </MiddlePoint>
+                  </Arc>
+                </Arc>
               </contour>
-              <hatch>
-                <typeHatch>fillSolid</typeHatch>
-                <stepHatch>0</stepHatch>
-                <widthHatch>0</widthHatch>
-              </hatch>
-            </Polygon>
-          </Polygon>
-          <Tracks>
+            </Tracks>
             <Tracks>
+              <width>0.5</width>
               <contour>
                 <Line />
                 <Arc>
@@ -981,8 +1235,528 @@
               </contour>
             </Tracks>
             <Tracks>
+              <width>0.1</width>
               <contour>
-                <Line />
+                <Line>
+                  <Line>
+                    <Point1>
+                      <X>26</X>
+                      <Y>47.992000000000004</Y>
+                    </Point1>
+                    <Point2>
+                      <X>31</X>
+                      <Y>42.992000000000004</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>28.5</X>
+                      <Y>45.492000000000004</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>26</X>
+                      <Y>47.274</Y>
+                    </Point1>
+                    <Point2>
+                      <X>31</X>
+                      <Y>42.274</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>28.5</X>
+                      <Y>44.774</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>26</X>
+                      <Y>48</Y>
+                    </Point1>
+                    <Point2>
+                      <X>31</X>
+                      <Y>43</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>28.5</X>
+                      <Y>45.5</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>26</X>
+                      <Y>46.555000000000007</Y>
+                    </Point1>
+                    <Point2>
+                      <X>31</X>
+                      <Y>41.555000000000007</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>28.5</X>
+                      <Y>44.055000000000007</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>26</X>
+                      <Y>41.845</Y>
+                    </Point1>
+                    <Point2>
+                      <X>29.078000000000003</X>
+                      <Y>44.922</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>27.539</X>
+                      <Y>43.3835</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>26</X>
+                      <Y>46.873999999999995</Y>
+                    </Point1>
+                    <Point2>
+                      <X>26.563000000000002</X>
+                      <Y>47.437</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>26.2815</X>
+                      <Y>47.155499999999996</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>26</X>
+                      <Y>46.155</Y>
+                    </Point1>
+                    <Point2>
+                      <X>26.921999999999997</X>
+                      <Y>47.078</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>26.461</X>
+                      <Y>46.6165</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>26</X>
+                      <Y>47.592</Y>
+                    </Point1>
+                    <Point2>
+                      <X>26.203999999999994</X>
+                      <Y>47.796000000000006</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>26.101999999999997</X>
+                      <Y>47.694</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>26</X>
+                      <Y>44.718</Y>
+                    </Point1>
+                    <Point2>
+                      <X>27.641000000000005</X>
+                      <Y>46.358999999999995</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>26.820500000000003</X>
+                      <Y>45.5385</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>26</X>
+                      <Y>45.437</Y>
+                    </Point1>
+                    <Point2>
+                      <X>27.281999999999996</X>
+                      <Y>46.718</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>26.641</X>
+                      <Y>46.0775</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>31</X>
+                      <Y>41</Y>
+                    </Point1>
+                    <Point2>
+                      <X>31</X>
+                      <Y>43</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>31</X>
+                      <Y>42</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>26.592</X>
+                      <Y>37.408</Y>
+                    </Point1>
+                    <Point2>
+                      <X>31</X>
+                      <Y>41.816</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>28.796</X>
+                      <Y>39.612</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>26.233000000000004</X>
+                      <Y>37.766999999999996</Y>
+                    </Point1>
+                    <Point2>
+                      <X>31</X>
+                      <Y>42.534000000000006</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>28.616500000000002</X>
+                      <Y>40.1505</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>27</X>
+                      <Y>37</Y>
+                    </Point1>
+                    <Point2>
+                      <X>31</X>
+                      <Y>41</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>29</X>
+                      <Y>39</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>26.950999999999993</X>
+                      <Y>37.049000000000007</Y>
+                    </Point1>
+                    <Point2>
+                      <X>31</X>
+                      <Y>41.096999999999994</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>28.975499999999997</X>
+                      <Y>39.073</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>26</X>
+                      <Y>45.837</Y>
+                    </Point1>
+                    <Point2>
+                      <X>30.918000000000006</X>
+                      <Y>40.918000000000006</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>28.459000000000003</X>
+                      <Y>43.377500000000005</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>26</X>
+                      <Y>45.117999999999995</Y>
+                    </Point1>
+                    <Point2>
+                      <X>30.558999999999997</X>
+                      <Y>40.559</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>28.2795</X>
+                      <Y>42.838499999999996</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>26.592</X>
+                      <Y>37.408</Y>
+                    </Point1>
+                    <Point2>
+                      <X>31</X>
+                      <Y>41.816</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>28.796</X>
+                      <Y>39.612</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>26</X>
+                      <Y>41.126000000000005</Y>
+                    </Point1>
+                    <Point2>
+                      <X>29.436999999999998</X>
+                      <Y>44.563</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>27.7185</X>
+                      <Y>42.844500000000004</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>26</X>
+                      <Y>40.408</Y>
+                    </Point1>
+                    <Point2>
+                      <X>29.796000000000006</X>
+                      <Y>44.203999999999994</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>27.898000000000003</X>
+                      <Y>42.306</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>26</X>
+                      <Y>44.400000000000006</Y>
+                    </Point1>
+                    <Point2>
+                      <X>30.200000000000003</X>
+                      <Y>40.2</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>28.1</X>
+                      <Y>42.300000000000004</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>26</X>
+                      <Y>39.688999999999993</Y>
+                    </Point1>
+                    <Point2>
+                      <X>30.155</X>
+                      <Y>43.845</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>28.0775</X>
+                      <Y>41.766999999999996</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>26</X>
+                      <Y>42.962999999999994</Y>
+                    </Point1>
+                    <Point2>
+                      <X>29.480999999999995</X>
+                      <Y>39.482</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>27.740499999999997</X>
+                      <Y>41.2225</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>26</X>
+                      <Y>43.681</Y>
+                    </Point1>
+                    <Point2>
+                      <X>29.840999999999994</X>
+                      <Y>39.840999999999994</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>27.920499999999997</X>
+                      <Y>41.760999999999996</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>26</X>
+                      <Y>43.282</Y>
+                    </Point1>
+                    <Point2>
+                      <X>28.358999999999995</X>
+                      <Y>45.641000000000005</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>27.179499999999997</X>
+                      <Y>44.4615</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>26</X>
+                      <Y>44</Y>
+                    </Point1>
+                    <Point2>
+                      <X>28</X>
+                      <Y>46</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>27</X>
+                      <Y>45</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>26</X>
+                      <Y>42.245000000000005</Y>
+                    </Point1>
+                    <Point2>
+                      <X>29.122</X>
+                      <Y>39.122</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>27.561</X>
+                      <Y>40.6835</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>26</X>
+                      <Y>42.563</Y>
+                    </Point1>
+                    <Point2>
+                      <X>28.718000000000004</X>
+                      <Y>45.282</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>27.359</X>
+                      <Y>43.9225</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>26</X>
+                      <Y>41.525999999999996</Y>
+                    </Point1>
+                    <Point2>
+                      <X>28.763000000000005</X>
+                      <Y>38.763000000000005</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>27.381500000000003</X>
+                      <Y>40.1445</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>26</X>
+                      <Y>38.253</Y>
+                    </Point1>
+                    <Point2>
+                      <X>30.873999999999995</X>
+                      <Y>43.126000000000005</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>28.436999999999998</X>
+                      <Y>40.6895</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>26</X>
+                      <Y>38.971000000000004</Y>
+                    </Point1>
+                    <Point2>
+                      <X>30.513999999999996</X>
+                      <Y>43.486000000000004</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>28.256999999999998</X>
+                      <Y>41.228500000000004</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>26</X>
+                      <Y>40.808000000000007</Y>
+                    </Point1>
+                    <Point2>
+                      <X>28.403999999999996</X>
+                      <Y>38.403999999999996</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>27.201999999999998</X>
+                      <Y>39.606</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>26</X>
+                      <Y>40.089</Y>
+                    </Point1>
+                    <Point2>
+                      <X>28.045</X>
+                      <Y>38.045</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>27.0225</X>
+                      <Y>39.067</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>26</X>
+                      <Y>39.370999999999995</Y>
+                    </Point1>
+                    <Point2>
+                      <X>27.685000000000002</X>
+                      <Y>37.685</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>26.8425</X>
+                      <Y>38.528</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>26</X>
+                      <Y>38</Y>
+                    </Point1>
+                    <Point2>
+                      <X>26</X>
+                      <Y>48</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>26</X>
+                      <Y>43</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>26</X>
+                      <Y>38</Y>
+                    </Point1>
+                    <Point2>
+                      <X>27</X>
+                      <Y>37</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>26.5</X>
+                      <Y>37.5</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>26</X>
+                      <Y>38.652</Y>
+                    </Point1>
+                    <Point2>
+                      <X>27.325999999999993</X>
+                      <Y>37.325999999999993</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>26.662999999999997</X>
+                      <Y>37.989</Y>
+                    </MiddlePoint>
+                  </Line>
+                </Line>
                 <Arc>
                   <Arc>
                     <StartAngle>0</StartAngle>
@@ -1076,6 +1850,7 @@
               </contour>
             </Tracks>
             <Tracks>
+              <width>0.15</width>
               <contour>
                 <Line>
                   <Line>
@@ -1755,6 +2530,233 @@
               </contour>
             </Tracks>
           </Tracks>
+          <Pad />
+          <Text>
+            <Text>
+              <value>C1</value>
+              <x>21.799999999999997</x>
+              <y>27.400000000000006</y>
+              <angle>0</angle>
+              <size>1.524</size>
+              <fontName>Arial</fontName>
+            </Text>
+            <Text>
+              <value>CAP</value>
+              <x>20.212999999999994</x>
+              <y>16.902</y>
+              <angle>0</angle>
+              <size>1.524</size>
+              <fontName>Arial</fontName>
+            </Text>
+            <Text>
+              <value>C2</value>
+              <x>13.099999999999994</x>
+              <y>28</y>
+              <angle>0</angle>
+              <size>1.524</size>
+              <fontName>Arial</fontName>
+            </Text>
+            <Text>
+              <value>CAP</value>
+              <x>10.307000000000002</x>
+              <y>16.902</y>
+              <angle>0</angle>
+              <size>1.524</size>
+              <fontName>Arial</fontName>
+            </Text>
+            <Text>
+              <value>R1</value>
+              <x>24.918000000000006</x>
+              <y>9.863</y>
+              <angle>0</angle>
+              <size>1.524</size>
+              <fontName>Arial</fontName>
+            </Text>
+            <Text>
+              <value>RES</value>
+              <x>24.92</x>
+              <y>0.61700000000000443</y>
+              <angle>0</angle>
+              <size>1.524</size>
+              <fontName>Arial</fontName>
+            </Text>
+            <Text>
+              <value>R2</value>
+              <x>16.799999999999997</x>
+              <y>13.5</y>
+              <angle>0</angle>
+              <size>1.524</size>
+              <fontName>Arial</fontName>
+            </Text>
+            <Text>
+              <value>RES</value>
+              <x>19.92</x>
+              <y>7.4669999999999987</y>
+              <angle>0</angle>
+              <size>1.524</size>
+              <fontName>Arial</fontName>
+            </Text>
+            <Text>
+              <value>R3</value>
+              <x>14.778000000000006</x>
+              <y>10.018</y>
+              <angle>0</angle>
+              <size>1.524</size>
+              <fontName>Arial</fontName>
+            </Text>
+            <Text>
+              <value>RES</value>
+              <x>14.768</x>
+              <y>4.4579999999999984</y>
+              <angle>0</angle>
+              <size>1.524</size>
+              <fontName>Arial</fontName>
+            </Text>
+            <Text>
+              <value>R4</value>
+              <x>7</x>
+              <y>5.5999999999999943</y>
+              <angle>0</angle>
+              <size>1.524</size>
+              <fontName>Arial</fontName>
+            </Text>
+            <Text>
+              <value>RES</value>
+              <x>11.302000000000007</x>
+              <y>0.7780000000000058</y>
+              <angle>0</angle>
+              <size>1.524</size>
+              <fontName>Arial</fontName>
+            </Text>
+            <Text>
+              <value>VT1</value>
+              <x>24.799999999999997</x>
+              <y>40.8</y>
+              <angle>0</angle>
+              <size>1.524</size>
+              <fontName>Arial</fontName>
+            </Text>
+            <Text>
+              <value>Name</value>
+              <x>13.512</x>
+              <y>23.786</y>
+              <angle>0</angle>
+              <size>1.524</size>
+              <fontName>Arial</fontName>
+            </Text>
+            <Text>
+              <value>VT2</value>
+              <x>13.700000000000003</x>
+              <y>40.400000000000006</y>
+              <angle>0</angle>
+              <size>1.524</size>
+              <fontName>Arial</fontName>
+            </Text>
+            <Text>
+              <value>Name</value>
+              <x>-0.28700000000000614</x>
+              <y>17.986000000000004</y>
+              <angle>0</angle>
+              <size>1.524</size>
+              <fontName>Arial</fontName>
+            </Text>
+            <Text>
+              <value>XP2</value>
+              <x>1</x>
+              <y>17</y>
+              <angle>0</angle>
+              <size>1.524</size>
+              <fontName>Arial</fontName>
+            </Text>
+            <Text>
+              <value>Name</value>
+              <x>1.0160000000000053</x>
+              <y>13.235</y>
+              <angle>0</angle>
+              <size>1.524</size>
+              <fontName>Arial</fontName>
+            </Text>
+            <Text>
+              <value>P1</value>
+              <x>4</x>
+              <y>46</y>
+              <angle>0</angle>
+              <size>1.524</size>
+              <fontName>Arial</fontName>
+            </Text>
+            <Text>
+              <value>Connektor</value>
+              <x>2.6569999999999965</x>
+              <y>42.117000000000004</y>
+              <angle>0</angle>
+              <size>1.524</size>
+              <fontName>Arial</fontName>
+            </Text>
+            <Text>
+              <value>P2</value>
+              <x>4</x>
+              <y>41</y>
+              <angle>0</angle>
+              <size>1.524</size>
+              <fontName>Arial</fontName>
+            </Text>
+            <Text>
+              <value>Connektor</value>
+              <x>-1.3430000000000035</x>
+              <y>41.117000000000004</y>
+              <angle>0</angle>
+              <size>1.524</size>
+              <fontName>Arial</fontName>
+            </Text>
+            <Text>
+              <value>P3</value>
+              <x>4</x>
+              <y>35</y>
+              <angle>0</angle>
+              <size>1.524</size>
+              <fontName>Arial</fontName>
+            </Text>
+            <Text>
+              <value>Connektor</value>
+              <x>-5.3430000000000035</x>
+              <y>39.117000000000004</y>
+              <angle>0</angle>
+              <size>1.524</size>
+              <fontName>Arial</fontName>
+            </Text>
+            <Text>
+              <value>P4</value>
+              <x>4</x>
+              <y>31</y>
+              <angle>0</angle>
+              <size>1.524</size>
+              <fontName>Arial</fontName>
+            </Text>
+            <Text>
+              <value>Connektor</value>
+              <x>-10.343000000000004</x>
+              <y>39.117000000000004</y>
+              <angle>0</angle>
+              <size>1.524</size>
+              <fontName>Arial</fontName>
+            </Text>
+            <Text>
+              <value>XP1</value>
+              <x>3</x>
+              <y>26.540000000000006</y>
+              <angle>0</angle>
+              <size>1.524</size>
+              <fontName>Arial</fontName>
+            </Text>
+            <Text>
+              <value>Name</value>
+              <x>1.0160000000000053</x>
+              <y>20.235</y>
+              <angle>0</angle>
+              <size>1.524</size>
+              <fontName>Arial</fontName>
+            </Text>
+          </Text>
         </paint>
       </Layer>
       <Layer>
@@ -1762,9 +2764,10 @@
         <thickness>0</thickness>
         <layerNumber>37</layerNumber>
         <paint>
-          <Text />
           <Polygon />
           <Tracks />
+          <Pad />
+          <Text />
         </paint>
       </Layer>
       <Layer>
@@ -1772,10 +2775,10 @@
         <thickness>0.036</thickness>
         <layerNumber>1</layerNumber>
         <paint>
-          <Text />
           <Polygon />
           <Tracks>
             <Tracks>
+              <width>0.254</width>
               <contour>
                 <Line>
                   <Line>
@@ -2553,6 +3556,1143 @@
               </contour>
             </Tracks>
           </Tracks>
+          <Pad>
+            <Pad>
+              <contour>
+                <Line>
+                  <Line>
+                    <Point1>
+                      <X>20.35</X>
+                      <Y>44</Y>
+                    </Point1>
+                    <Point2>
+                      <X>20.35</X>
+                      <Y>46</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>20.35</X>
+                      <Y>45</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>19.65</X>
+                      <Y>44</Y>
+                    </Point1>
+                    <Point2>
+                      <X>19.65</X>
+                      <Y>46</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>19.65</X>
+                      <Y>45</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>20.35</X>
+                      <Y>44</Y>
+                    </Point1>
+                    <Point2>
+                      <X>19.65</X>
+                      <Y>44</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>20</X>
+                      <Y>44</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>20.35</X>
+                      <Y>46</Y>
+                    </Point1>
+                    <Point2>
+                      <X>19.65</X>
+                      <Y>46</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>20</X>
+                      <Y>46</Y>
+                    </MiddlePoint>
+                  </Line>
+                </Line>
+                <Arc />
+              </contour>
+            </Pad>
+            <Pad>
+              <contour>
+                <Line>
+                  <Line>
+                    <Point1>
+                      <X>22.15</X>
+                      <Y>34.400000000000006</Y>
+                    </Point1>
+                    <Point2>
+                      <X>22.15</X>
+                      <Y>32.400000000000006</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>22.15</X>
+                      <Y>33.400000000000006</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>22.85</X>
+                      <Y>34.400000000000006</Y>
+                    </Point1>
+                    <Point2>
+                      <X>22.85</X>
+                      <Y>32.400000000000006</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>22.85</X>
+                      <Y>33.400000000000006</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>22.15</X>
+                      <Y>34.400000000000006</Y>
+                    </Point1>
+                    <Point2>
+                      <X>22.85</X>
+                      <Y>34.400000000000006</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>22.5</X>
+                      <Y>34.400000000000006</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>22.15</X>
+                      <Y>32.400000000000006</Y>
+                    </Point1>
+                    <Point2>
+                      <X>22.85</X>
+                      <Y>32.400000000000006</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>22.5</X>
+                      <Y>32.400000000000006</Y>
+                    </MiddlePoint>
+                  </Line>
+                </Line>
+                <Arc />
+              </contour>
+            </Pad>
+            <Pad>
+              <contour>
+                <Line>
+                  <Line>
+                    <Point1>
+                      <X>25.35</X>
+                      <Y>44</Y>
+                    </Point1>
+                    <Point2>
+                      <X>25.35</X>
+                      <Y>46</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>25.35</X>
+                      <Y>45</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>24.65</X>
+                      <Y>44</Y>
+                    </Point1>
+                    <Point2>
+                      <X>24.65</X>
+                      <Y>46</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>24.65</X>
+                      <Y>45</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>25.35</X>
+                      <Y>44</Y>
+                    </Point1>
+                    <Point2>
+                      <X>24.65</X>
+                      <Y>44</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>25</X>
+                      <Y>44</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>25.35</X>
+                      <Y>46</Y>
+                    </Point1>
+                    <Point2>
+                      <X>24.65</X>
+                      <Y>46</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>25</X>
+                      <Y>46</Y>
+                    </MiddlePoint>
+                  </Line>
+                </Line>
+                <Arc />
+              </contour>
+            </Pad>
+            <Pad>
+              <contour>
+                <Line>
+                  <Line>
+                    <Point1>
+                      <X>12.35</X>
+                      <Y>44</Y>
+                    </Point1>
+                    <Point2>
+                      <X>12.35</X>
+                      <Y>46</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>12.35</X>
+                      <Y>45</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>11.65</X>
+                      <Y>44</Y>
+                    </Point1>
+                    <Point2>
+                      <X>11.65</X>
+                      <Y>46</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>11.65</X>
+                      <Y>45</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>12.35</X>
+                      <Y>44</Y>
+                    </Point1>
+                    <Point2>
+                      <X>11.65</X>
+                      <Y>44</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>12</X>
+                      <Y>44</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>12.35</X>
+                      <Y>46</Y>
+                    </Point1>
+                    <Point2>
+                      <X>11.65</X>
+                      <Y>46</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>12</X>
+                      <Y>46</Y>
+                    </MiddlePoint>
+                  </Line>
+                </Line>
+                <Arc />
+              </contour>
+            </Pad>
+            <Pad>
+              <contour>
+                <Line>
+                  <Line>
+                    <Point1>
+                      <X>14.15</X>
+                      <Y>34.400000000000006</Y>
+                    </Point1>
+                    <Point2>
+                      <X>14.15</X>
+                      <Y>32.400000000000006</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>14.15</X>
+                      <Y>33.400000000000006</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>14.85</X>
+                      <Y>34.400000000000006</Y>
+                    </Point1>
+                    <Point2>
+                      <X>14.85</X>
+                      <Y>32.400000000000006</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>14.85</X>
+                      <Y>33.400000000000006</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>14.15</X>
+                      <Y>34.400000000000006</Y>
+                    </Point1>
+                    <Point2>
+                      <X>14.85</X>
+                      <Y>34.400000000000006</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>14.5</X>
+                      <Y>34.400000000000006</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>14.15</X>
+                      <Y>32.400000000000006</Y>
+                    </Point1>
+                    <Point2>
+                      <X>14.85</X>
+                      <Y>32.400000000000006</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>14.5</X>
+                      <Y>32.400000000000006</Y>
+                    </MiddlePoint>
+                  </Line>
+                </Line>
+                <Arc />
+              </contour>
+            </Pad>
+            <Pad>
+              <contour>
+                <Line>
+                  <Line>
+                    <Point1>
+                      <X>17.35</X>
+                      <Y>44</Y>
+                    </Point1>
+                    <Point2>
+                      <X>17.35</X>
+                      <Y>46</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>17.35</X>
+                      <Y>45</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>16.65</X>
+                      <Y>44</Y>
+                    </Point1>
+                    <Point2>
+                      <X>16.65</X>
+                      <Y>46</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>16.65</X>
+                      <Y>45</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>17.35</X>
+                      <Y>44</Y>
+                    </Point1>
+                    <Point2>
+                      <X>16.65</X>
+                      <Y>44</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>17</X>
+                      <Y>44</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>17.35</X>
+                      <Y>46</Y>
+                    </Point1>
+                    <Point2>
+                      <X>16.65</X>
+                      <Y>46</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>17</X>
+                      <Y>46</Y>
+                    </MiddlePoint>
+                  </Line>
+                </Line>
+                <Arc />
+              </contour>
+            </Pad>
+            <Pad>
+              <contour>
+                <Line>
+                  <Line>
+                    <Point1>
+                      <X>11.669999999999996</X>
+                      <Y>21.778999999999996</Y>
+                    </Point1>
+                    <Point2>
+                      <X>11.669999999999996</X>
+                      <Y>19.278999999999996</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>11.669999999999996</X>
+                      <Y>20.528999999999996</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>12.869999999999996</X>
+                      <Y>21.778999999999996</Y>
+                    </Point1>
+                    <Point2>
+                      <X>12.869999999999996</X>
+                      <Y>19.278999999999996</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>12.869999999999996</X>
+                      <Y>20.528999999999996</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>11.669999999999996</X>
+                      <Y>21.778999999999996</Y>
+                    </Point1>
+                    <Point2>
+                      <X>12.869999999999996</X>
+                      <Y>21.778999999999996</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>12.269999999999996</X>
+                      <Y>21.778999999999996</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>11.669999999999996</X>
+                      <Y>19.278999999999996</Y>
+                    </Point1>
+                    <Point2>
+                      <X>12.869999999999996</X>
+                      <Y>19.278999999999996</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>12.269999999999996</X>
+                      <Y>19.278999999999996</Y>
+                    </MiddlePoint>
+                  </Line>
+                </Line>
+                <Arc />
+              </contour>
+            </Pad>
+            <Pad>
+              <contour>
+                <Line>
+                  <Line>
+                    <Point1>
+                      <X>14.169999999999996</X>
+                      <Y>21.778999999999996</Y>
+                    </Point1>
+                    <Point2>
+                      <X>14.169999999999996</X>
+                      <Y>19.278999999999996</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>14.169999999999996</X>
+                      <Y>20.528999999999996</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>15.369999999999996</X>
+                      <Y>21.778999999999996</Y>
+                    </Point1>
+                    <Point2>
+                      <X>15.369999999999996</X>
+                      <Y>19.278999999999996</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>15.369999999999996</X>
+                      <Y>20.528999999999996</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>14.169999999999996</X>
+                      <Y>21.778999999999996</Y>
+                    </Point1>
+                    <Point2>
+                      <X>15.369999999999996</X>
+                      <Y>21.778999999999996</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>14.769999999999996</X>
+                      <Y>21.778999999999996</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>14.169999999999996</X>
+                      <Y>19.278999999999996</Y>
+                    </Point1>
+                    <Point2>
+                      <X>15.369999999999996</X>
+                      <Y>19.278999999999996</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>14.769999999999996</X>
+                      <Y>19.278999999999996</Y>
+                    </MiddlePoint>
+                  </Line>
+                </Line>
+                <Arc />
+              </contour>
+            </Pad>
+            <Pad>
+              <contour>
+                <Line>
+                  <Line>
+                    <Point1>
+                      <X>21.576</X>
+                      <Y>21.778999999999996</Y>
+                    </Point1>
+                    <Point2>
+                      <X>21.576</X>
+                      <Y>19.278999999999996</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>21.576</X>
+                      <Y>20.528999999999996</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>22.776000000000003</X>
+                      <Y>21.778999999999996</Y>
+                    </Point1>
+                    <Point2>
+                      <X>22.776000000000003</X>
+                      <Y>19.278999999999996</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>22.776000000000003</X>
+                      <Y>20.528999999999996</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>21.576</X>
+                      <Y>21.778999999999996</Y>
+                    </Point1>
+                    <Point2>
+                      <X>22.776000000000003</X>
+                      <Y>21.778999999999996</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>22.176000000000002</X>
+                      <Y>21.778999999999996</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>21.576</X>
+                      <Y>19.278999999999996</Y>
+                    </Point1>
+                    <Point2>
+                      <X>22.776000000000003</X>
+                      <Y>19.278999999999996</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>22.176000000000002</X>
+                      <Y>19.278999999999996</Y>
+                    </MiddlePoint>
+                  </Line>
+                </Line>
+                <Arc />
+              </contour>
+            </Pad>
+            <Pad>
+              <contour>
+                <Line>
+                  <Line>
+                    <Point1>
+                      <X>24.076</X>
+                      <Y>21.778999999999996</Y>
+                    </Point1>
+                    <Point2>
+                      <X>24.076</X>
+                      <Y>19.278999999999996</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>24.076</X>
+                      <Y>20.528999999999996</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>25.276000000000003</X>
+                      <Y>21.778999999999996</Y>
+                    </Point1>
+                    <Point2>
+                      <X>25.276000000000003</X>
+                      <Y>19.278999999999996</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>25.276000000000003</X>
+                      <Y>20.528999999999996</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>24.076</X>
+                      <Y>21.778999999999996</Y>
+                    </Point1>
+                    <Point2>
+                      <X>25.276000000000003</X>
+                      <Y>21.778999999999996</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>24.676000000000002</X>
+                      <Y>21.778999999999996</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>24.076</X>
+                      <Y>19.278999999999996</Y>
+                    </Point1>
+                    <Point2>
+                      <X>25.276000000000003</X>
+                      <Y>19.278999999999996</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>24.676000000000002</X>
+                      <Y>19.278999999999996</Y>
+                    </MiddlePoint>
+                  </Line>
+                </Line>
+                <Arc />
+              </contour>
+            </Pad>
+            <Pad>
+              <contour>
+                <Line>
+                  <Line>
+                    <Point1>
+                      <X>21.725</X>
+                      <Y>10.225</Y>
+                    </Point1>
+                    <Point2>
+                      <X>21.725</X>
+                      <Y>11.775</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>21.725</X>
+                      <Y>11</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>20.275</X>
+                      <Y>10.225</Y>
+                    </Point1>
+                    <Point2>
+                      <X>20.275</X>
+                      <Y>11.775</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>20.275</X>
+                      <Y>11</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>21.725</X>
+                      <Y>10.225</Y>
+                    </Point1>
+                    <Point2>
+                      <X>20.275</X>
+                      <Y>10.225</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>21</X>
+                      <Y>10.225</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>21.725</X>
+                      <Y>11.775</Y>
+                    </Point1>
+                    <Point2>
+                      <X>20.275</X>
+                      <Y>11.775</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>21</X>
+                      <Y>11.775</Y>
+                    </MiddlePoint>
+                  </Line>
+                </Line>
+                <Arc />
+              </contour>
+            </Pad>
+            <Pad>
+              <contour>
+                <Line>
+                  <Line>
+                    <Point1>
+                      <X>19.875000000000007</X>
+                      <Y>10.225</Y>
+                    </Point1>
+                    <Point2>
+                      <X>19.875000000000007</X>
+                      <Y>11.775</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>19.875000000000007</X>
+                      <Y>11</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>18.425000000000004</X>
+                      <Y>10.225</Y>
+                    </Point1>
+                    <Point2>
+                      <X>18.425000000000004</X>
+                      <Y>11.775</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>18.425000000000004</X>
+                      <Y>11</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>19.875000000000007</X>
+                      <Y>10.225</Y>
+                    </Point1>
+                    <Point2>
+                      <X>18.425000000000004</X>
+                      <Y>10.225</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>19.150000000000006</X>
+                      <Y>10.225</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>19.875000000000007</X>
+                      <Y>11.775</Y>
+                    </Point1>
+                    <Point2>
+                      <X>18.425000000000004</X>
+                      <Y>11.775</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>19.150000000000006</X>
+                      <Y>11.775</Y>
+                    </MiddlePoint>
+                  </Line>
+                </Line>
+                <Arc />
+              </contour>
+            </Pad>
+            <Pad>
+              <contour>
+                <Line>
+                  <Line>
+                    <Point1>
+                      <X>11.325000000000003</X>
+                      <Y>4.35</Y>
+                    </Point1>
+                    <Point2>
+                      <X>10.575000000000003</X>
+                      <Y>4.35</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>10.950000000000003</X>
+                      <Y>4.35</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>11.325000000000003</X>
+                      <Y>3.65</Y>
+                    </Point1>
+                    <Point2>
+                      <X>10.575000000000003</X>
+                      <Y>3.65</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>10.950000000000003</X>
+                      <Y>3.65</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>11.325000000000003</X>
+                      <Y>4.35</Y>
+                    </Point1>
+                    <Point2>
+                      <X>11.325000000000003</X>
+                      <Y>3.65</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>11.325000000000003</X>
+                      <Y>4</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>10.575000000000003</X>
+                      <Y>4.35</Y>
+                    </Point1>
+                    <Point2>
+                      <X>10.575000000000003</X>
+                      <Y>3.65</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>10.575000000000003</X>
+                      <Y>4</Y>
+                    </MiddlePoint>
+                  </Line>
+                </Line>
+                <Arc />
+              </contour>
+            </Pad>
+            <Pad>
+              <contour>
+                <Line>
+                  <Line>
+                    <Point1>
+                      <X>12.375</X>
+                      <Y>4.35</Y>
+                    </Point1>
+                    <Point2>
+                      <X>11.625</X>
+                      <Y>4.35</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>12</X>
+                      <Y>4.35</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>12.375</X>
+                      <Y>3.65</Y>
+                    </Point1>
+                    <Point2>
+                      <X>11.625</X>
+                      <Y>3.65</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>12</X>
+                      <Y>3.65</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>12.375</X>
+                      <Y>4.35</Y>
+                    </Point1>
+                    <Point2>
+                      <X>12.375</X>
+                      <Y>3.65</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>12.375</X>
+                      <Y>4</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>11.625</X>
+                      <Y>4.35</Y>
+                    </Point1>
+                    <Point2>
+                      <X>11.625</X>
+                      <Y>3.65</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>11.625</X>
+                      <Y>4</Y>
+                    </MiddlePoint>
+                  </Line>
+                </Line>
+                <Arc />
+              </contour>
+            </Pad>
+            <Pad>
+              <contour>
+                <Line>
+                  <Line>
+                    <Point1>
+                      <X>26.775</X>
+                      <Y>8.574999999999994</Y>
+                    </Point1>
+                    <Point2>
+                      <X>25.225</X>
+                      <Y>8.574999999999994</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>26</X>
+                      <Y>8.574999999999994</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>26.775</X>
+                      <Y>7.1249999999999947</Y>
+                    </Point1>
+                    <Point2>
+                      <X>25.225</X>
+                      <Y>7.1249999999999947</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>26</X>
+                      <Y>7.1249999999999947</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>26.775</X>
+                      <Y>8.574999999999994</Y>
+                    </Point1>
+                    <Point2>
+                      <X>26.775</X>
+                      <Y>7.1249999999999947</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>26.775</X>
+                      <Y>7.8499999999999943</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>25.225</X>
+                      <Y>8.574999999999994</Y>
+                    </Point1>
+                    <Point2>
+                      <X>25.225</X>
+                      <Y>7.1249999999999947</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>25.225</X>
+                      <Y>7.8499999999999943</Y>
+                    </MiddlePoint>
+                  </Line>
+                </Line>
+                <Arc />
+              </contour>
+            </Pad>
+            <Pad>
+              <contour>
+                <Line>
+                  <Line>
+                    <Point1>
+                      <X>26.775</X>
+                      <Y>6.725</Y>
+                    </Point1>
+                    <Point2>
+                      <X>25.225</X>
+                      <Y>6.725</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>26</X>
+                      <Y>6.725</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>26.775</X>
+                      <Y>5.275</Y>
+                    </Point1>
+                    <Point2>
+                      <X>25.225</X>
+                      <Y>5.275</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>26</X>
+                      <Y>5.275</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>26.775</X>
+                      <Y>6.725</Y>
+                    </Point1>
+                    <Point2>
+                      <X>26.775</X>
+                      <Y>5.275</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>26.775</X>
+                      <Y>6</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>25.225</X>
+                      <Y>6.725</Y>
+                    </Point1>
+                    <Point2>
+                      <X>25.225</X>
+                      <Y>5.275</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>25.225</X>
+                      <Y>6</Y>
+                    </MiddlePoint>
+                  </Line>
+                </Line>
+                <Arc />
+              </contour>
+            </Pad>
+            <Pad>
+              <contour>
+                <Line>
+                  <Line>
+                    <Point1>
+                      <X>16.95</X>
+                      <Y>5.6750000000000025</Y>
+                    </Point1>
+                    <Point2>
+                      <X>15.05</X>
+                      <Y>5.6750000000000025</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>16</X>
+                      <Y>5.6750000000000025</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>16.95</X>
+                      <Y>4.2250000000000032</Y>
+                    </Point1>
+                    <Point2>
+                      <X>15.05</X>
+                      <Y>4.2250000000000032</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>16</X>
+                      <Y>4.2250000000000032</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>16.95</X>
+                      <Y>5.6750000000000025</Y>
+                    </Point1>
+                    <Point2>
+                      <X>16.95</X>
+                      <Y>4.2250000000000032</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>16.95</X>
+                      <Y>4.9500000000000028</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>15.05</X>
+                      <Y>5.6750000000000025</Y>
+                    </Point1>
+                    <Point2>
+                      <X>15.05</X>
+                      <Y>4.2250000000000032</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>15.05</X>
+                      <Y>4.9500000000000028</Y>
+                    </MiddlePoint>
+                  </Line>
+                </Line>
+                <Arc />
+              </contour>
+            </Pad>
+            <Pad>
+              <contour>
+                <Line>
+                  <Line>
+                    <Point1>
+                      <X>16.95</X>
+                      <Y>8.725</Y>
+                    </Point1>
+                    <Point2>
+                      <X>15.05</X>
+                      <Y>8.725</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>16</X>
+                      <Y>8.725</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>16.95</X>
+                      <Y>7.275</Y>
+                    </Point1>
+                    <Point2>
+                      <X>15.05</X>
+                      <Y>7.275</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>16</X>
+                      <Y>7.275</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>16.95</X>
+                      <Y>8.725</Y>
+                    </Point1>
+                    <Point2>
+                      <X>16.95</X>
+                      <Y>7.275</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>16.95</X>
+                      <Y>8</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>15.05</X>
+                      <Y>8.725</Y>
+                    </Point1>
+                    <Point2>
+                      <X>15.05</X>
+                      <Y>7.275</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>15.05</X>
+                      <Y>8</Y>
+                    </MiddlePoint>
+                  </Line>
+                </Line>
+                <Arc />
+              </contour>
+            </Pad>
+          </Pad>
+          <Text />
         </paint>
       </Layer>
       <Layer>
@@ -2560,9 +4700,10 @@
         <thickness>0.036</thickness>
         <layerNumber>32</layerNumber>
         <paint>
-          <Text />
           <Polygon />
           <Tracks />
+          <Pad />
+          <Text />
         </paint>
       </Layer>
       <Layer>
@@ -2570,9 +4711,10 @@
         <thickness>0</thickness>
         <layerNumber>38</layerNumber>
         <paint>
-          <Text />
           <Polygon />
           <Tracks />
+          <Pad />
+          <Text />
         </paint>
       </Layer>
       <Layer>
@@ -2580,9 +4722,10 @@
         <thickness>0</thickness>
         <layerNumber>34</layerNumber>
         <paint>
-          <Text />
           <Polygon />
           <Tracks />
+          <Pad />
+          <Text />
         </paint>
       </Layer>
       <Layer>
@@ -2590,9 +4733,10 @@
         <thickness>0</thickness>
         <layerNumber>36</layerNumber>
         <paint>
-          <Text />
           <Polygon />
           <Tracks />
+          <Pad />
+          <Text />
         </paint>
       </Layer>
       <Layer>
@@ -2600,9 +4744,10 @@
         <thickness>0</thickness>
         <layerNumber>55</layerNumber>
         <paint>
-          <Text />
           <Polygon />
           <Tracks />
+          <Pad />
+          <Text />
         </paint>
       </Layer>
       <Layer>
@@ -2610,9 +4755,10 @@
         <thickness>0</thickness>
         <layerNumber>56</layerNumber>
         <paint>
-          <Text />
           <Polygon />
           <Tracks />
+          <Pad />
+          <Text />
         </paint>
       </Layer>
       <Layer>
@@ -2620,9 +4766,10 @@
         <thickness>0</thickness>
         <layerNumber>57</layerNumber>
         <paint>
-          <Text />
           <Polygon />
           <Tracks />
+          <Pad />
+          <Text />
         </paint>
       </Layer>
       <Layer>
@@ -2630,75 +4777,10 @@
         <thickness>0</thickness>
         <layerNumber>69</layerNumber>
         <paint>
-          <Text>
-            <Text>
-              <value>VT1</value>
-              <x>21.5</x>
-              <y>42.45</y>
-              <angle>270</angle>
-              <size>-3.61</size>
-              <fontName>Arial</fontName>
-            </Text>
-            <Text>
-              <value>VT2</value>
-              <x>13.5</x>
-              <y>42.45</y>
-              <angle>270</angle>
-              <size>-3.61</size>
-              <fontName>Arial</fontName>
-            </Text>
-            <Text>
-              <value>C2</value>
-              <x>13.518</x>
-              <y>27.326999999999998</y>
-              <angle>360</angle>
-              <size>0.724</size>
-              <fontName>Arial</fontName>
-            </Text>
-            <Text>
-              <value>C1</value>
-              <x>23.424000000000007</x>
-              <y>27.326999999999998</y>
-              <angle>360</angle>
-              <size>0.724</size>
-              <fontName>Arial</fontName>
-            </Text>
-            <Text>
-              <value>R2</value>
-              <x>20.075000000000003</x>
-              <y>11</y>
-              <angle>180</angle>
-              <size>-0.254</size>
-              <fontName>Arial</fontName>
-            </Text>
-            <Text>
-              <value>R4</value>
-              <x>11.474999999999994</x>
-              <y>4</y>
-              <angle>180</angle>
-              <size>-0.254</size>
-              <fontName>Arial</fontName>
-            </Text>
-            <Text>
-              <value>R1</value>
-              <x>26</x>
-              <y>6.9249999999999972</y>
-              <angle>270</angle>
-              <size>-0.454</size>
-              <fontName>Arial</fontName>
-            </Text>
-            <Text>
-              <value>R3</value>
-              <x>16</x>
-              <y>6.4749999999999943</y>
-              <angle>270</angle>
-              <size>-0.53899999999999992</size>
-              <fontName>Arial</fontName>
-            </Text>
-          </Text>
           <Polygon />
           <Tracks>
             <Tracks>
+              <width>0.15</width>
               <contour>
                 <Line>
                   <Line>
@@ -3959,6 +6041,73 @@
               </contour>
             </Tracks>
           </Tracks>
+          <Pad />
+          <Text>
+            <Text>
+              <value>VT1</value>
+              <x>21.5</x>
+              <y>42.45</y>
+              <angle>270</angle>
+              <size>-3.61</size>
+              <fontName>Arial</fontName>
+            </Text>
+            <Text>
+              <value>VT2</value>
+              <x>13.5</x>
+              <y>42.45</y>
+              <angle>270</angle>
+              <size>-3.61</size>
+              <fontName>Arial</fontName>
+            </Text>
+            <Text>
+              <value>C2</value>
+              <x>13.518</x>
+              <y>27.326999999999998</y>
+              <angle>360</angle>
+              <size>0.724</size>
+              <fontName>Arial</fontName>
+            </Text>
+            <Text>
+              <value>C1</value>
+              <x>23.424000000000007</x>
+              <y>27.326999999999998</y>
+              <angle>360</angle>
+              <size>0.724</size>
+              <fontName>Arial</fontName>
+            </Text>
+            <Text>
+              <value>R2</value>
+              <x>20.075000000000003</x>
+              <y>11</y>
+              <angle>180</angle>
+              <size>-0.254</size>
+              <fontName>Arial</fontName>
+            </Text>
+            <Text>
+              <value>R4</value>
+              <x>11.474999999999994</x>
+              <y>4</y>
+              <angle>180</angle>
+              <size>-0.254</size>
+              <fontName>Arial</fontName>
+            </Text>
+            <Text>
+              <value>R1</value>
+              <x>26</x>
+              <y>6.9249999999999972</y>
+              <angle>270</angle>
+              <size>-0.454</size>
+              <fontName>Arial</fontName>
+            </Text>
+            <Text>
+              <value>R3</value>
+              <x>16</x>
+              <y>6.4749999999999943</y>
+              <angle>270</angle>
+              <size>-0.53899999999999992</size>
+              <fontName>Arial</fontName>
+            </Text>
+          </Text>
         </paint>
       </Layer>
       <Layer>
@@ -3966,10 +6115,10 @@
         <thickness>0</thickness>
         <layerNumber>71</layerNumber>
         <paint>
-          <Text />
           <Polygon />
           <Tracks>
             <Tracks>
+              <width>0.05</width>
               <contour>
                 <Line>
                   <Line>
@@ -4738,6 +6887,7 @@
               </contour>
             </Tracks>
             <Tracks>
+              <width>0.254</width>
               <contour>
                 <Line>
                   <Line>
@@ -4801,6 +6951,8 @@
               </contour>
             </Tracks>
           </Tracks>
+          <Pad />
+          <Text />
         </paint>
       </Layer>
       <Layer>
@@ -4808,15 +6960,16 @@
         <thickness>0</thickness>
         <layerNumber>73</layerNumber>
         <paint>
-          <Text />
           <Polygon />
           <Tracks />
+          <Pad />
+          <Text />
         </paint>
       </Layer>
     </Layer>
     <OriginalPoint>
-      <X>-83</X>
-      <Y>-65</Y>
+      <X>0</X>
+      <Y>0</Y>
     </OriginalPoint>
   </board>
   <hierarchy>
@@ -4873,6 +7026,8 @@
             </coordinats>
             <dataESKD>
               <РазделСп>Прочие изделия</РазделСп>
+              <SpecificationFlag>general</SpecificationFlag>
+              <Позиция>0</Позиция>
             </dataESKD>
             <UniqueID>\JXQBCQCO</UniqueID>
             <Configuration>K10-17A_1</Configuration>
@@ -4895,6 +7050,8 @@
             </coordinats>
             <dataESKD>
               <РазделСп>Прочие изделия</РазделСп>
+              <SpecificationFlag>general</SpecificationFlag>
+              <Позиция>0</Позиция>
             </dataESKD>
             <UniqueID>\AXTYCYAR</UniqueID>
             <Configuration>K10-17A_1</Configuration>
@@ -4917,6 +7074,8 @@
             </coordinats>
             <dataESKD>
               <РазделСп>Прочие изделия</РазделСп>
+              <SpecificationFlag>general</SpecificationFlag>
+              <Позиция>0</Позиция>
             </dataESKD>
             <UniqueID>\SDSBVRFN</UniqueID>
             <Configuration>R_POINT</Configuration>
@@ -4939,6 +7098,8 @@
             </coordinats>
             <dataESKD>
               <РазделСп>Прочие изделия</РазделСп>
+              <SpecificationFlag>general</SpecificationFlag>
+              <Позиция>0</Позиция>
             </dataESKD>
             <UniqueID>\LRMGRROJ</UniqueID>
             <Configuration>R_POINT</Configuration>
@@ -4961,6 +7122,8 @@
             </coordinats>
             <dataESKD>
               <РазделСп>Прочие изделия</РазделСп>
+              <SpecificationFlag>general</SpecificationFlag>
+              <Позиция>0</Позиция>
             </dataESKD>
             <UniqueID>\QMOTOEMT</UniqueID>
             <Configuration>R_POINT</Configuration>
@@ -4983,6 +7146,8 @@
             </coordinats>
             <dataESKD>
               <РазделСп>Прочие изделия</РазделСп>
+              <SpecificationFlag>general</SpecificationFlag>
+              <Позиция>0</Позиция>
             </dataESKD>
             <UniqueID>\HTDOUJVI</UniqueID>
             <Configuration>R_POINT</Configuration>
@@ -5005,6 +7170,8 @@
             </coordinats>
             <dataESKD>
               <РазделСп>Прочие изделия</РазделСп>
+              <SpecificationFlag>general</SpecificationFlag>
+              <Позиция>0</Позиция>
             </dataESKD>
             <UniqueID>\DEMEBIPH</UniqueID>
             <Configuration>R1-8_0.125</Configuration>
@@ -5027,6 +7194,8 @@
             </coordinats>
             <dataESKD>
               <РазделСп>Прочие изделия</РазделСп>
+              <SpecificationFlag>general</SpecificationFlag>
+              <Позиция>0</Позиция>
             </dataESKD>
             <UniqueID>\WARYLFRU</UniqueID>
             <Configuration>R1-8_0.125</Configuration>
@@ -5049,6 +7218,8 @@
             </coordinats>
             <dataESKD>
               <РазделСп>Прочие изделия</РазделСп>
+              <SpecificationFlag>general</SpecificationFlag>
+              <Позиция>0</Позиция>
             </dataESKD>
             <UniqueID>\AYYEVGEA</UniqueID>
             <Configuration>R1-8_0.25</Configuration>
@@ -5071,6 +7242,8 @@
             </coordinats>
             <dataESKD>
               <РазделСп>Прочие изделия</РазделСп>
+              <SpecificationFlag>general</SpecificationFlag>
+              <Позиция>0</Позиция>
             </dataESKD>
             <UniqueID>\KJXVURQP</UniqueID>
             <Configuration>R1-12_0.062(1)</Configuration>
@@ -5093,6 +7266,8 @@
             </coordinats>
             <dataESKD>
               <РазделСп>Прочие изделия</РазделСп>
+              <SpecificationFlag>general</SpecificationFlag>
+              <Позиция>0</Позиция>
             </dataESKD>
             <UniqueID>\LETVUMOA</UniqueID>
             <Configuration>KT-1-7</Configuration>
@@ -5115,6 +7290,8 @@
             </coordinats>
             <dataESKD>
               <РазделСп>Прочие изделия</РазделСп>
+              <SpecificationFlag>general</SpecificationFlag>
+              <Позиция>0</Позиция>
             </dataESKD>
             <UniqueID>\ARMRSIAL</UniqueID>
             <Configuration>KT-1-7</Configuration>
@@ -5137,6 +7314,8 @@
             </coordinats>
             <dataESKD>
               <РазделСп>Прочие изделия</РазделСп>
+              <SpecificationFlag>general</SpecificationFlag>
+              <Позиция>0</Позиция>
             </dataESKD>
             <UniqueID>\ACBHEQJJ</UniqueID>
             <Configuration>ELECTRODETAL_SNP346-2VP2X-2</Configuration>
@@ -5159,6 +7338,8 @@
             </coordinats>
             <dataESKD>
               <РазделСп>Прочие изделия</РазделСп>
+              <SpecificationFlag>general</SpecificationFlag>
+              <Позиция>0</Позиция>
             </dataESKD>
             <UniqueID>\IRDBAGHW</UniqueID>
             <Configuration>ELECTRODETAL_SNP346-2VP2X-2</Configuration>
@@ -5184,6 +7365,8 @@
               <Обозначение />
               <РазделСп>Детали</РазделСп>
               <PartNumber />
+              <SpecificationFlag>general</SpecificationFlag>
+              <Позиция>0</Позиция>
             </dataESKD>
             <UniqueID>Board</UniqueID>
             <Configuration>default</Configuration>

@@ -31,7 +31,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="EPDM.Interop.epdm">
-      <HintPath>C:\Program Files (x86)\SolidWorks Enterprise PDM\EPDM.Interop.epdm.dll</HintPath>
+      <HintPath>..\EPDM.Interop.epdm.dll</HintPath>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
     <Reference Include="System" />

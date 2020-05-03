@@ -59,6 +59,7 @@
     <Compile Include="SolidworksVariantCAD\SolidworksComponent\Harness\SolidworksHarness.cs" />
     <Compile Include="SolidworksVariantCAD\SolidworksComponent\Harness\SolidworksWire.cs" />
     <Compile Include="SolidworksVariantCAD\SolidworksComponent\SolidworksComponentCAD.cs" />
+    <Compile Include="SolidworksVariantCAD\SolidworksComponent\SolidWorksCoordinats.cs" />
     <Compile Include="SolidworksVariantCAD\SpecificationVariantSolidworks.cs" />
     <Compile Include="SolidworksVariantCAD\VariantSolidworksCAD.cs" />
     <Compile Include="SolidworksVariantCAD\SolidworksComponent\SolidworksDataESKD.cs" />

@@ -1,6 +1,3 @@
-m
-mAltiumStandaloneDLL
-mAltiumStandaloneDLL/AltiumBoardSpace
-mAltiumStandaloneDLL/AltiumBoardSpace/BoardESKD
-mAltiumStandaloneDLL/AltiumLayerSpace
-mAltiumStandaloneDLL/SourceCode
+rAltiumStandaloneDLL/AltiumLayerSpace/AltiumLayerObjects/Polygon
+rAltiumStandaloneDLL/AltiumLayerSpace/AltiumLayerObjects/Tracks
+rAltiumStandaloneDLL/SourceCode

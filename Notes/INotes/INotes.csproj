@@ -46,8 +46,32 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DocumentComplectTableCollection.cs" />
+    <Compile Include="DocumentData.cs" />
+    <Compile Include="eColumnType.cs" />
+    <Compile Include="IColumn.cs" />
+    <Compile Include="AbstractHeaderColumnSettings.cs" />
+    <Compile Include="INotesRazdelESKD.cs" />
     <Compile Include="INotesWindow.cs" />
+    <Compile Include="AbstractTableCollection.cs" />
+    <Compile Include="AbstractTable.cs" />
+    <Compile Include="IParser.cs" />
+    <Compile Include="MaterialData.cs" />
+    <Compile Include="MaterialTableCollection.cs" />
+    <Compile Include="NotesDocumentComplectsESKD.cs" />
+    <Compile Include="NotesMaterials.cs" />
+    <Compile Include="NotesSharpParser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\CadBoardData\CadBoardData.csproj">
+      <Project>{a61842e8-dc11-4a85-9184-ef40ad760388}</Project>
+      <Name>CadBoardData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Reports\ReportsESKD\ReportsESKD.csproj">
+      <Project>{04c37611-52f9-4a28-b7a5-787f241d083a}</Project>
+      <Name>ReportsESKD</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

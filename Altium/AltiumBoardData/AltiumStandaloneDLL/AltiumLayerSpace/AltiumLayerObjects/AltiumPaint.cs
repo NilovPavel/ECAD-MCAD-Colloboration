@@ -16,6 +16,19 @@ internal class AltiumPaint : IPaint
         this.Initialization();
     }
 
+    IPad[] IPaint.GetPads()
+    {
+        List<IPad> iPads = new List<IPad>();
+        IPCB_BoardIterator iterator = this.iPcbBoard.BoardIterator_Create();
+        iterator.AddFilter_ObjectSet(new PCB.TObjectSet(PCB.TObjectId.ePadObject));
+        iterator.AddFilter_LayerSet(this.layerSet);
+        iterator.AddFilter_Method(TIterationMethod.eProcessAll);
+        for (IPCB_Primitive pcbObject = iterator.FirstPCBObject(); pcbObject != null; pcbObject = iterator.NextPCBObject())
+            iPads.Add(new AltiumLayerPad((IPCB_Pad)pcbObject));
+        this.iPcbBoard.BoardIterator_Destroy(ref iterator);
+        return iPads.ToArray();
+    }
+
     IPolygon[] IPaint.GetPolygons()
     {
         List<IPolygon> pcbPolyGons = new List<IPolygon>();

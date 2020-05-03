@@ -5,6 +5,7 @@
 
 using System;
 using System.Xml.Serialization;
+using System.Linq;
 
 [Serializable]
 public class ProjectProperties
@@ -82,6 +83,13 @@ public class ProjectProperties
    
    public ProjectProperties()
    {
+   }
+   
+   public string GetPropertyByName(string propertyName)
+   {
+      Propertie currentPropertie = this.propertie.Where(onePropertie => onePropertie.Name.Equals(propertyName)).FirstOrDefault();
+      string currentPropertieValue = currentPropertie != null ? currentPropertie.Value : string.Empty;
+      return currentPropertieValue;
    }
 
 }

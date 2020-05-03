@@ -1,0 +1,16 @@
+data/AddInGost/AddInGost.sln.i
+data/AddInGost/AddInGost/DrawingCommandGroup.cs.i
+data/AddInGost/AddInGost/PositionSpecification/AutomaticalPositionSpecification.cs.i
+data/AddInGost/AddInGost/GostAddIn.cs.i
+data/Add_addin_reg.reg.i
+data/AddInGost/AddInGost/PositionSpecification/OpenFileXMLDialog.cs.i
+data/AddInGost/AddInGost/AbstractCommandGroup.cs.i
+data/AddInGost/AddInGost/GostCommandManager.cs.i
+data/AddInGost/AddInGost/PositionSpecification/AbstractPositions.cs.i
+data/Install.bat.i
+data/AddInGost/AddInGost/AddInGost.csproj.i
+data/Add_addin_reg_PDM.reg.i
+data/AddInGost/AddInGost/AddInGost.csproj.user.i
+data/AddInGost/AddInGost/TextDocCommandGroup.cs.i
+data/AddInGost/AddInGost/Properties/AssemblyInfo.cs.i
+data/AddInGost/AddInGost/PositionSpecification/ManualPositionSpecification.cs.i

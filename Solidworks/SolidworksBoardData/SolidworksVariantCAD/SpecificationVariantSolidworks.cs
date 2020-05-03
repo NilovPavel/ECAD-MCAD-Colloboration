@@ -92,7 +92,10 @@ namespace SolidworksBoardData
         private void ReadCollectionCAD()
         {
             ((ModelDoc2)this.assemblyDoc).ShowConfiguration2(variantName);
-            List<Component2> components = ((object[])this.assemblyDoc.GetComponents(this.topLevel)).Cast<Component2>().ToList() ?? new List<Component2>();
+
+            object[] componentObjects = (object[])this.assemblyDoc.GetComponents(this.topLevel) ?? new object[0];
+
+            List<Component2> components = componentObjects.Cast<Component2>().ToList() ?? new List<Component2>();
 
             this.RemoveCableFromComponents(components);
 

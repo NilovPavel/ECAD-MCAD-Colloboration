@@ -15,5 +15,20 @@ public class Text
    public double angle;
    public double size;
    public string fontName;
+   
+   public Text()
+   {
+   }
+   
+   public Text(IText iText)
+   {
+      this.iText = iText;
+      this.value = this.iText.GetValue();
+      this.x = this.iText.GetX();
+      this.y = this.iText.GetY();
+      this.angle = this.iText.GetAngle();
+      this.size = this.iText.GetSize();
+      this.fontName = this.iText.GetFontName();
+   }
 
 }

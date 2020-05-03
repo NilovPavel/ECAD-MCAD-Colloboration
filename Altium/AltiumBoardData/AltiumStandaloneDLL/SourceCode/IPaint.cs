@@ -4,7 +4,6 @@
 // Purpose: Definition of Interface IPaint
 
 using System;
-using System.Collections.Generic;
 
 public interface IPaint
 {
@@ -13,4 +12,7 @@ public interface IPaint
    IPolygon[] GetPolygons();
    
    ITracks[] GetTracks();
+   
+   IPad[] GetPads();
+
 }

@@ -15,6 +15,9 @@ namespace SolidworksBoardData
         private SldWorks app;
         private ModelDoc2 assemblyModelDoc;
 
+        public string FilePath
+        { get { return this.filePath; } }
+
         private void Initialization()
         {
             this.app = (SldWorks)Marshal.GetActiveObject("SldWorks.Application");
@@ -32,6 +35,13 @@ namespace SolidworksBoardData
         {
             this.filePath = filePath;
             this.Initialization();
+        }
+
+        public SolidworksAsseblyXML(SldWorks app)
+        {
+            this.app = app;
+            this.assemblyModelDoc = (ModelDoc2)this.app.ActiveDoc;
+            this.filePath = ((ModelDoc2)this.app.ActiveDoc).GetPathName();
         }
 
         IBoardCAD IAssemblyCAD.GetIBoardCAD()
