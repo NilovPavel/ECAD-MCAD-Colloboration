@@ -923,8 +923,156 @@
         <layerNumber>33</layerNumber>
         <paint>
           <Polygon>
-            <Polygon />
-            <Polygon />
+            <Polygon>
+              <contour>
+                <Line>
+                  <Line>
+                    <Point1>
+                      <X>26</X>
+                      <Y>48</Y>
+                    </Point1>
+                    <Point2>
+                      <X>26</X>
+                      <Y>48</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>26</X>
+                      <Y>48</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>31</X>
+                      <Y>43</Y>
+                    </Point1>
+                    <Point2>
+                      <X>31</X>
+                      <Y>43</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>31</X>
+                      <Y>43</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>31</X>
+                      <Y>41</Y>
+                    </Point1>
+                    <Point2>
+                      <X>31</X>
+                      <Y>41</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>31</X>
+                      <Y>41</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>27</X>
+                      <Y>37</Y>
+                    </Point1>
+                    <Point2>
+                      <X>27</X>
+                      <Y>37</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>27</X>
+                      <Y>37</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>26</X>
+                      <Y>38</Y>
+                    </Point1>
+                    <Point2>
+                      <X>26</X>
+                      <Y>38</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>26</X>
+                      <Y>38</Y>
+                    </MiddlePoint>
+                  </Line>
+                </Line>
+                <Arc />
+              </contour>
+              <hatch>
+                <typeHatch>fillSolid</typeHatch>
+                <stepHatch>0</stepHatch>
+                <widthHatch>0</widthHatch>
+              </hatch>
+            </Polygon>
+            <Polygon>
+              <contour>
+                <Line>
+                  <Line>
+                    <Point1>
+                      <X>8</X>
+                      <Y>38.7</Y>
+                    </Point1>
+                    <Point2>
+                      <X>8</X>
+                      <Y>38.7</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>8</X>
+                      <Y>38.7</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>9</X>
+                      <Y>38.7</Y>
+                    </Point1>
+                    <Point2>
+                      <X>9</X>
+                      <Y>38.7</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>9</X>
+                      <Y>38.7</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>9</X>
+                      <Y>36</Y>
+                    </Point1>
+                    <Point2>
+                      <X>9</X>
+                      <Y>36</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>9</X>
+                      <Y>36</Y>
+                    </MiddlePoint>
+                  </Line>
+                  <Line>
+                    <Point1>
+                      <X>8</X>
+                      <Y>36</Y>
+                    </Point1>
+                    <Point2>
+                      <X>8</X>
+                      <Y>36</Y>
+                    </Point2>
+                    <MiddlePoint>
+                      <X>8</X>
+                      <Y>36</Y>
+                    </MiddlePoint>
+                  </Line>
+                </Line>
+                <Arc />
+              </contour>
+              <hatch>
+                <typeHatch>fillSolid</typeHatch>
+                <stepHatch>0</stepHatch>
+                <widthHatch>0</widthHatch>
+              </hatch>
+            </Polygon>
           </Polygon>
           <Tracks>
             <Tracks>
@@ -2537,224 +2685,308 @@
               <x>21.799999999999997</x>
               <y>27.400000000000006</y>
               <angle>0</angle>
-              <size>1.524</size>
+              <size>2.032</size>
               <fontName>Arial</fontName>
+              <height>2.032</height>
+              <width>2.539</width>
+              <justification>lowerLeft</justification>
             </Text>
             <Text>
               <value>CAP</value>
               <x>20.212999999999994</x>
               <y>16.902</y>
               <angle>0</angle>
-              <size>1.524</size>
+              <size>2.032</size>
               <fontName>Arial</fontName>
+              <height>2.032</height>
+              <width>4.571</width>
+              <justification>lowerLeft</justification>
             </Text>
             <Text>
               <value>C2</value>
               <x>13.099999999999994</x>
               <y>28</y>
               <angle>0</angle>
-              <size>1.524</size>
+              <size>2.032</size>
               <fontName>Arial</fontName>
+              <height>2.032</height>
+              <width>3.047</width>
+              <justification>lowerLeft</justification>
             </Text>
             <Text>
               <value>CAP</value>
               <x>10.307000000000002</x>
               <y>16.902</y>
               <angle>0</angle>
-              <size>1.524</size>
+              <size>2.032</size>
               <fontName>Arial</fontName>
+              <height>2.032</height>
+              <width>4.571</width>
+              <justification>lowerLeft</justification>
             </Text>
             <Text>
               <value>R1</value>
               <x>24.918000000000006</x>
               <y>9.863</y>
               <angle>0</angle>
-              <size>1.524</size>
+              <size>2.032</size>
               <fontName>Arial</fontName>
+              <height>2.032</height>
+              <width>2.539</width>
+              <justification>lowerLeft</justification>
             </Text>
             <Text>
               <value>RES</value>
               <x>24.92</x>
               <y>0.61700000000000443</y>
               <angle>0</angle>
-              <size>1.524</size>
+              <size>2.032</size>
               <fontName>Arial</fontName>
+              <height>2.032</height>
+              <width>4.571</width>
+              <justification>lowerLeft</justification>
             </Text>
             <Text>
               <value>R2</value>
               <x>16.799999999999997</x>
               <y>13.5</y>
               <angle>0</angle>
-              <size>1.524</size>
+              <size>2.032</size>
               <fontName>Arial</fontName>
+              <height>2.032</height>
+              <width>3.047</width>
+              <justification>lowerLeft</justification>
             </Text>
             <Text>
               <value>RES</value>
               <x>19.92</x>
               <y>7.4669999999999987</y>
               <angle>0</angle>
-              <size>1.524</size>
+              <size>2.032</size>
               <fontName>Arial</fontName>
+              <height>2.032</height>
+              <width>4.571</width>
+              <justification>lowerLeft</justification>
             </Text>
             <Text>
               <value>R3</value>
               <x>14.778000000000006</x>
               <y>10.018</y>
               <angle>0</angle>
-              <size>1.524</size>
+              <size>2.032</size>
               <fontName>Arial</fontName>
+              <height>2.032</height>
+              <width>3.047</width>
+              <justification>lowerLeft</justification>
             </Text>
             <Text>
               <value>RES</value>
               <x>14.768</x>
               <y>4.4579999999999984</y>
               <angle>0</angle>
-              <size>1.524</size>
+              <size>2.032</size>
               <fontName>Arial</fontName>
+              <height>2.032</height>
+              <width>4.571</width>
+              <justification>lowerLeft</justification>
             </Text>
             <Text>
               <value>R4</value>
               <x>7</x>
               <y>5.5999999999999943</y>
               <angle>0</angle>
-              <size>1.524</size>
+              <size>2.032</size>
               <fontName>Arial</fontName>
+              <height>2.032</height>
+              <width>3.047</width>
+              <justification>lowerLeft</justification>
             </Text>
             <Text>
               <value>RES</value>
               <x>11.302000000000007</x>
               <y>0.7780000000000058</y>
               <angle>0</angle>
-              <size>1.524</size>
+              <size>2.032</size>
               <fontName>Arial</fontName>
+              <height>2.032</height>
+              <width>4.571</width>
+              <justification>lowerLeft</justification>
             </Text>
             <Text>
               <value>VT1</value>
               <x>24.799999999999997</x>
               <y>40.8</y>
               <angle>0</angle>
-              <size>1.524</size>
+              <size>2.032</size>
               <fontName>Arial</fontName>
+              <height>2.032</height>
+              <width>4.063</width>
+              <justification>lowerLeft</justification>
             </Text>
             <Text>
               <value>Name</value>
               <x>13.512</x>
               <y>23.786</y>
               <angle>0</angle>
-              <size>1.524</size>
+              <size>2.032</size>
               <fontName>Arial</fontName>
+              <height>2.032</height>
+              <width>6.094</width>
+              <justification>lowerLeft</justification>
             </Text>
             <Text>
               <value>VT2</value>
               <x>13.700000000000003</x>
               <y>40.400000000000006</y>
               <angle>0</angle>
-              <size>1.524</size>
+              <size>2.032</size>
               <fontName>Arial</fontName>
+              <height>2.032</height>
+              <width>4.571</width>
+              <justification>lowerLeft</justification>
             </Text>
             <Text>
               <value>Name</value>
               <x>-0.28700000000000614</x>
               <y>17.986000000000004</y>
               <angle>0</angle>
-              <size>1.524</size>
+              <size>2.032</size>
               <fontName>Arial</fontName>
+              <height>2.032</height>
+              <width>6.094</width>
+              <justification>lowerLeft</justification>
             </Text>
             <Text>
               <value>XP2</value>
               <x>1</x>
               <y>17</y>
               <angle>0</angle>
-              <size>1.524</size>
+              <size>2.032</size>
               <fontName>Arial</fontName>
+              <height>2.032</height>
+              <width>4.571</width>
+              <justification>lowerLeft</justification>
             </Text>
             <Text>
               <value>Name</value>
               <x>1.0160000000000053</x>
               <y>13.235</y>
               <angle>0</angle>
-              <size>1.524</size>
+              <size>2.032</size>
               <fontName>Arial</fontName>
+              <height>2.032</height>
+              <width>6.094</width>
+              <justification>lowerLeft</justification>
             </Text>
             <Text>
               <value>P1</value>
               <x>4</x>
               <y>46</y>
               <angle>0</angle>
-              <size>1.524</size>
+              <size>2.032</size>
               <fontName>Arial</fontName>
+              <height>2.032</height>
+              <width>2.539</width>
+              <justification>lowerLeft</justification>
             </Text>
             <Text>
               <value>Connektor</value>
               <x>2.6569999999999965</x>
               <y>42.117000000000004</y>
               <angle>0</angle>
-              <size>1.524</size>
+              <size>2.032</size>
               <fontName>Arial</fontName>
+              <height>2.032</height>
+              <width>13.204</width>
+              <justification>lowerLeft</justification>
             </Text>
             <Text>
               <value>P2</value>
               <x>4</x>
               <y>41</y>
               <angle>0</angle>
-              <size>1.524</size>
+              <size>2.032</size>
               <fontName>Arial</fontName>
+              <height>2.032</height>
+              <width>3.047</width>
+              <justification>lowerLeft</justification>
             </Text>
             <Text>
               <value>Connektor</value>
               <x>-1.3430000000000035</x>
               <y>41.117000000000004</y>
               <angle>0</angle>
-              <size>1.524</size>
+              <size>2.032</size>
               <fontName>Arial</fontName>
+              <height>2.032</height>
+              <width>13.204</width>
+              <justification>lowerLeft</justification>
             </Text>
             <Text>
               <value>P3</value>
               <x>4</x>
               <y>35</y>
               <angle>0</angle>
-              <size>1.524</size>
+              <size>2.032</size>
               <fontName>Arial</fontName>
+              <height>2.032</height>
+              <width>3.047</width>
+              <justification>lowerLeft</justification>
             </Text>
             <Text>
               <value>Connektor</value>
               <x>-5.3430000000000035</x>
               <y>39.117000000000004</y>
               <angle>0</angle>
-              <size>1.524</size>
+              <size>2.032</size>
               <fontName>Arial</fontName>
+              <height>2.032</height>
+              <width>13.204</width>
+              <justification>lowerLeft</justification>
             </Text>
             <Text>
               <value>P4</value>
               <x>4</x>
               <y>31</y>
               <angle>0</angle>
-              <size>1.524</size>
+              <size>2.032</size>
               <fontName>Arial</fontName>
+              <height>2.032</height>
+              <width>3.047</width>
+              <justification>lowerLeft</justification>
             </Text>
             <Text>
               <value>Connektor</value>
               <x>-10.343000000000004</x>
               <y>39.117000000000004</y>
               <angle>0</angle>
-              <size>1.524</size>
+              <size>2.032</size>
               <fontName>Arial</fontName>
+              <height>2.032</height>
+              <width>13.204</width>
+              <justification>lowerLeft</justification>
             </Text>
             <Text>
               <value>XP1</value>
               <x>3</x>
               <y>26.540000000000006</y>
               <angle>0</angle>
-              <size>1.524</size>
+              <size>2.032</size>
               <fontName>Arial</fontName>
+              <height>2.032</height>
+              <width>4.063</width>
+              <justification>lowerLeft</justification>
             </Text>
             <Text>
               <value>Name</value>
               <x>1.0160000000000053</x>
               <y>20.235</y>
               <angle>0</angle>
-              <size>1.524</size>
+              <size>2.032</size>
               <fontName>Arial</fontName>
+              <height>2.032</height>
+              <width>6.094</width>
+              <justification>lowerLeft</justification>
             </Text>
           </Text>
         </paint>
@@ -6048,64 +6280,88 @@
               <x>21.5</x>
               <y>42.45</y>
               <angle>270</angle>
-              <size>-3.61</size>
+              <size>8.713</size>
               <fontName>Arial</fontName>
+              <height>8.713</height>
+              <width>2</width>
+              <justification>center</justification>
             </Text>
             <Text>
               <value>VT2</value>
               <x>13.5</x>
               <y>42.45</y>
               <angle>270</angle>
-              <size>-3.61</size>
+              <size>8.713</size>
               <fontName>Arial</fontName>
+              <height>8.713</height>
+              <width>2</width>
+              <justification>center</justification>
             </Text>
             <Text>
               <value>C2</value>
               <x>13.518</x>
               <y>27.326999999999998</y>
               <angle>360</angle>
-              <size>0.724</size>
+              <size>0.994</size>
               <fontName>Arial</fontName>
+              <height>0.994</height>
+              <width>1.577</width>
+              <justification>lowerLeft</justification>
             </Text>
             <Text>
               <value>C1</value>
               <x>23.424000000000007</x>
               <y>27.326999999999998</y>
               <angle>360</angle>
-              <size>0.724</size>
+              <size>0.994</size>
               <fontName>Arial</fontName>
+              <height>0.994</height>
+              <width>1.402</width>
+              <justification>lowerLeft</justification>
             </Text>
             <Text>
               <value>R2</value>
               <x>20.075000000000003</x>
               <y>11</y>
               <angle>180</angle>
-              <size>-0.254</size>
+              <size>0.964</size>
               <fontName>Arial</fontName>
+              <height>0.964</height>
+              <width>1.539</width>
+              <justification>lowerLeft</justification>
             </Text>
             <Text>
               <value>R4</value>
               <x>11.474999999999994</x>
               <y>4</y>
               <angle>180</angle>
-              <size>-0.254</size>
+              <size>0.961</size>
               <fontName>Arial</fontName>
+              <height>0.961</height>
+              <width>1.546</width>
+              <justification>lowerLeft</justification>
             </Text>
             <Text>
               <value>R1</value>
               <x>26</x>
               <y>6.9249999999999972</y>
               <angle>270</angle>
-              <size>-0.454</size>
+              <size>1.363</size>
               <fontName>Arial</fontName>
+              <height>1.363</height>
+              <width>0.964</width>
+              <justification>lowerLeft</justification>
             </Text>
             <Text>
               <value>R3</value>
               <x>16</x>
               <y>6.4749999999999943</y>
               <angle>270</angle>
-              <size>-0.53899999999999992</size>
+              <size>1.549</size>
               <fontName>Arial</fontName>
+              <height>1.549</height>
+              <width>0.979</width>
+              <justification>lowerLeft</justification>
             </Text>
           </Text>
         </paint>
@@ -6973,22 +7229,22 @@
     </OriginalPoint>
   </board>
   <hierarchy>
-    <assemblyComponentID UniqueID="RFMTIOTW" Designator="">
+    <assemblyComponentID UniqueID="\RFMTIOTW" Designator="">
       <ElementaryComponentID>
-        <ElementaryComponentID UniqueID="JXQBCQCO" Designator="C1" />
-        <ElementaryComponentID UniqueID="AXTYCYAR" Designator="C2" />
-        <ElementaryComponentID UniqueID="DEMEBIPH" Designator="R1" />
-        <ElementaryComponentID UniqueID="WARYLFRU" Designator="R2" />
-        <ElementaryComponentID UniqueID="AYYEVGEA" Designator="R3" />
-        <ElementaryComponentID UniqueID="KJXVURQP" Designator="R4" />
-        <ElementaryComponentID UniqueID="LETVUMOA" Designator="VT1" />
-        <ElementaryComponentID UniqueID="ARMRSIAL" Designator="VT2" />
-        <ElementaryComponentID UniqueID="IRDBAGHW" Designator="XP2" />
-        <ElementaryComponentID UniqueID="ACBHEQJJ" Designator="XP1" />
-        <ElementaryComponentID UniqueID="SDSBVRFN" Designator="P1" />
-        <ElementaryComponentID UniqueID="LRMGRROJ" Designator="P2" />
-        <ElementaryComponentID UniqueID="QMOTOEMT" Designator="P3" />
-        <ElementaryComponentID UniqueID="HTDOUJVI" Designator="P4" />
+        <ElementaryComponentID UniqueID="\JXQBCQCO" Designator="C1" />
+        <ElementaryComponentID UniqueID="\AXTYCYAR" Designator="C2" />
+        <ElementaryComponentID UniqueID="\DEMEBIPH" Designator="R1" />
+        <ElementaryComponentID UniqueID="\WARYLFRU" Designator="R2" />
+        <ElementaryComponentID UniqueID="\AYYEVGEA" Designator="R3" />
+        <ElementaryComponentID UniqueID="\KJXVURQP" Designator="R4" />
+        <ElementaryComponentID UniqueID="\LETVUMOA" Designator="VT1" />
+        <ElementaryComponentID UniqueID="\ARMRSIAL" Designator="VT2" />
+        <ElementaryComponentID UniqueID="\IRDBAGHW" Designator="XP2" />
+        <ElementaryComponentID UniqueID="\ACBHEQJJ" Designator="XP1" />
+        <ElementaryComponentID UniqueID="\SDSBVRFN" Designator="P1" />
+        <ElementaryComponentID UniqueID="\LRMGRROJ" Designator="P2" />
+        <ElementaryComponentID UniqueID="\QMOTOEMT" Designator="P3" />
+        <ElementaryComponentID UniqueID="\HTDOUJVI" Designator="P4" />
       </ElementaryComponentID>
       <AssemblyComponentIDB />
     </assemblyComponentID>

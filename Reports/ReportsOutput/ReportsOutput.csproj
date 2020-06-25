@@ -32,7 +32,7 @@
   <ItemGroup>
     <Reference Include="NPOI, Version=2.2.1.0, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\Distr\Programming\NPOI\NPOI.dll</HintPath>
+      <HintPath>NPOI.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.XML" />
@@ -50,6 +50,10 @@
     <Compile Include="Interfaces\IDocumentSheetPropertiesWriter.cs" />
     <Compile Include="Interfaces\IPodRazdelSpWriter.cs" />
     <Compile Include="Interfaces\ISheetPropertiesWriter.cs" />
+    <Compile Include="Perechen\PerechenA.cs" />
+    <Compile Include="Perechen\Writers\ElementPerechenAWriter.cs" />
+    <Compile Include="Perechen\Writers\PerechenNodeWriter.cs" />
+    <Compile Include="Perechen\Writers\ConfigurationWriterPerechen.cs" />
     <Compile Include="SpecificationA\Writers\ElementWriters\DocumentsComplectsElementWriterSpecificationA.cs" />
     <Compile Include="SpecificationA\Writers\ElementWriters\AssemblyDetailsElementWriterSpecificationA.cs" />
     <Compile Include="SpecificationA\Writers\ElementWriters\StandartElementWriterSpecificationA.cs" />
@@ -72,6 +76,11 @@
     <Compile Include="SpecificationA\Writers\ElementWriters\ElementWriterSpecificationA.cs" />
     <Compile Include="SpecificationA\Writers\PodrazdelSPWriters\PodrazdelSpWriterSpecificationA.cs" />
     <Compile Include="SpecificationA\Writers\RazdelSpWriterSpecificationA.cs" />
+    <Compile Include="XLS\PerechenXLS\Sheets\SecondSheetPerechenXLS.cs" />
+    <Compile Include="XLS\PerechenXLS\Sheets\LRISheetPerechenXLS.cs" />
+    <Compile Include="XLS\PerechenXLS\Sheets\FirstSheetPerechenXLS.cs" />
+    <Compile Include="XLS\PerechenXLS\PerechenDocumentXLS.cs" />
+    <Compile Include="XLS\PerechenXLS\TemplatePerechenExcel.cs" />
     <Compile Include="XLS\SpecificationA\SpecificationADocumentXLS.cs" />
     <Compile Include="XLS\SpecificationA\Sheets\FirstSheetSpecificationAXLS.cs" />
     <Compile Include="Constants\Razbivka.cs" />
@@ -83,8 +92,6 @@
     <Compile Include="SpecificationA\Writers\SpecificationWriterSpecificationA.cs" />
     <Compile Include="XLS\SpecificationA\TemplateSpecificationAExcel.cs" />
     <Compile Include="SpecificationA\SpecificationA.cs" />
-    <Compile Include="TestAllToOneReport.cs" />
-    <Compile Include="TestReport.cs" />
     <Compile Include="XLS\ExcelDocumentCellStyle.cs" />
     <Compile Include="XLS\ExcelDocumentFont.cs" />
     <Compile Include="XLS\SpecificationA\Sheets\ExcelSheetWriter.cs" />
@@ -110,6 +117,7 @@
     <EmbeddedResource Include="Data.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Data.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup />

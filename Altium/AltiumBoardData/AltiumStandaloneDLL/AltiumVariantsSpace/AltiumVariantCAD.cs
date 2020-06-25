@@ -86,8 +86,11 @@ namespace AltiumVariantsSpace
 
         private void BuildPcbSchComponents()
         {
+            /*MessageBox.Show(string.Join("\r\n", this.PcbComponents.Select(item => item.GetState_SourceUniqueId() + "\t" + item.GetState_SourceDesignator()).ToArray()));
+            return;*/
             for (int i = 0; i < this.ProjectComponents.Count; i++)
             {
+                
                 IPCB_Component pcbComponent = this.PcbComponents.Find(x => x.GetState_SourceUniqueId().Equals(this.ProjectComponents[i].DM_UniqueId()));
                 string uniqueId = this.ProjectComponents[i].DM_UniqueId().IndexOf("@")!=-1 ?
                      this.ProjectComponents[i].DM_UniqueId().Substring(0, this.ProjectComponents[i].DM_UniqueId().IndexOf("@")) : this.ProjectComponents[i].DM_UniqueId();

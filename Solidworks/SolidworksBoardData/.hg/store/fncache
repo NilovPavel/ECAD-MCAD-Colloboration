@@ -11,3 +11,4 @@ data/SolidworksVariantCAD/SolidworksComponent/SolidworksDataESKD.cs.i
 data/SolidworksVariantCAD/VariantSolidworksCAD.cs.i
 data/SolidworksVariantCAD/SpecificationVariantSolidworksCAD.cs.i
 data/SolidworksBoardData.csproj.i
+data/SolidworksVariantCAD/SolidworksComponent/SolidWorksCoordinats.cs.i

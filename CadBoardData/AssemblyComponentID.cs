@@ -7,6 +7,9 @@ using System;
 
 public class AssemblyComponentID : ComponentID
 {
+   private string обозначение;
+   private string наименование;
+   
    private System.Collections.Generic.List<ElementaryComponentID> elementaryComponentID;
    
    /// <summary>
@@ -128,6 +131,30 @@ public class AssemblyComponentID : ComponentID
    {
       if (assemblyComponentIDB != null)
          assemblyComponentIDB.Clear();
+   }
+   
+   public string Обозначение
+   {
+      get
+      {
+         return обозначение;
+      }
+      set
+      {
+         this.обозначение = value;
+      }
+   }
+   
+   public string Наименование
+   {
+      get
+      {
+         return наименование;
+      }
+      set
+      {
+         this.наименование = value;
+      }
    }
 
 }

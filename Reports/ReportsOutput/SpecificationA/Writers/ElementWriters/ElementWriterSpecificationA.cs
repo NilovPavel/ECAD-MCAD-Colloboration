@@ -43,7 +43,7 @@ namespace ReportsOutput
             this.position = this.GetPositon(recordESKD);
             this.oboznchenie = this.GetOboznachenie(recordESKD, spisok);
             this.naimenovanie = this.GetNaimenovanieArray(recordESKD, spisok);
-            this.count = recordESKD.Количество.ToString();
+            this.count = this.GetCount(recordESKD);//recordESKD.Количество.ToString();
             this.primechanie = this.GetPrimechanieArray(recordESKD);
         }
 
@@ -66,6 +66,11 @@ namespace ReportsOutput
         {
             string naimenovanieString = recordESKD.Fitted ? recordESKD.Наименование : "Не устанавливать";
             return new Razbivka(naimenovanieString, this.iDocument.ITemplateDocument.NameLength).StringAllowLengthArray;
+        }
+
+        protected virtual string GetCount(RecordESKD recordESKD)
+        {
+            return recordESKD.Количество.ToString();
         }
 
         private string GetPrimechanieFullValue(RecordESKD recordESKD)

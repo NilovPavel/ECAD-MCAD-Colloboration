@@ -43,11 +43,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GetDesignatorsSymbols.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WriterAltiumID.cs" />
+    <Compile Include="TestAllToOneReport.cs" />
     <Compile Include="TestEri.cs" />
+    <Compile Include="TestReport.cs" />
+    <Compile Include="TestStandart.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\..\CadBoardData\CadBoardData.csproj">
+      <Project>{a61842e8-dc11-4a85-9184-ef40ad760388}</Project>
+      <Name>CadBoardData</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\..\ReportsESKD\ReportsESKD.csproj">
       <Project>{04c37611-52f9-4a28-b7a5-787f241d083a}</Project>
       <Name>ReportsESKD</Name>

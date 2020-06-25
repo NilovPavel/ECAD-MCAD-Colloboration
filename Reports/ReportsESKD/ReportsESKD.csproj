@@ -60,14 +60,30 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssemblyDetailsCombiner.cs" />
+    <Compile Include="ConstantsESKD.cs" />
     <Compile Include="DocumentationComplectsCombiner.cs" />
+    <Compile Include="IBehaivorGOST.cs" />
+    <Compile Include="INotesRazdelESKD.cs" />
     <Compile Include="MaterialCombiner.cs" />
     <Compile Include="OtherCombiner.cs" />
+    <Compile Include="PerechenAssemblyRecordESKD.cs" />
+    <Compile Include="PerechenGroup.cs" />
+    <Compile Include="PerechenTreeNode.cs" />
+    <Compile Include="PerechenTreeNodeSort.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="PerechenDesignatorComparer.cs" />
+    <Compile Include="RecordESKDDesignatorComparer.cs" />
+    <Compile Include="RecordESKDWithoutDesignatorEqualityComparer.cs" />
     <Compile Include="SpecificationRazdelCombiner.cs" />
     <Compile Include="RecordESKDMaterialsEqualityComparer.cs" />
     <Compile Include="RecordESKDOthersEqualityComparer.cs" />
     <Compile Include="RecordESKDStandartsEqualityComparer.cs" />
     <Compile Include="StandartsCombiner.cs" />
+    <Compile Include="UnitRecordPerechenCollection.cs" />
     <Compile Include="UnitRecordRazdelSpCollection.cs" />
     <Compile Include="AssemblyDetailsComparer.cs" />
     <Compile Include="CableRazdelESKD.cs" />
@@ -75,7 +91,6 @@
     <Compile Include="EriEqualityComparer.cs" />
     <Compile Include="ISort.cs" />
     <Compile Include="IGroup.cs" />
-    <Compile Include="INotesRazdelESKD.cs" />
     <Compile Include="ICheck.cs" />
     <Compile Include="IIteratorAction.cs" />
     <Compile Include="DefaultNotesReader.cs" />
@@ -88,7 +103,6 @@
     <Compile Include="RecordESKDFullEqualityComparer.cs" />
     <Compile Include="RecordESKDPartNumberComparer.cs" />
     <Compile Include="RecordESKDPositionEqualityComparer.cs" />
-    <Compile Include="RecordESKDWithoutDesignatorIndexEqualityComparer.cs" />
     <Compile Include="Spisok.cs" />
     <Compile Include="Specification.cs" />
     <Compile Include="Perechen.cs" />
@@ -121,7 +135,6 @@
     <Compile Include="Vedomost.cs" />
     <Compile Include="SpecificationConfigurationSort.cs" />
     <Compile Include="OtherElementSort.cs" />
-    <Compile Include="UnitRecordCollection.cs" />
     <Compile Include="OtherElementPassiveERISort.cs" />
     <Compile Include="OtherElementComputerSort.cs" />
     <Compile Include="Eri.cs" />
@@ -129,11 +142,9 @@
     <Compile Include="StandartNames.cs" />
     <Compile Include="Documents.cs" />
     <Compile Include="Complects.cs" />
-    <Compile Include="MaterialData.cs" />
     <Compile Include="SectionPair.cs" />
     <Compile Include="AssemblyDetails.cs" />
     <Compile Include="StandartParts.cs" />
-    <Compile Include="DocumentData.cs" />
     <Compile Include="NotesDocumentsESKD.cs" />
     <Compile Include="NotesComplectsESKD.cs" />
     <Compile Include="NotesMaterialsESKD.cs" />
@@ -169,6 +180,12 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

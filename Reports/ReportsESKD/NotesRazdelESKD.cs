@@ -45,10 +45,13 @@ public class NotesRazdelESKD
       switch(notes.RazdelName)
       {
          case "Документация":
+         //case "Документация ЭМ":
             return new NotesDocumentsESKD();
          case "Комплекты":
+         //case "Комплекты ЭМ":
             return new NotesComplectsESKD();
          case "Материалы":
+         //case "Материалы ЭМ":
             return new NotesMaterialsESKD();
       }
       return default(INotesRazdelESKD);

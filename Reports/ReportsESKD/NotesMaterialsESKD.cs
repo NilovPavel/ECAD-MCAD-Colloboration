@@ -7,8 +7,6 @@ using System;
 
 public class NotesMaterialsESKD : INotesRazdelESKD
 {
-   private MaterialData[] materialData;
-   
    public string[] GetColumnNames()
    {
       return new string[] { "Наименование", "Количество", "Ед.изм.", "Примечание" };

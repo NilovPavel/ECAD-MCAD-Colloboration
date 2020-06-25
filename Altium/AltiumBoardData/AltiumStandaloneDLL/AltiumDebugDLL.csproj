@@ -161,7 +161,6 @@
     <Compile Include="SourceCode\Contour.cs" />
     <Compile Include="SourceCode\ContourNexus.cs" />
     <Compile Include="SourceCode\Coordinats.cs" />
-    <Compile Include="SourceCode\Cuprum.cs" />
     <Compile Include="SourceCode\CutOut.cs" />
     <Compile Include="SourceCode\DataESKD.cs" />
     <Compile Include="SourceCode\ElementaryComponentID.cs" />

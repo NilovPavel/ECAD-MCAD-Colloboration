@@ -17,28 +17,12 @@ public class UnitRecordRazdelSpCollection
     {
     }
 
-    private int GetIndexFromDesignator(string designator)
-    {
-        Regex regEx = new Regex("[^\\d+]");
-        designator = regEx.Replace(designator, string.Empty);
-        if (string.IsNullOrEmpty(designator))
-            return 0;
-        return int.Parse(designator);
-    }
-
-    private string GetBaseFromDesignators(string[] designators)
-    {
-        string designator = string.Empty;
-        string firstDesignator = designators.FirstOrDefault();
-        Regex regEx = new Regex("\\d+");
-        designator = regEx.Replace(firstDesignator, string.Empty);
-        return designator;
-    }
+    
 
     private string GetDesignatorUnionString(string[] designators)
     {
-        string baseString = this.GetBaseFromDesignators(designators);
-        int[] designatorIndexes = designators.Where(item => !string.IsNullOrEmpty(item)).Select(item => this.GetIndexFromDesignator(item)).OrderBy(item => item).ToArray();
+        string baseString = Designator.GetBaseFromDesignators(designators);
+        int[] designatorIndexes = designators.Where(item => !string.IsNullOrEmpty(item)).Select(item => Designator.GetIndexFromDesignator(item)).OrderBy(item => item).ToArray();
         string beutyString = string.Empty;
         for (int indexCount = 0; indexCount < designatorIndexes.Length; indexCount++)
         {

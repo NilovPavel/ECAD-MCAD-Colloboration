@@ -8,6 +8,7 @@ using System.IO;
 using System.Text;
 using System.Xml;
 using System.Linq;
+using System.Collections.Generic;
 
 public class DefaultNotesReader
 {
@@ -15,19 +16,19 @@ public class DefaultNotesReader
    private string filePath;
    private string[] cods;
    
-   private System.Collections.Generic.List<SectionPair> sectionPair;
+   private List<SectionPair> sectionPair;
    
    /// <summary>
    /// Property for collection of SectionPair
    /// </summary>
    /// <pdGenerated>Default opposite class collection property</pdGenerated>
-   public System.Collections.Generic.List<SectionPair> SectionPair
+   public List<SectionPair> SectionPair
    {
       get
       {
          if (sectionPair == null)
-            sectionPair = new System.Collections.Generic.List<SectionPair>();
-         return sectionPair;
+            sectionPair = new List<SectionPair>();
+         return this.sectionPair;
       }
       set
       {
@@ -49,7 +50,7 @@ public class DefaultNotesReader
       if (newSectionPair == null)
          return;
       if (this.sectionPair == null)
-         this.sectionPair = new System.Collections.Generic.List<SectionPair>();
+         this.sectionPair = new List<SectionPair>();
       if (!this.sectionPair.Contains(newSectionPair))
          this.sectionPair.Add(newSectionPair);
    }

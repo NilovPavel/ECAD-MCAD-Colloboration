@@ -16,7 +16,7 @@ public class UnitRecordCollection
    
    private void Initialization()
    {
-      this.comparer = (IEqualityComparer<RecordESKD>)new RecordESKDWithoutDesignatorIndexEqualityComparer();
+      this.comparer = (IEqualityComparer<RecordESKD>)new RecordESKDWithoutDesignatorEqualityComparer();
    }
    
    private int GetIndexFromDesignator(string designator)

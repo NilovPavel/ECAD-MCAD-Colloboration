@@ -18,5 +18,11 @@ public interface IText
    double GetSize();
    
    string GetFontName();
+   
+   TypeJust GetJustification();
+   
+   double GetWidth();
+   
+   double GetHeight();
 
 }

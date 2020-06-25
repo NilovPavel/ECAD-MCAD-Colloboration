@@ -21,7 +21,7 @@ namespace ReportsOutput
         {
             bool isStandartName = Array.Exists(this.standartNames, item => oneString.IndexOf(item) != -1);
             int indexStandart = Array.IndexOf(splitStrings, oneString);
-            if (isStandartName && indexStandart < splitStrings.Length)
+            if (isStandartName && indexStandart + 1 < splitStrings.Length)
                 return currentString.Length + oneString.Length + splitStrings[indexStandart+1].Length + 2 >= this.iDocument.ITemplateDocument.NameLength;
             return currentString.Length + oneString.Length >= this.iDocument.ITemplateDocument.NameLength;
         }

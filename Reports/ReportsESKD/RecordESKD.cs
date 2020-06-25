@@ -5,7 +5,7 @@
 
 using System;
 
-public class RecordESKD
+public class RecordESKD : ICloneable
 {
    private ComponentCAD componentCAD;
    private string cadID;
@@ -196,7 +196,7 @@ public class RecordESKD
         this.componentCAD = componentCAD;
         this.cadID = this.componentCAD.UniqueID;
         this.формат = this.componentCAD.dataESKD.Формат ?? string.Empty;
-        this.designator = this.componentCAD.Designator ?? string.Empty;
+        this.designator = this.componentCAD.LogicalDesignator ?? string.Empty;
         this.partNumber = this.componentCAD.dataESKD.PartNumber == null ? string.Empty : this.componentCAD.dataESKD.PartNumber;
         this.наименование = this.componentCAD.dataESKD.Наименование == null ? string.Empty : this.componentCAD.dataESKD.Наименование;
         this.обозначение = this.componentCAD.dataESKD.Обозначение == null ? string.Empty : this.componentCAD.dataESKD.Обозначение;
@@ -208,4 +208,8 @@ public class RecordESKD
    {
    }
 
+    public object Clone()
+    {
+        return this.MemberwiseClone();
+    }
 }

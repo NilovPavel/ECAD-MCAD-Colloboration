@@ -7,6 +7,8 @@ using System;
 
 public class Text
 {
+   private TypeJust justification;
+   
    private IText iText;
    
    public string value;
@@ -15,6 +17,8 @@ public class Text
    public double angle;
    public double size;
    public string fontName;
+   public double height;
+   public double width;
    
    public Text()
    {

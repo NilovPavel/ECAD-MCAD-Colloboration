@@ -12,17 +12,19 @@ namespace HierarchySpace
         private List<SchDocument> DocumentsInHierarchy;
         private List<IComponentID> flat_collection;
         private AssemblyComponentID root;
+        private List<string> uniqueIds;
 
         public AssemblyComponentID Root
         { get { return this.root; } } 
 
         private void Initialization()
         {
+            this.uniqueIds = new List<string>();
             this.DocumentsInHierarchy = new List<SchDocument>();
             this.iDocuments.ToList().ForEach(x => this.DocumentsInHierarchy.Add(new SchDocument(x.DM_FullPath())));
         }
 
-        private void GetLinksDocuments()
+        /*private void GetLinksDocuments()
         {
             List<SchDocument> searchInLinks = new List<SchDocument>();
 
@@ -32,7 +34,7 @@ namespace HierarchySpace
                         searchInLinks.Add(new SchDocument(this.DocumentsInHierarchy[i].SchSheetSymbols[j].FileName));
 
             this.DocumentsInHierarchy.AddRange(searchInLinks);
-        } 
+        } */
 
         public AltiumHierarchy(IDocument[] iDocuments)
         {
@@ -48,8 +50,14 @@ namespace HierarchySpace
             foreach (SchDocument schDocument in this.DocumentsInHierarchy)
             {
                 this.flat_collection.Add(schDocument);
+                //string fullDescription = schDocument.FileName.ToString() + "\r\n";
                 this.flat_collection.AddRange(schDocument.SchSheetSymbols);
+                //fullDescription += schDocument.SchSheetSymbols.Select(item => item.);
                 this.flat_collection.AddRange(schDocument.SchComponents);
+                //string[] schComponents = schDocument.SchComponents.Select(item => ((IComponentID)item).GetDesignator()).ToArray();
+                //fullDescription += (string.Join("\r\n", schComponents));
+                //MessageBox.Show(fullDescription);
+                //MessageBox.Show(schDocument.SchSheetSymbols.Count.ToString());
             }
         }
 
@@ -89,17 +97,25 @@ namespace HierarchySpace
 
         private AssemblyComponentID BuildComponentIDTree(AssemblyComponentID parent)
         {
-            string[] split_uids = parent.UniqueID.Split('#');
+            string[] split_uids = parent.UniqueID.Split('\\');
             string parentUniqueId = split_uids.Last();
+
+            if (parentUniqueId.Equals("MYMSXVOS"))
+                ;
 
             List<IComponentID> elementaryComponent = this.GetChildComponentID(parentUniqueId).Where(x=>x is SchComponent).ToList();
             foreach (IComponentID componentId in elementaryComponent)
-                parent.AddElementaryComponentID(new ElementaryComponentID { Designator = componentId.GetDesignator(), ParentID = parent.UniqueID, UniqueID = componentId.GetUniqueID()});
+            {
+                parent.AddElementaryComponentID(new ElementaryComponentID { Designator = componentId.GetDesignator(), ParentID = parent.UniqueID, UniqueID = @"\" + componentId.GetUniqueID() });
+                this.uniqueIds.Add(componentId.GetUniqueID());
+            }
 
             List<IComponentID> assemblyComponent = this.ConcatEqualsChildrens(this.GetChildComponentID(parentUniqueId).Where(x => x is SheetSymbol).ToList());
             foreach (IComponentID componentId in assemblyComponent)
                 if (!split_uids.Contains(componentId.GetUniqueID()))
-                    parent.AddAssemblyComponentIDB(this.BuildComponentIDTree(new AssemblyComponentID { Designator = componentId.GetDesignator(), ParentID = parent.UniqueID, UniqueID = parent.UniqueID + @"#" + componentId.GetUniqueID() }));
+                    parent.AddAssemblyComponentIDB(this.BuildComponentIDTree(new AssemblyComponentID { Designator = componentId.GetDesignator()
+                        , ParentID = parent.UniqueID, UniqueID = parent.UniqueID + @"\" + componentId.GetUniqueID(),
+                        Наименование = ((SheetSymbol)componentId).GetNaimenovanie(), Обозначение = ((SheetSymbol)componentId).GetOboznachenie()}));
 
             return parent;
         }
@@ -107,16 +123,19 @@ namespace HierarchySpace
         AssemblyComponentID IHierarchyCAD.BuildTree()
         {
             //Чтобы не уйти в бесконечную рекурсию, вводится коллекция ID, которые уже присутствовали в "подъеме по дереву"
-            List<string> uniqueIds = new List<string>();
             IComponentID root_sheet = this.flat_collection.Where(x => x is SchDocument).First();
             IComponentID parent_sheetSymdol;
             while ((parent_sheetSymdol = this.flat_collection.Find(x => x is SheetSymbol && x.GetUniqueID().Equals(root_sheet.GetUniqueID()))) != null && !uniqueIds.Exists(x => x.Equals(root_sheet.GetParentID())))
             {
-                uniqueIds.Add(root_sheet.GetParentID());
+                this.uniqueIds.Add(root_sheet.GetParentID());
                 root_sheet = this.flat_collection.Find(x => x is SchDocument && x.GetUniqueID().Equals(parent_sheetSymdol.GetParentID()));
             }
+            
+            this.root = this.BuildComponentIDTree(new AssemblyComponentID { Designator = root_sheet.GetDesignator(), ParentID = root_sheet.GetUniqueID(),  UniqueID = @"\" +root_sheet.GetUniqueID() });
 
-            this.root = this.BuildComponentIDTree(new AssemblyComponentID { Designator = root_sheet.GetDesignator(), ParentID = root_sheet.GetUniqueID(), UniqueID = root_sheet.GetUniqueID() });
+            IEnumerable<IComponentID> notInUniqueIds = this.flat_collection.Where(item => !this.uniqueIds.Contains(item.GetUniqueID()) && item is SchComponent);
+            notInUniqueIds.ToList().ForEach(item => this.root.AddElementaryComponentID(new ElementaryComponentID { Designator = item.GetDesignator(), ParentID = this.root.UniqueID, UniqueID = @"\" + item.GetUniqueID() }));
+
             return this.root;
         }
 

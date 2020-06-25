@@ -19,7 +19,7 @@ namespace ReportsOutput
 
             this.iDocumentFont.Bold = true;
             this.iDocumentFont.Italic = true;
-            this.iDocumentFont.UnderLine = false;
+            this.iDocumentFont.UnderLine = true;
 
             this.iDocumentCellStyle.SetFont(this.iDocumentFont);
 

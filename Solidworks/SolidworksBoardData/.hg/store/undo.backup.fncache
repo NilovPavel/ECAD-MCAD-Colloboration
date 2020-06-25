@@ -1,9 +1,12 @@
 data/SolidworksAsseblyXML.cs.i
+data/SolidworksVariantCAD/SolidworksComponent/Harness/SolidworksCable.cs.i
 data/SolidworksVariantCAD/SolidworksComponent/SolidworksComponentCAD.cs.i
 data/SolidworksVariantCAD/SpecificationVariantSolidworks.cs.i
 data/Properties/AssemblyInfo.cs.i
-data/SolidworksVariantCAD/SolidworksComponent/DefaultSolidworksDataESKD.cs.i
+data/SolidworksVariantCAD/SolidworksComponent/Harness/SolidworksHarness.cs.i
 data/SolidworksBoardReader.cs.i
+data/SolidworksVariantCAD/SolidworksComponent/Harness/SolidworksWire.cs.i
+data/SolidworksVariantCAD/SolidworksComponent/DefaultSolidworksDataESKD.cs.i
 data/SolidworksVariantCAD/SolidworksComponent/SolidworksDataESKD.cs.i
 data/SolidworksVariantCAD/VariantSolidworksCAD.cs.i
 data/SolidworksVariantCAD/SpecificationVariantSolidworksCAD.cs.i

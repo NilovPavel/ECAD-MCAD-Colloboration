@@ -8,10 +8,10 @@ E:\Работа\Sources\CAD\Solidworks\SolidworksFlex\FlexBoardSolidworks\bin\De
 E:\Работа\Sources\CAD\Solidworks\SolidworksFlex\FlexBoardSolidworks\bin\Debug\SolidworksProperties.dll
 E:\Работа\Sources\CAD\Solidworks\SolidworksFlex\FlexBoardSolidworks\bin\Debug\SolidworksServices.dll
 E:\Работа\Sources\CAD\Solidworks\SolidworksFlex\FlexBoardSolidworks\bin\Debug\CadBoardData.pdb
+E:\Работа\Sources\CAD\Solidworks\SolidworksFlex\FlexBoardSolidworks\bin\Debug\SearchESKD.pdb
 E:\Работа\Sources\CAD\Solidworks\SolidworksFlex\FlexBoardSolidworks\bin\Debug\SolidworksBoardData.pdb
 E:\Работа\Sources\CAD\Solidworks\SolidworksFlex\FlexBoardSolidworks\bin\Debug\SolidworksNotes.pdb
 E:\Работа\Sources\CAD\Solidworks\SolidworksFlex\FlexBoardSolidworks\bin\Debug\SolidworksProperties.pdb
-E:\Работа\Sources\CAD\Solidworks\SolidworksFlex\FlexBoardSolidworks\bin\Debug\SearchESKD.pdb
 E:\Работа\Sources\CAD\Solidworks\SolidworksFlex\FlexBoardSolidworks\bin\Debug\SolidworksServices.pdb
 E:\Работа\Sources\CAD\Solidworks\SolidworksFlex\FlexBoardSolidworks\obj\Debug\FlexBoardSolidworks.csprojResolveAssemblyReference.cache
 E:\Работа\Sources\CAD\Solidworks\SolidworksFlex\FlexBoardSolidworks\obj\Debug\FlexBoardSolidworks.AddInData.resources

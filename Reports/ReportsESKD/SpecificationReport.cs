@@ -18,7 +18,7 @@ public class SpecificationReport : AbstractReport
    {
       this.variants = new VariantESKD[this.assembly.variantCAD.variant.Length];
       this.variantsEM = new VariantESKD[this.assembly.variantCAD.variant.Length];
-      //this.iCheck = new ProxyCheck();
+      this.iCheck = new ProxyCheck();
       this.iteratorPosition = new IteratorPosition();
    }
 
@@ -75,12 +75,16 @@ public class SpecificationReport : AbstractReport
    {
       int variantNumber = this.GetVariantNumber(variant);
       List<NotesRazdelESKD> razdelNotesEM = new List<NotesRazdelESKD>();
-      Notes[] notesEM = this.assembly.notes.Where(itemNote => itemNote.RazdelName.IndexOf("ЭМ") != -1).ToArray();
-      Array.ForEach(notesEM, itemNote => itemNote.RazdelName = itemNote.RazdelName.Replace(" ЭМ", string.Empty));
-      Array.ForEach(notesEM, itemNote => razdelNotesEM.Add(new NotesRazdelESKD(itemNote)));
+      List<Notes> notesEM = new List<Notes>();
+      this.assembly.notes.Where(itemNote => itemNote.RazdelName.IndexOf("ЭМ") != -1).ToList()
+            .ForEach( itemNoteEM => notesEM.Add(new Notes
+            { RazdelName = itemNoteEM.RazdelName.Replace(" ЭМ", string.Empty),
+                RazdelNotesCollection = itemNoteEM.RazdelNotesCollection }));
+      
+      notesEM.ForEach(itemNote => razdelNotesEM.Add(new NotesRazdelESKD(itemNote)));
    
       List<RecordESKD> recordsESKD = new List<RecordESKD>();
-      razdelNotesEM.ForEach(item => item.GetRecordsESKD(variantNumber));
+      razdelNotesEM.ForEach(item => recordsESKD.AddRange(item.GetRecordsESKD(variantNumber)));
    
       return recordsESKD.ToArray();
    }
@@ -89,8 +93,8 @@ public class SpecificationReport : AbstractReport
    {
       List<RecordESKD> components = new List<RecordESKD>();
       variant.ComponentCAD.Where(x => x.dataESKD.SpecificationFlag == EskdSpecificationType.general).ToList().ForEach(x => components.Add(new RecordESKD(x)));
-      /*for (int componentCount = 0; componentCount < components.Count; componentCount++)
-         components[componentCount] = this.iCheck.GetCheckingRecordESKD(components[componentCount]);*/
+      for (int componentCount = 0; componentCount < components.Count; componentCount++)
+         components[componentCount] = this.iCheck.GetCheckingRecordESKD(components[componentCount]);
       RecordESKD[] notesRecordsESKD = this.GetNotesCollection(variant);
       components.AddRange(notesRecordsESKD);
       RecordESKD[] harnessCollection = this.GetHarnessCollection();
@@ -102,8 +106,8 @@ public class SpecificationReport : AbstractReport
    {
       List<RecordESKD> components = new List<RecordESKD>();
       variant.ComponentCAD.Where(x => x.dataESKD.SpecificationFlag == EskdSpecificationType.em).ToList().ForEach(x => components.Add(new RecordESKD(x)));
-      /*for (int componentCount = 0; componentCount < components.Count; componentCount++)
-         components[componentCount] = this.iCheck.GetCheckingRecordESKD(components[componentCount]);*/
+      for (int componentCount = 0; componentCount < components.Count; componentCount++)
+         components[componentCount] = this.iCheck.GetCheckingRecordESKD(components[componentCount]);
       RecordESKD[] notesRecordsESKD = this.GetNotesCollectionEM(variant);
       components.AddRange(notesRecordsESKD);
       return components.ToArray();

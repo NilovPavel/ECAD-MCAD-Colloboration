@@ -8,13 +8,16 @@ using System;
 public class Text
 {
    private IText iText;
-   
+
    public string value;
    public double x;
    public double y;
    public double angle;
    public double size;
    public string fontName;
+   public double height;
+   public double width;
+   public TypeJust justification;
    
    public Text()
    {
@@ -29,6 +32,9 @@ public class Text
       this.angle = this.iText.GetAngle();
       this.size = this.iText.GetSize();
       this.fontName = this.iText.GetFontName();
-   }
+      this.height = this.iText.GetHeight();
+      this.width = this.iText.GetWidth();
+      this.justification = this.iText.GetJustification();
+}
 
 }

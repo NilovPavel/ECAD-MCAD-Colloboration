@@ -49,6 +49,11 @@ public class Quaternion
    
            return rotationMatrix;
    }
+
+    /*public double[] GetKompasRotationMatrix()
+    {
+
+    }*/
    
    public Quaternion(double[] quaternionArray)
    {

@@ -4,16 +4,40 @@
 // Purpose: Definition of Class Designator
 
 using System;
+using System.Linq;
 using System.Text.RegularExpressions;
 
 public class Designator
 {
-   public static string GetSymbolsFromDesignator(string designator)
+    public static int GetIndexFromDesignator(string designator)
+    {
+        Regex regEx = new Regex("[^\\d+]");
+        designator = regEx.Replace(designator, string.Empty);
+        if (string.IsNullOrEmpty(designator))
+            return 0;
+        return int.Parse(designator);
+    }
+
+    public static string GetBaseFromDesignators(string[] designators)
+    {
+        string designator = string.Empty;
+        string firstDesignator = designators.FirstOrDefault();
+        Regex regEx = new Regex("\\d+");
+        designator = regEx.Replace(firstDesignator, string.Empty);
+        return designator;
+    }
+
+    public static string GetSymbolsFromDesignator(string designator)
    {
-      Regex regEx = new Regex("[^][\\d+]");
-      Match match = regEx.Match(designator);
-      designator = match.Success ? match.Value : designator;
-      return designator;
+        Regex regEx = new Regex("\\w+");
+        Match match = regEx.Match(designator);
+        string firstDesignator = match.Success ? match.Value : designator;
+
+        regEx = new Regex("[^]^[\\d]+");
+        match = regEx.Match(firstDesignator);
+
+        string symbols = match.Success ? match.Value : designator;
+        return symbols;
    }
 
 }

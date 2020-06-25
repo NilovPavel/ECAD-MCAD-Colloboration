@@ -95,6 +95,7 @@ namespace ReportsOutput
             AddressParameterCell cellAddress = firstSheet.GetAddressesParameters().Where(item => item.Parametr.Equals("Листов")).FirstOrDefault();
             this.sheet = this.workbook.GetSheetAt(0);
             ((IDocument)this).WriteCellValue(cellAddress.Column, cellAddress.Row, this.workbook.NumberOfSheets.ToString());
+            this.workbook.SetActiveSheet(0);
         }
 
         private void WriteLRI()

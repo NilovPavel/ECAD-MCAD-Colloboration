@@ -1,3 +1,7 @@
+mAltiumStandaloneDLL
+mAltiumStandaloneDLL/AltiumHierarchySpace
+mAltiumStandaloneDLL/AltiumLayerSpace/AltiumLayerObjects
 rAltiumStandaloneDLL/AltiumLayerSpace/AltiumLayerObjects/Polygon
 rAltiumStandaloneDLL/AltiumLayerSpace/AltiumLayerObjects/Tracks
+mAltiumStandaloneDLL/AltiumVariantsSpace
 rAltiumStandaloneDLL/SourceCode

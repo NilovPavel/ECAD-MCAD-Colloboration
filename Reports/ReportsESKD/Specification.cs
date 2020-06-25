@@ -17,7 +17,7 @@ public class Specification : Spisok
          return;
    
       List<RecordESKD> generalVariantCollection = this.Razdels.First().Elements.ToList();
-      for(int variantCount = 1; variantCount < this.Razdels.Count; variantCount++)
+      for(int variantCount = 0; variantCount < this.Razdels.Count; variantCount++)
          generalVariantCollection = generalVariantCollection.Intersect(this.Razdels[variantCount].Elements, new RecordESKDFullEqualityComparer()).ToList();
    
       this.Razdels.Insert(0, new VariantESKD("General", generalVariantCollection.ToArray()));

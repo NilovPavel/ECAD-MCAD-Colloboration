@@ -10,7 +10,7 @@ public abstract class AbstractReport
 {
    protected Assembly assembly;
    
-   //protected ICheck iCheck;
+   protected ICheck iCheck;
    
    protected bool IsBadVariants(VariantESKD[] variants)
    {
