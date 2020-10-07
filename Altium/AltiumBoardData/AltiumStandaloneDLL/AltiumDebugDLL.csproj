@@ -95,6 +95,7 @@
     <Compile Include="AltiumBoardSpace\AbstractAltiumContour.cs" />
     <Compile Include="AltiumBoardSpace\Region.cs" />
     <Compile Include="AltiumBoardSpace\Via\AltiumVia.cs" />
+    <Compile Include="AltiumHierarchySpace\AltiumHierarchy3.cs" />
     <Compile Include="AltiumLayerSpace\AltiumLayerBase.cs" />
     <Compile Include="AltiumLayerSpace\AltiumLayerObjects\AltiumPad\AltiumLayerPad.cs" />
     <Compile Include="AltiumLayerSpace\AltiumLayerObjects\AltiumPad\AltiumPadContour.cs" />
@@ -137,7 +138,6 @@
     <Compile Include="AltiumBoardSpace\AltiumSegment.cs" />
     <Compile Include="AltiumBoardSpace\Via\AltiumViaContour.cs" />
     <Compile Include="AltiumBoardSpace\HolePad\AltiumHolePad.cs" />
-    <Compile Include="AltiumHierarchySpace\AltiumHierarchy.cs" />
     <Compile Include="AltiumHierarchySpace\SchChanell.cs" />
     <Compile Include="AltiumHierarchySpace\SchComponent.cs" />
     <Compile Include="AltiumHierarchySpace\SheetSymbol.cs" />

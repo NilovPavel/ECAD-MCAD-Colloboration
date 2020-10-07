@@ -70,7 +70,7 @@ namespace IAssembly
         {
             IHierarchyCAD iHierarchy = default(IHierarchyCAD);
             if (this.Documents.Exists(x => x.DM_DocumentKind().Equals(EDP.EDPConstant.DocKindSch)))
-                iHierarchy = new AltiumHierarchy(this.Documents.FindAll(x => x.DM_DocumentKind().Equals(EDP.EDPConstant.DocKindSch)).ToArray());
+                iHierarchy = new AltiumHierarchy3(this.Documents.FindAll(x => x.DM_DocumentKind().Equals(EDP.EDPConstant.DocKindSch)).ToArray());
             return iHierarchy;
         }
 
