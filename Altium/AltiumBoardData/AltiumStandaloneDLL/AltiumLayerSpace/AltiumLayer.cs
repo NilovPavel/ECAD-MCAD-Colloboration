@@ -24,7 +24,7 @@ namespace BoardSpace
         private void Initialization()
         {
             this.layer_v7 = (IPCB_LayerObject_V7)this.layerObject;
-            this.Type = this.layer_v7.LayerID();
+            this.Type = this.layer_v7.LayerId();
             this.IsElectrical = false;
             this.thickness = this.GetLayerHeight();
         }
@@ -42,7 +42,7 @@ namespace BoardSpace
 
         public int LayerNumber()
         {
-            return (int)this.layer_v7.LayerID();
+            return (int)this.layer_v7.LayerId();
         }
 
         public double GetThickness()
@@ -139,7 +139,7 @@ namespace BoardSpace
 
         string GetTypeName()
         {
-            return this.layer_v7.LayerID().ToString();
+            return this.layer_v7.LayerId().ToString();
         }
 
         public string GetUniqueID()

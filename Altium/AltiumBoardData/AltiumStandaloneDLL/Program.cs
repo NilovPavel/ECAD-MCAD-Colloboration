@@ -7,6 +7,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
+using System.Windows.Forms;
 using System.Xml.Serialization;
 
 namespace AltiumDebugDLL
@@ -20,12 +21,12 @@ namespace AltiumDebugDLL
 
             XmlSerializer formatter = new XmlSerializer(typeof(Assembly));
 
-            using (FileStream fs = new FileStream(@"E:\Работа\Sources\CAD\Altium\AltiumBoardData\XMLs\" + Path.GetFileNameWithoutExtension(projectPath) + ".xml", FileMode.Create))
+            using (FileStream fs = new FileStream(Path.GetDirectoryName(projectPath) + @"\" + Path.GetFileNameWithoutExtension(projectPath) + ".xml", FileMode.Create))
             {
                 formatter.Serialize(fs, board);
             }
 
-            using (FileStream fs = new FileStream(@"E:\Работа\Sources\CAD\Altium\AltiumBoardData\XMLs\" + Path.GetFileNameWithoutExtension(projectPath) + ".xml", FileMode.OpenOrCreate))
+            using (FileStream fs = new FileStream(Path.GetDirectoryName(projectPath) + @"\" + Path.GetFileNameWithoutExtension(projectPath) + ".xml", FileMode.OpenOrCreate))
             {
                 board = (Assembly)formatter.Deserialize(fs);
             }

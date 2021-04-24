@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Windows.Forms;
 
 internal class AltiumPadRoundShape : IContour
 {
@@ -12,7 +13,8 @@ internal class AltiumPadRoundShape : IContour
     {
         this.iContour = iContour;
         this.Initialization();
-        this.Calc();
+        if(this.iArcs.Count > 0)
+            this.Calc();
     }
 
     private void Calc()
