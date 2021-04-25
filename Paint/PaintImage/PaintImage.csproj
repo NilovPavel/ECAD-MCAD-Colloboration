@@ -45,6 +45,7 @@
     <Compile Include="ImageBuilder.cs" />
     <Compile Include="ImagePainter.cs" />
     <Compile Include="IPainter.cs" />
+    <Compile Include="PointEqualityComparer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
