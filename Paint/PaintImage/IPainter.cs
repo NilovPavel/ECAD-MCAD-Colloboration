@@ -15,5 +15,6 @@ namespace PaintImage
         void SaveState();
         void RestoreState();
         void RotateGraphics(double Angle, double X, double Y);
+        void DrawText(Color orange, double x, double y, string value, double angle, string fontName, double fontSize);
     }
 }

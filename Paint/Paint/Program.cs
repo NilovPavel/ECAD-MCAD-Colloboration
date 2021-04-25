@@ -24,10 +24,14 @@ namespace Paint
                 assembly = (Assembly)formatter.Deserialize(fs);
             }
 
-            string fileImagePath = Path.GetDirectoryName(xmlFilePath) + @"\" + Path.GetFileNameWithoutExtension(xmlFilePath) + ".jpg";
-
-            ImageBuilder imageBuilder = new ImageBuilder(assembly, new int[] { 1 }, fileImagePath);
-
+            string fileImagePath = Path.GetDirectoryName(xmlFilePath) + @"\" + Path.GetFileNameWithoutExtension(xmlFilePath) + "TOP.jpg";
+            int[] array = new int[] { 33, 1 };
+            ImageBuilder imageBuilder = new ImageBuilder(assembly, array, fileImagePath);
+            Process.Start(fileImagePath);
+            
+            array = new int[] {34, 32};
+            fileImagePath = Path.GetDirectoryName(xmlFilePath) + @"\" + Path.GetFileNameWithoutExtension(xmlFilePath) + "BOTTOM.jpg";
+            imageBuilder = new ImageBuilder(assembly, array, fileImagePath);
             Process.Start(fileImagePath);
         }
     }

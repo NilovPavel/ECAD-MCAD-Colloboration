@@ -31,29 +31,51 @@ namespace PaintImage
             this.SaveFile();
         }
 
-        private void PaintLayer(int layerNumber)
+        Color GetColorFromLayerNumber(int layerNumber)
         {
-            Layer layer = this.assembly.board.Layer.Where(item => this.layerNumbers.Contains(item.layerNumber)).FirstOrDefault();
-            
-            if (layer == null)
-                return;
-
-            this.PaintTracks(layer);
-            this.PaintPolygons(layer);
+            switch (layerNumber)
+            {
+                case 34:
+                case 33:
+                    return Color.White;
+                case 1:
+                case 32:
+                    return Color.Orange;
+                default:
+                    return Color.Black;
+            }
         }
 
-        private void PaintPolygons(Layer layer)
+        private void PaintLayer(int layerNumber)
         {
-            layer.paint.Pad.ForEach(item => this.iPainter.DrawSolidPolygon(Color.Orange, item.contour.Line, item.contour.Arc));
+            Layer layer = this.assembly.board.Layer.Where(item => item.layerNumber == layerNumber).FirstOrDefault();
+            Color currentColor = this.GetColorFromLayerNumber(layerNumber);
+
+            if (layer == null)
+                return;
+            
+            this.PaintTracks(layer, currentColor);
+            this.PaintPolygons(layer, currentColor);
+            this.PaintText(layer, currentColor);
+        }
+
+        private void PaintText(Layer layer, Color color)
+        {
+            layer.paint.Text.ForEach(item => this.iPainter.DrawText(color, item.x, item.y, item.value, item.angle, item.fontName, item.height));
+        }
+
+        private void PaintPolygons(Layer layer, Color color)
+        {
+            layer.paint.Pad.ForEach(item => this.iPainter.DrawSolidPolygon(color, item.contour.Line, item.contour.Arc));
             //layer.paint.Polygon.ForEach(item => this.iPainter.DrawSolidPolygon(Color.Orange, item.contour.Line, item.contour.Arc));
         }
 
-        private void PaintTracks(Layer layer)
+        private void PaintTracks(Layer layer, Color color)
         {
-            layer.paint.Tracks.ForEach(item => item.contour.Arc.ForEach(arc => this.iPainter.DrawArc(Color.Yellow, 
+            layer.paint.Tracks.ForEach(item => item.contour.Arc.ForEach(arc => this.iPainter.DrawArc(color, 
                 arc.OriginalPoint.X, arc.OriginalPoint.Y, arc.Radius, arc.StartAngle, arc.SweepAngle, item.width)));
 
-            layer.paint.Tracks.ForEach(item => item.contour.Line.ForEach(line => this.iPainter.DrawLine(Color.Yellow,
+            layer.paint.Tracks.ForEach(item => item.contour.Line.ForEach(line => this.iPainter.DrawLine(color,
                 line.Point1.X, line.Point1.Y, line.Point2.X, line.Point2.Y, item.width)));
         }
 

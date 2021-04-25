@@ -8,7 +8,7 @@ using System.Collections.Generic;
 
 namespace IAssembly
 {
-    class AltiumAssembly : IAssemblyCAD
+    public class AltiumAssembly : IAssemblyCAD
     {
         public EDP.IWorkspace Workspace
         { get; private set; }

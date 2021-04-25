@@ -10,7 +10,7 @@ namespace PaintImage
     {
         public bool Equals(Point firstPoint, Point secondPoint)
         {
-            return Math.Round(firstPoint.X, 2) == Math.Round(secondPoint.X, 2) && Math.Round(firstPoint.Y, 2) == Math.Round(secondPoint.Y, 2);
+            return Math.Round(firstPoint.X, 3) == Math.Round(secondPoint.X, 3) && Math.Round(firstPoint.Y, 3) == Math.Round(secondPoint.Y, 3);
         }
 
         public int GetHashCode(Point obj)
