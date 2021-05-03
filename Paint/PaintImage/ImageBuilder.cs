@@ -56,7 +56,7 @@ namespace PaintImage
             
             this.PaintTracks(layer, currentColor);
             this.PaintPolygons(layer, currentColor);
-            this.PaintText(layer, currentColor);
+            //this.PaintText(layer, currentColor);
         }
 
         private void PaintText(Layer layer, Color color)
