@@ -147,7 +147,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="AltiumProjectPropertiesSpace\AltiumProjectProperties.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SourceCode\Arc.cs" />
+    <!-- <Compile Include="SourceCode\Arc.cs" />
     <Compile Include="SourceCode\Assembly.cs" />
     <Compile Include="SourceCode\AssemblyComponentID.cs" />
     <Compile Include="SourceCode\BendingLine.cs" />
@@ -237,10 +237,16 @@
     <Compile Include="SourceCode\VariantCAD.cs" />
     <Compile Include="SourceCode\VedomostDataCAD.cs" />
     <Compile Include="SourceCode\Via.cs" />
-    <Compile Include="SourceCode\Wire.cs" />
+    <Compile Include="SourceCode\Wire.cs" /> -->
   </ItemGroup>
   <ItemGroup>
     <Folder Include="AltiumCuprumSpace\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\CadBoardData\CadBoardData.csproj">
+      <Project>{a61842e8-dc11-4a85-9184-ef40ad760388}</Project>
+      <Name>CadBoardData</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
