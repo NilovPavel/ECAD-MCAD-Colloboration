@@ -1,0 +1,21 @@
+//Here you can define menus and toolbars
+PL AltiumBoardMask:Screen
+        Command='AltiumBoardMask:Screen'
+        Caption='&Screen'
+        Description='Screen'
+        Image='Buttons\GB_Mask.png'
+        //Shortcut1='Shift+x'
+        Params=''
+End 
+
+// Inserts toolbar Buttons\ on a new floating toolbar PCB
+Tree AltiumBoardMask Caption='AltiumBoardMask' TopLevel=True
+		Link AltiumBoardMask_Item19 PLID='AltiumBoardMask:Screen'     		End	
+End
+
+// Inserts three addon processes in the PCB's View menu
+Insertion MNAddOnMenu TargetID='MNPCB_Reports11' RefID0='MNPCB_Reports11'
+  Tree MNAddonMenuTree Caption='&AltiumBoardMask'	
+	Link AddonMenu26 PLID='AltiumBoardMask:Screen'     	   	End  
+  End
+End
